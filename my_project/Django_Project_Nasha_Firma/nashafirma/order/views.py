@@ -183,7 +183,9 @@ class SearchResultsOrder(DataMixin, ListView):
         if self.request.user.username == 'admin':
             if query:
                 queryset = self.model.objects.all().filter(
-                    Q(created_at__icontains=query) |
+                    Q(user__username__icontains=query) |
+                    Q(created_at__day__icontains=query) |
+                    Q(done__icontains=query) |
                     Q(products__product__icontains=query)).reverse()
                 return queryset
             return self.model.objects.none()
@@ -191,7 +193,9 @@ class SearchResultsOrder(DataMixin, ListView):
             user_orders = self.model.objects.filter(user=self.request.user)
             if query:
                 queryset = user_orders.filter(
-                    Q(created_at__icontains=query) |
+                    Q(user__username__icontains=query) |
+                    Q(created_at__day__icontains=query) |
+                    Q(done__icontains=query) |
                     Q(products__product__icontains=query)).reverse()
                 return queryset
             return self.model.objects.none()
