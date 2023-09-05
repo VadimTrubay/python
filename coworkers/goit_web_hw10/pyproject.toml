@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-web-hw10"
+version = "0.1.0"
+description = ""
+authors = ["OlehVakulchyk <4020405@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_web_hw10"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2"
+psycopg2 = "^2.9.6"
+pymongo = "^4.3.3"
+django-environ = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

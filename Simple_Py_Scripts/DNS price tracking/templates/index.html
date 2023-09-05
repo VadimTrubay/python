@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DNS price tracking</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="{{ url_for('static', filename='js/jquery-2.1.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='chart_js_2.9.3/Chart.bundle.min.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='w2ui-1.5.rc1/w2ui-1.5.rc1.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='w2ui-1.5.rc1/w2ui-1.5.rc1.css') }}">
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+
+    <style>
+        .w2ui-reset table tr th,
+        .w2ui-reset table tr td {
+            font-size: 13px !important;
+        }
+
+        #layout {
+            width: 100%;
+            height: 1500px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="layout">
+    <div id="products"></div>
+    <div id="prices"></div>
+</div>
+
+<script>
+    console.log("[#] localStorage.favorites:", localStorage.favorites);
+    console.log("[#] localStorage.invisible:", localStorage.invisible);
+
+    var PRODUCTS = {{ products|tojson }};
+    var PRODUCT_BY_PRICES = {{ prices|tojson }};
+
+    let favorites = localStorage.favorites == null ?
+        [] : JSON.parse(localStorage.favorites);
+    let invisible = localStorage.invisible == null ?
+        [] : JSON.parse(localStorage.invisible);
+
+    for (const product of PRODUCTS) {
+        product.favorite = favorites.includes(product.recid);
+        product.visible = !invisible.includes(product.recid);
+    }
+
+    var DNS_PNG = "{{ url_for('static', filename='img/dns.png') }}";
+    var TECHNOPOINT_PNG = "{{ url_for('static', filename='img/technopoint.png') }}";
+</script>
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+
+</body>
+</html>

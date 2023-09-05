@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <h1>{{title}}</h1>
+  <h3>Why the swarm?</h3>
+  <h5
+    class="d-flex flex-column align-items-center justify-content-center bg-secondary"
+    style="height: 155px"
+  ><strong>
+Because on this site, developers can publish their web applications like bees building their hive.
+   </strong></h5>
+  <h6>For free access to all features, simply register and log in to your account.</h6>
+  <a href="/registration" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Registration</a>
+  <a href="/login" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Sign in</a>
+
+</div>
+{% endblock %}

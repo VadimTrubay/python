@@ -1,0 +1,8 @@
+.env
+test.db
+postgres-data
+htmlcov
+docs
+.idea
+__pycache__/
+.coverage

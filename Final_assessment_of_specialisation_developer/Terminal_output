@@ -1,0 +1,67 @@
+ip@ip-ubuntu:~/Документы$ cat > Домашние_животные.txt
+собаки, кошки, хомяки
+ip@ip-ubuntu:~/Документы$ ls -al
+итого 12
+drwxr-xr-x  2 ip ip 4096 мар  7 23:27 .
+drwx------ 17 ip ip 4096 дек 16 18:24 ..
+-rw-rw-r--  1 ip ip   38 мар  7 23:30 Домашние_животные.txt
+ip@ip-ubuntu:~/Документы$ cat > Вьючные_животные.txt
+лошади, верблюды, ослы                                             
+ip@ip-ubuntu:~/Документы$ ls -al
+итого 16
+drwxr-xr-x  2 ip ip 4096 мар  7 23:38 .
+drwx------ 17 ip ip 4096 дек 16 18:24 ..
+-rw-rw-r--  1 ip ip   41 мар  7 23:36 Вьючные_животные.txt
+-rw-rw-r--  1 ip ip   38 мар  7 23:30 Домашние_животные.txt
+ip@ip-ubuntu:~/Документы$ cat Вьючные_животные.txt 
+лошади, верблюды, ослы
+ip@ip-ubuntu:~/Документы$ cat Домашние_животные.txt Вьючные_животные.txt > Объединение_животных.txt
+ip@ip-ubuntu:~/Документы$ ls
+Вьючные_животные.txt  Домашние_животные.txt  Объединение_животных.txt
+ip@ip-ubuntu:~/Документы$ cat Объединение_животных.txt 
+собаки, кошки, хомяки
+лошади, верблюды, ослы
+ip@ip-ubuntu:~/Документы$ mv Объединение_животных.txt Друзья_человека.txt
+ip@ip-ubuntu:~/Документы$ ls
+Вьючные_животные.txt  Домашние_животные.txt  Друзья_человека.txt
+ip@ip-ubuntu:~/Документы$ 
+ip@ip-ubuntu:~/Документы$ mkdir Final_certification
+ip@ip-ubuntu:~/Документы$ mv Друзья_человека.txt Final_certification/
+ip@ip-ubuntu:~/Документы$ ls
+Final_certification  Вьючные_животные.txt  Домашние_животные.txt
+ip@ip-ubuntu:~/Документы$ cd Final_certification/
+ip@ip-ubuntu:~/Документы/Final_certification$ ls
+Друзья_человека.txt
+ip@ip-ubuntu:~/Документы/Final_certification$ sudo apt update
+ip@ip-ubuntu:~/Документы/Final_certification$ sudo apt install mysql-server mysql-client
+ip@ip-ubuntu:~/Документы/Final_certification$ sudo apt update
+ip@ip-ubuntu:~/Документы/Final_certification$ mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 10
+Server version: 8.0.32-0ubuntu0.22.04.2 (Ubuntu)
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'Ghjrcktl2022';
+Query OK, 0 rows affected (0,04 sec)
+
+mysql> exit
+Bye
+ip@ip-ubuntu:~/Загрузки$ wget http://cz.archive.ubuntu.com/ubuntu/pool/universe/k/kodi/kodi_20.0+dfsg-2_amd64.deb
+ip@ip-ubuntu:~/Загрузки$ sudo dpkg -i kodi_20.0+dfsg-2_amd64.deb
+[sudo] пароль для ip: 
+ip@ip-ubuntu:~/Загрузки$ apt --fix-broken install
+ip@ip-ubuntu:~/Загрузки$ sudo apt update
+ip@ip-ubuntu:~/Загрузки$ ls
+kodi_20.0+dfsg-2_amd64.deb
+ip@ip-ubuntu:~/Загрузки$ sudo apt install kodi
+ip@ip-ubuntu:~/Загрузки$ sudo apt-get purge kodi
+ip@ip-ubuntu:~/Загрузки$ sudo apt autoremove
+ip@ip-ubuntu:~/Загрузки$ 

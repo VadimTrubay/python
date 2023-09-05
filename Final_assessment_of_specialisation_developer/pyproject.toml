@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "final-assessment-of-specialisation-developer"
+version = "0.1.0"
+description = "Final_assessment_of_specialisation_developer"
+authors = ["igor_pont <pontigor11@gmail.com>"]
+readme = "README.md"
+packages = [{include = "final_assessment_of_specialisation_developer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

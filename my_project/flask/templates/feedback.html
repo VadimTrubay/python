@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+<form action="/feedback" method="post">
+    <p><label>name: </label> <input type="text" name="user_name" value="" required/>
+    <p><label>email: </label> <input type="text" name="email" value="" required/>
+    <p><label>message: </label>
+    <p><textarea name="message" rows="7" cols="40"></textarea>
+    <p><input type="submit" value="send"/>
+</form>
+{% endblock content %}

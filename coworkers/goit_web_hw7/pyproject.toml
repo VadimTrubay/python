@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "goit-web-hw7"
+version = "0.1.0"
+description = "goit web homework_7"
+authors = ["OlehVakulchyk <4020405@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_web_hw7"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2-binary = "^2.9.6"
+sqlalchemy = "^2.0.9"
+faker = "^18.4.0"
+prettytable = "^3.6.0"
+alembic = "^1.10.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

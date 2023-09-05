@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include address_book\logs.txt
+include address_book\ab_save.bin
+include address_book\nb_save.bin

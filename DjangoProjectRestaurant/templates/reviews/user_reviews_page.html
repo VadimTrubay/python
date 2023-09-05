@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+    <main id="main" style="margin-top: 150px">
+        <section id="user-reviews" class="user-reviews">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Your Reviews</h2>
+                </div>
+                <div class="row">
+                    {% for review in user_reviews %}
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    {{ review.content }}
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <h3>{{ review.user.get_full_name }}</h3>
+                                <h4>{{ review.user.get_role_display }}</h4>
+                            </div>
+                        </div><!-- End testimonial item -->
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "newsapp/base.html" %}
+
+{% block content %}
+
+{% if messages %}
+<div>
+    {% for message in messages %}
+    <div {% if message %} class="alert-{{ message.tags }}" {% endif %}>{{ message }}</div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div class="container me-2 pe-3">
+<form action="{% url 'users:login' %}" method="post">
+    {% csrf_token %}
+    <div style="container me-2">
+        <label class="form-label"> Username:
+           <div class="row col-12"> {{ form.username }} </div>
+        </label>
+    </div>
+
+    <div style="container me-2">
+        <label>Password:
+           <div class="row col-12"> {{ form.password }} </div>
+        </label>
+    </div>
+
+    <div class="grid mt-2">
+        <button class="btn btn-success mx-3" type="submit">Submit</button>
+        <button class="btn btn-danger" type="reset">Reset</button>
+    </div>
+    <div class="small text-left mt-2">
+        <a href="{% url 'users:password_reset' %}" class="text-center"><i>Forgot Password?</i></a>
+    </div>
+
+</form>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+__pycache__/
+.env
+.idea/
+migrations
+/postgres-data/
+cr.txt
+logs/
+postgres-data/
+.coverage
+test.db
+docs/_build/

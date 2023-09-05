@@ -1,0 +1,11 @@
+.idea
+
+poetry.lock
+
+__pycache__
+.pyc
+
+.env
+
+.DS_Store
+src/.DS_Store

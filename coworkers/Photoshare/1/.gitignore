@@ -1,0 +1,9 @@
+.env
+postgres-data
+/venv/
+/.idea/
+__pycache__
+.vscode/launch.json
+.pytest_cache
+settings.json
+.coverage

@@ -1,0 +1,68 @@
+{% extends "newsapp/base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            <h4 class="text-center my-2"><u>UNIAN News Now</u></h4>
+            {% for news_item in news %}
+            <div class="navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href={{news_item.url}} target="_blank" rel="noopener noreferrer">
+                            {{news_item.header}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            {% endfor %}
+        </div>
+        <div class="col-2">
+            {% for currency in exchange_rate %}
+            <div class="my-2">
+                <div class="badge bg-dark text-wrap fs-6">{{currency.ccy}}/{{currency.base_ccy}}</div>
+                <div>Buy:{{currency.buy}}</div>
+                <div>Sale:{{currency.sale}}</div>
+            </div>
+            {% endfor %}
+            <div>
+                <div class="badge bg-dark text-wrap fs-6">Current weather:</div>
+                <form class="d-flex" method="POST" action="">
+                    {% csrf_token %}
+                    <select class="d-inline-flex my-2 py-2" name="{{ form_weather.city_choice.name }}">
+                        {% for choice in form_weather.city_choice.field.choices %}
+                        <option value="{{ choice.0 }}" {% if form_weather.city_choice.value == choice.0 %}selected{% endif %}>
+                            {{ choice.1 }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                    <input class="btn btn-secondary mx-2 my-2" type="submit" value="Submit">
+                </form>
+
+                {% if weather.name %}
+                <div class="text-left my-2 fs-6">{{weather.name}}: {{weather.temp}}</div>
+                <div>
+                    <img src="{{weather.icon_url}}" class="img-thumbnail border" height=64>
+                </div>
+                {% else %}
+                <div class="text-left my-2 fs-6">{{default_weather.name}} {{default_weather.temp}}</div>
+                <div>
+                    <img src="{{default_weather.icon_url}}" class="img-thumbnail border" height=64>
+                </div>
+                {% endif %}
+                <div>
+                    <div class="badge bg-dark text-wrap mt-2 fs-6">{{dou.language}} Developer:</div>
+                    <div class="text-left my-1 fs-6">Vacancies {{dou.posts}}:{{dou.date}}</div>
+                    <div class="text-left mt-1 fs-6">{{dou.grade}} Median Salary:</div>
+                    <div class="text-left mb-1 fs-6">${{dou.salary}} at {{dou.date_salary}}</div>
+                    <a class="btn btn-secondary" href="https://jobs.dou.ua/vacancies/?category=Python"
+                    target="_blank" rel="noopener noreferrer">To DOU</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

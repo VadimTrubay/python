@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"/>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'order/style.css' %}">
+    <style>
+/* Green Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #43a047;
+  --primary-hover: #388e3c;
+  --primary-focus: rgba(67, 160, 71, 0.125);
+  --primary-inverse: #FFF;
+}
+
+/* Green Dark scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --primary: #43a047;
+    --primary-hover: #4caf50;
+    --primary-focus: rgba(67, 160, 71, 0.25);
+    --primary-inverse: #FFF;
+  }
+}
+
+/* Green Dark scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --primary: #43a047;
+  --primary-hover: #4caf50;
+  --primary-focus: rgba(67, 160, 71, 0.25);
+  --primary-inverse: #FFF;
+}
+
+/* Green (Common styles) */
+:root {
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}
+.search-button {
+  width: 120px;
+  font-size: 16px;
+  padding: 6px 12px;
+  background-color: var(--primary);
+  color: var(--primary-inverse);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: var(--primary-hover); /* Change background color on hover */
+  color: var(--primary-inverse); /* Keep the inverse color on hover */
+}
+button{
+font-size: 30px;
+width: 50%;
+margin: 0 auto 20px;
+}
+.list-pages {
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+.list-pages ul {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+.list-pages ul li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+.list-pages a {
+	color: green;
+	font-size: 24px;
+	text-decoration: none;
+}
+.list-pages .page-num, .page-num-selected {
+	display: inline-block;
+	width: 50px;
+	height: 40px;
+	padding: 16px;
+	border: 1px solid #d0d0d0;
+	border-radius: 30px;
+	text-align: center; /* Center horizontally */
+    display: flex; /* Center vertically */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+.list-pages .page-num:hover {
+	box-shadow: 3px 3px 1px #d0d0d0;
+}
+.list-pages .page-num-selected {
+	border: none;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+.list-pages .page-num-selected:hover {
+	box-shadow: none;
+}
+.button-menu {
+  margin-right: 10px; /* Add some spacing between buttons */
+  background-color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-menu a {
+  display: block;
+  padding: 10px;
+  color: var(--primary-inverse);
+  text-decoration: none;
+}
+
+.button-menu:hover {
+  background-color: var(--primary-hover);
+}
+
+/* Set the ul to display the buttons horizontally */
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+</style>
+    <title>{{title}}</title>
+</head>
+<body>
+<main class="container">
+    <h1><a href="/">Наша Фирма</a></h1>
+
+
+    {% if request.user.is_authenticated %}
+    <ul>
+        {% for m in menu %}
+        <button class="button-menu">
+            <a style="color: white" href="{% url m.url_name %}">{{ m.title }}</a>
+        </button>
+        {% endfor %}
+    </ul>
+
+    <div class="dropdown-content">
+        <a class="Back" href="javascript:history.back()">&lt;-- Назад</a>
+        <a style="float: right;" class="btn btn-outline-primary" href="{% url 'logout' %}">выйти</a>
+        <span style="float: right; color: green;">{{ user.username }}|</span>
+        {% else %}
+        <a class="btn btn-outline-primary" href="{% url 'register' %}">регистрация</a> |
+        <a class="btn btn-outline-primary" href="{% url 'login' %}">войти</a>
+        {% endif %}
+    </div>
+    <hr>
+    {% block content %} {% endblock %}
+</main>
+</body>
+</html>

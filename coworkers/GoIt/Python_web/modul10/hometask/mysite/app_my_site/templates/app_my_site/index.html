@@ -1,0 +1,26 @@
+{% extends "app_my_site/base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            {% for quote in quotes %}
+            <blockquote class="blockquote pb-2">
+                <p>{{quote.quote}}</p>
+            </blockquote>
+            <div class="blockquote mb-0">
+                <h5>by <cite><a href="{% url 'app_my_site:authors_descr' quote.author.id %}">
+                    {{quote.author.fullname}}</a>
+                </cite></h5>
+            </div>
+
+            <h5>Tags:
+                {% for tag in tags %}
+                    <a type="submit" class="btn btn-primary btn-sm" name="tag_name" href="?tag_name={{tag}}">{{tag}}</a>
+                {% endfor%}
+            </h5>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

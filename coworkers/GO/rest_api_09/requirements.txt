@@ -1,0 +1,15 @@
+uvicorn[standart]
+fastapi
+sqlalchemy
+alembic
+psycopg2
+pydantic[dotenv]
+jinja2
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+libgravatar
+fastapi-mail
+redis
+fastapi-limiter
+cloudinary

@@ -1,0 +1,103 @@
+
+
+
+body {
+    font-family: 'Nunito',
+            sans-serif;
+            background-color: blanchedalmond;
+}
+
+h3 {
+    color: #FB6D3A;
+}
+p {
+    color: azure;
+}
+li {
+    color: azure;
+}
+a {
+    color: bisque;
+}
+h1 {
+    color: goldenrod;
+}
+h2 {
+    color: rgb(63, 63, 170);
+}
+
+
+/* main-block */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    
+   
+}
+
+/* main-content */
+.main-content {
+    background-color: rgb(31, 34, 45);
+    width: 600px;
+}
+.person {
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.project {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.work {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.educ {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.local {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.title {
+    margin-bottom: 5px;
+}
+
+
+
+/* side-bar */
+.side-bar {
+    background-color: rgba(21, 14, 1, 0.853);
+    width: 400px;
+}
+
+.image {
+    padding: 15px;
+}
+.contacts {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.ulist {
+    padding-left:  17px;
+}
+.olist {
+    padding-left: 17px;
+}
+.li-item {
+    color: #FB6D3A;
+}
+.span-item {
+    color: azure;
+}
+.hard {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.soft {
+    padding-top: 40px;
+    padding-left: 40px;
+}

@@ -1,0 +1,17 @@
+{% extends 'quotes/base.html' %}
+{% load extract %}
+
+{% block content %}
+
+
+
+<p> <a class="tag" href="{{get_absolute_url}}{{tag.name}}">{{tag.name}}</a></p>
+            {% for quote in quotes %}
+        <p> <div class="quote" >{{quote.quote}}</div> </p>
+        <p>Length of Quote Text: {{ quote.quote|length }}</p>
+        <hr class="quote-bar">
+        {% endfor %}
+
+
+
+{% endblock %}
