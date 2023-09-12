@@ -20,7 +20,7 @@ result = 0
 
 while True:
     try:
-        user_input = input('>>>: ')
+        user_input = input('input >>>: ')
         if user_input == '=':
             print(result)
             break
