@@ -1,10 +1,16 @@
-def formatted_numbers():
-    a = ["|{0:^10}|{1:^10}|{2:^10}|".format('decimal', 'hex', 'binary')]
-    for i in range(16):
-        s = "|{0:^10d}|{0:^10x}|{0:^10b}|".format(i)
-        a.append(s)
-    return a
+class MyClass:
+    def __init__(self, age):
+        self.age = age
 
-for el in formatted_numbers():
-    print(el)
+    def move(self):
+        print('move')
 
+    def get_age(self):
+        print(self.age)
+
+    def __str__(self):
+        return 'i am'
+
+
+a = MyClass(22)
+print(dir(a))
