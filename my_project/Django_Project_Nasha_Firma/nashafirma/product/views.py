@@ -14,7 +14,8 @@ class AddProduct(DataMixin, CreateView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
         context_menu = self.get_menu_context(title='добавить новый продукт')
-        context = dict(list(context.items()) + list(context_menu.items()))
+        # context = dict(list(context.items()) + list(context_menu.items()))
+        context = context | context_menu
         return context
 
 

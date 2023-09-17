@@ -26,7 +26,7 @@
     <tr>
         <th scope="row">{{ forloop.counter }}</th>
         <td scope="row"><a style="color:green" href="{% url 'edit_product' product.pk %}">{{ product.product }}</a></td>
-        <td scope="row">{{ product.price }}</td>
+        <td scope="row"><a style="color:blue" href="{% url 'edit_product' product.pk %}">{{ product.price }}</a></td>
         <td scope="row"><a style="color:blue" href="{% url 'edit_product' product.pk %}">изменить</a></td>
         <td scope="row"><a style="color:red" href="{% url 'delete_product' product.pk %}">удалить</a></td>
     </tr>

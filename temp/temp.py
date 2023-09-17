@@ -1,16 +1,7 @@
-class MyClass:
-    def __init__(self, age):
-        self.age = age
+with open('data.txt', 'wb+') as fh:
+    byte_str = 'some text'.encode()
+    fh.write(byte_str)
 
-    def move(self):
-        print('move')
-
-    def get_age(self):
-        print(self.age)
-
-    def __str__(self):
-        return 'i am'
-
-
-a = MyClass(22)
-print(dir(a))
+with open('data.txt') as f:
+    for i in f:
+        print(i)
