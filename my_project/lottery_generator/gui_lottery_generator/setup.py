@@ -9,6 +9,5 @@ setup(
     author_email='vadnetvadnet@ukr.net',
     license='MIT',
     include_package_data=True,
-    packages=find_namespace_packages(),
     entry_points={'console_scripts': ['gui_lottery_generator=gui_lottery_generator.main:main']}
 )
