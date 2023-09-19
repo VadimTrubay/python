@@ -12,7 +12,7 @@ new_list = []
 list_sort = []
 
 
-def run():
+def main():
     def get_selected_ball(event):
         selected_ball = int(combobox_ball.get())
         print(selected_ball)
@@ -62,7 +62,7 @@ def run():
 
     root = Tk()
     root.title("gui_lottery_generator")
-    root.iconbitmap(default="favicon.ico")
+    # root.iconbitmap(default="favicon.ico")
     root.resizable(False, False)
     root.geometry("600x400+500+100")
     root.update_idletasks()
@@ -115,5 +115,6 @@ def run():
     root.mainloop()
 
 
-while running:
-    run()
+if __name__ == '__main__':
+    while running:
+        main()
