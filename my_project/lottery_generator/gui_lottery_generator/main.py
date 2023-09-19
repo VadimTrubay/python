@@ -11,6 +11,7 @@ selected_all_ball = 52
 new_list = []
 list_sort = []
 
+
 def run():
     def get_selected_ball(event):
         selected_ball = int(combobox_ball.get())
@@ -71,10 +72,10 @@ def run():
     label = Label(text="gui_lottery_generator")
     label.grid(row=0, column=0, padx=10, pady=10)
 
-    button_clear = Button(text="Clear", command=clear, bg="green", fg="white", font=font1)
+    button_clear = Button(text="Clear", command=clear, bg="#F4A460", fg="#FFFFFF", font=font1)
     button_clear.grid(row=1, column=0, padx=10, pady=10)
 
-    button_exiting = Button(text="Exit", command=exiting, bg="red", fg="white", font=font1)
+    button_exiting = Button(text="Exit", command=exiting, bg="#8B0000", fg="#FFFFFF", font=font1)
     button_exiting.grid(row=1, column=1, padx=10, pady=10)
 
     label_choose_ball = ttk.Label(text="ball")
@@ -94,10 +95,10 @@ def run():
     label_choose_all_ball = ttk.Label(text="all ball")
     label_choose_all_ball.grid(row=3, column=0, padx=10, pady=10)
 
-    button_start = Button(text="Start", command=get_balls, bg="blue", fg="white", font=font1)
+    button_start = Button(text="Start", command=get_balls, bg="#008000", fg="#FFFFFF", font=font1)
     button_start.grid(row=5, column=0, padx=10, pady=10)
 
-    button_start = Button(text="Sort", command=sort_balls, bg="yellow", fg="white", font=font1)
+    button_start = Button(text="Sort", command=sort_balls, bg="#1E90FF", fg="#FFFFFF", font=font1)
     button_start.grid(row=5, column=1, padx=10, pady=10)
 
     values_all_ball = [str(i) for i in range(55)]
