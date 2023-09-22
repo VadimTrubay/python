@@ -26,7 +26,7 @@ while True:
             break
 
         elif result == 0:
-            if not user_input in operator:
+            if user_input not in operator:
                 result = float(user_input)
             else:
                 print('input operand')
