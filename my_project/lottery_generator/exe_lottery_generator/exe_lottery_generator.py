@@ -14,10 +14,12 @@ list_sort = []
 
 def main():
     def get_selected_ball(event):
+        global selected_ball
         selected_ball = int(combobox_ball.get())
         print(selected_ball)
 
     def get_selected_all_ball(event):
+        global selected_all_ball
         selected_all_ball = int(combobox_all_ball.get())
         print(selected_all_ball)
 

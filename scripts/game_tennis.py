@@ -28,10 +28,10 @@ class Paddle:
    #         canvas.move(1, 7, 0)
 
     def turn_left(self, evt):
-        self.x = -3
+        self.x = -2
 
     def turn_right(self, evt):
-        self.x = 3
+        self.x = 2
 
 class Ball:
     def __init__(self, canvas, paddle, color):
@@ -58,15 +58,15 @@ class Ball:
         self.canvas.move(self.id, self.x, self.y)
         pos = self.canvas.coords(self.id)
         if pos[1] <= 0:
-            self.y = 3
+            self.y = 2
         if pos[3] >= self.canvas_height:
             self.hit_bottom = True
         if self.hit_paddle(pos) == True:
-            self.y = -3
+            self.y = -2
         if pos[0] <= 0:
-            self.x = 3
+            self.x = 2
         if pos[2] >= self.canvas_width:
-            self.x = -3
+            self.x = -2
 
 def start():
     start_win.destroy()
