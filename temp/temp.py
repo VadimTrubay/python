@@ -45,9 +45,167 @@
 # slug = slug.replace('--', '-')
 # print(slug)
 
-a = [i for i in range(7)]
-for i in iter(a):
-    print(i)
+# a = [i for i in range(7)]
+# for i in iter(a):
+#     print(i)
+
+# m, n = list(map(int, input('>>>: ').split()))
+# zero = []
+
+# for i in range(m):
+#     zero.append([0] * n)
+# print(zero)
+# for i in range(m):
+#     for j in range(n):
+#         zero[i][j] = 1
+# print(zero)
+
+
+# a = [[1, 2, 3, 4],
+#      [5, 6, 7, 8],
+#      [9, 10, 11, 12],
+#      [13, 14, 15, 16],
+#      ]
+
+# for i in a:
+#     for j in i:
+#         print(j, end='\t')
+#     print()
+
+# for i in range(len(a)):
+#     for j in range (i + 1, len(a)):
+#         a[i][j], a[j][i] = a[j][i], a[i][j]
+
+
+# for i in a:
+#     for j in i:
+#         print(j, end='\t')
+#     print()
+
+
+# TRIANGLE PASCAL
+
+# N = 7
+# RES = []
+
+# for i in range(N):
+#     row = [1] * (i + 1)
+#     for j in range(i + 1):
+#         if j != 0 and j !=i:
+#             row[j] = RES[i-1][j-1] + RES[i-1][j]
+#     RES.append(row)
+
+# for i in RES:
+#     print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
