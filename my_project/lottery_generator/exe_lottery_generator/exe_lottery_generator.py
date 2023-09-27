@@ -8,8 +8,6 @@ from tkinter import font
 running = True
 selected_ball = 6
 selected_all_ball = 52
-new_list = []
-list_sort = []
 
 
 def main():
@@ -24,6 +22,8 @@ def main():
         print(selected_all_ball)
 
     def get_balls():
+        global new_list
+        new_list = []
         numbers = list(range(1, selected_all_ball + 1))
         column = 3
         for _ in numbers[:selected_ball]:

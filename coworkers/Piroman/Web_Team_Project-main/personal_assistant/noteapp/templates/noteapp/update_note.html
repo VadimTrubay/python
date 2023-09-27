@@ -1,0 +1,12 @@
+{% extends 'noteapp/base.html' %}
+
+{% block content %}
+<div>
+  <h4 class="text-center">Update Note</h4>
+  <form  class="form-control" rows="3" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn btn-success mx-3" type="submit">Update Note</button>
+  </form>
+</div>
+{% endblock %}
