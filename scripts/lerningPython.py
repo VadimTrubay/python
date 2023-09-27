@@ -927,11 +927,11 @@ else:
     print("писюн малолетка")'''
 
 # as(периименовать модуль в более короткий)
-'''import i_am_a_python_module_that_is_not_very_useful as notuseful
-notuseful.do_something()
-Я сделал что-то бесполезное.
-notuseful.do_something_else()
-Я сделал еще что-то бесполезное!'''
+# import i_am_a_python_module_that_is_not_very_useful as notuseful
+# notuseful.do_something()
+# Я сделал что-то бесполезное.
+# notuseful.do_something_else()
+# Я сделал еще что-то бесполезное!
 
 # assert позволяет убедиться, что некое выражение дает True
 '''number  = 10

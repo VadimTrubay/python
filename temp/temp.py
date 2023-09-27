@@ -6,6 +6,7 @@
 #     count += 1
 # print(summ)
 
+
 # def add(a, b, c):
 #     print(f'Add slug equals {a + b + c}')
 
@@ -122,42 +123,217 @@
 #
 # print(d['tree4'])
 
+# dict_a = {1: '1', 2: '2', 3: '3'}
+# print(type(dict_a), dict_a)
+
+# set_a = {1, 2, 3, 4}
+# set_a.add(5)
+# set_a.update([6, 7])
+# set_a.discard(7)
+# set_a.remove(5)
+# set_a.pop()
+# set_a.clear()
+# print(set_a)
+# print(type(set_a), set_a)
 
 
+# a = {1, 2, 3, 4}
+# b = {5, 6, 7, 8}
+#
+# c = a | b
+# print(c)
 
 
+# a = {i: i ** 2 for i in range(7)}
+#
+# print(a)
 
 
+# def my(a: str, b: list) -> list:
+#     b.append(a)
+#     return b
+#
+#
+# print(my('i', ['q', 'w']))
+
+# def send_mail(text: str) -> str:
+#     print(text)
+#
+# send_mail('qwerty')
+
+# def get_max(x, y):
+#     return x if x > y else y
+#
+#
+# x, y, z = 5, 7, 10
+# print(get_max(x, get_max(y, z)))
 
 
+# Algoritm Evclida(min delitel)
 
 
+# def get_nod(a: int, b: int) -> int:
+#     """
+#     Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
+#     :param a: Первое целое число.
+#     :param b: Второе целое число.
+#     :return: Наибольший общий делитель (НОД) двух чисел.
+#     """
+#     # while a != b:
+#     #     if a > b:
+#     #         a -= b
+#     #     else:
+#     #         b -= a
+#     # return a
+#
+#     if a > b:
+#         a, b = b, a
+#     while b != 0:
+#         a, b = b, a % b
+#
+#     return a
+#
+#
+# # print(get_nod(18, 24))
+# # help(get_nod)
+#
+# import time
+# def test_nod(func):
+#     # test 1
+#     a = 28
+#     b = 35
+#     res = func(a, b)
+#     if res == 7:
+#         print('test 1 ok')
+#     else:
+#         print('test 1 fail')
+#
+#     # test 2
+#     a = 100
+#     b = 1
+#     res = func(a, b)
+#     if res == 1:
+#         print('test 2 ok')
+#     else:
+#         print('test 2 fail')
+#
+#     # test 3
+#     a = 2
+#     b = 100000000
+#     st = time.time()
+#     res = func(a, b)
+#     ft = time.time()
+#     t = ft - st
+#     print(t)
+#     if res == 2 and t < 1:
+#         print('test 3 ok')
+#     else:
+#         print('test 3 fail')
+#
+#
+# test_nod(get_nod)
+
+# def os_path(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+#
+#
+# os_path('sdf', 46, 'dsg', s=2, w='sdv')
+
+# a = (1, 2, 2, 2, 3, 4)
+# print((*a,))
+
+# def fact(n):
+#     if n <= 0:
+#         return 1
+#     else:
+#         return n * fact(n - 1)
+#
+# p = fact(3)
+# print(p)
 
 
+# p = lambda a, b: a * b
+#
+# print(p(2, 3))
+
+# def say_name(name):
+#     def goodbye(age):
+#         print(f'goodbye {name}, {age}')
+#
+#     return goodbye
+#
+#
+# a = say_name('vad')
+# a(23)
 
 
+# decorator
+# def decorator(func):
+#     def wrapper(*args, **kwargs):
+#         print("перед вызовом что то делает")
+#         res = func(*args, **kwargs)
+#         print("после вызова что то делает")
+#         return res
+#
+#     return wrapper
+#
+#
+# @decorator
+# def some_func(*args, **kwargs):
+#     print(f'called func some_func {args}{kwargs}')
+#
+#
+# some_func('vad', 12)
 
 
+import time
 
 
+def test_time(func):
+    def wrapper(*args, **kwargs):
+        st = time.time()
+        res = func(*args, **kwargs)
+        ft = time.time()
+        t = ft - st
+        print(f'time: {t}')
+        return res
+
+    return wrapper
 
 
+@test_time
+def get_nod(a: int, b: int) -> int:
+    """
+    Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
+    :param a: Первое целое число.
+    :param b: Второе целое число.
+    :return: Наибольший общий делитель (НОД) двух чисел.
+    """
+    while a != b:
+        if a > b:
+            a -= b
+        else:
+            b -= a
+    return a
 
 
+@test_time
+def get_nod2(a: int, b: int) -> int:
+    """
+    Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
+    :param a: Первое целое число.
+    :param b: Второе целое число.
+    :return: Наибольший общий делитель (НОД) двух чисел.
+    """
+    if a > b:
+        a, b = b, a
+    while b != 0:
+        a, b = b, a % b
+
+    return a
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+get_nod(2, 10000000)
+get_nod2(2, 10000000)
 
