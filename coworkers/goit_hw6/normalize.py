@@ -8,14 +8,11 @@ TRANS = {}
 for c, l in zip(CYRILLIC_SYMBOLS, TRANSLATION):
     TRANS[ord(c)] = l
     TRANS[ord(c.upper())] = l.upper()
-    
-    
 
 
 def translate(name):
-    return(name.translate(TRANS))
+    return name.translate(TRANS)
 
 
 def normalize(name):
-    
     return re.sub(r'\W', '_', translate(name))

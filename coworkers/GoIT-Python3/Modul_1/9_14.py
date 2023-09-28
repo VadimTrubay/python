@@ -16,21 +16,21 @@
  Предусмотреть проверку на пустой список в аргументе функции и вернуть False.'''
 
 
-
 def is_valid_pin_codes(pin_codes):
-        if pin_codes == []:
-         return False
-        for i in pin_codes:
-         if len(i) != 4:
+    if pin_codes == []:
+        return False
+    for i in pin_codes:
+        if len(i) != 4:
             return False
-        pin_set = set(pin_codes)
-        if len(pin_set) != len(pin_codes):
+    pin_set = set(pin_codes)
+    if len(pin_set) != len(pin_codes):
+        return False
+    for j in i:
+        if j not in '0123456789':
             return False
-        for j in i:
-            if j not in '0123456789':
-                return False
-        else:
-            return True
+    else:
+        return True
+
 
 print(is_valid_pin_codes(['1101', '9034', '0211']))
     

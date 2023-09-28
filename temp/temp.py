@@ -363,7 +363,9 @@
 # print(df)
 # print(sin_df.__name__, sin_df.__doc__)
 
+import sys
 
+print(sys.path)
 
 
 

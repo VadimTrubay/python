@@ -4,19 +4,19 @@ import os
 from pathlib import Path
 
 
-
-def path_folder(path):   # визначити шляхи до директорій
+def path_folder(path):  # назначите шляхи до директорій
     folder_list = [os.path.join(path, 'archives'),
-                    os.path.join(path, 'video'),
-                    os.path.join(path, 'audio'),
-                    os.path.join(path,'documents'),
-                    os.path.join(path, 'images'),
-                    os.path.join(path, 'others')
-                    ]
+                   os.path.join(path, 'video'),
+                   os.path.join(path, 'audio'),
+                   os.path.join(path, 'documents'),
+                   os.path.join(path, 'images'),
+                   os.path.join(path, 'others')
+                   ]
     return folder_list
 
-def make_dirs(folder_list):  #створити директорії за шляхами з folder_list
-       
+
+def make_dirs(folder_list):  # створите директорії за шляхами з folder_list
+
     if not os.path.exists(folder_list[0]):
         os.mkdir(folder_list[0])
     if not os.path.exists(folder_list[1]):
@@ -30,14 +30,14 @@ def make_dirs(folder_list):  #створити директорії за шля�
     if not os.path.exists(folder_list[5]):
         os.mkdir(folder_list[5])
 
-def move_os(old_file, new_file):   # перенесення файлу
+
+def move_os(old_file, new_file):  # перенесения файлу
     os.replace(old_file, new_file)
 
-def unpuck(file, extract_dir):   #розпаковка файла file в директорію extract_dir
+
+def unpuck(file, extract_dir):  # роз паковка файла file в директорію extract_dir
     shutil.unpack_archive(file, extract_dir)
 
 
-
-def del_dir(path):  #видалити директорію
+def del_dir(path):  # видали ти директорію
     os.rmdir(path)
-

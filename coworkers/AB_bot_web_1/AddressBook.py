@@ -7,6 +7,7 @@ import os
 
 class AddressBook(UserList):
     def __init__(self):
+        super().__init__()
         self.data = []
         self.counter = -1
 
