@@ -287,55 +287,322 @@
 # some_func('vad', 12)
 
 
-import time
+# import time
+#
+#
+# def test_time(func):
+#     def wrapper(*args, **kwargs):
+#         st = time.time()
+#         res = func(*args, **kwargs)
+#         ft = time.time()
+#         t = ft - st
+#         print(f'time: {t}')
+#         return res
+#
+#     return wrapper
+#
+#
+# @test_time
+# def get_nod(a: int, b: int) -> int:
+#     """
+#     Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
+#     :param a: Первое целое число.
+#     :param b: Второе целое число.
+#     :return: Наибольший общий делитель (НОД) двух чисел.
+#     """
+#     while a != b:
+#         if a > b:
+#             a -= b
+#         else:
+#             b -= a
+#     return a
+#
+#
+# @test_time
+# def get_nod2(a: int, b: int) -> int:
+#     """
+#     Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
+#     :param a: Первое целое число.
+#     :param b: Второе целое число.
+#     :return: Наибольший общий делитель (НОД) двух чисел.
+#     """
+#     if a > b:
+#         a, b = b, a
+#     while b != 0:
+#         a, b = b, a % b
+#
+#     return a
+#
+#
+# get_nod(2, 10000000)
+# get_nod2(2, 10000000)
+
+# import math
+# from functools import wraps
+#
+#
+# def df_decorator(dx=0.001):
+#     def func_decorator(func):
+#         @wraps(func)  # use decorator wraps for save __name__ and __ doc__ func wrapper
+#         def wrapper(x, *args, **kwargs):
+#             res = (func(x + dx, *args, **kwargs) - func(x, *args, **kwargs)) / dx
+#             return res
+#
+#         return wrapper
+#
+#     return func_decorator
+#
+#
+# @df_decorator(dx=0.0001)
+# def sin_df(x):
+#     """func for calculate sin number"""
+#     return math.sin(x)
+#
+#
+# df = sin_df(0.8)
+# print(df)
+# print(sin_df.__name__, sin_df.__doc__)
 
 
-def test_time(func):
-    def wrapper(*args, **kwargs):
-        st = time.time()
-        res = func(*args, **kwargs)
-        ft = time.time()
-        t = ft - st
-        print(f'time: {t}')
-        return res
-
-    return wrapper
 
 
-@test_time
-def get_nod(a: int, b: int) -> int:
-    """
-    Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
-    :param a: Первое целое число.
-    :param b: Второе целое число.
-    :return: Наибольший общий делитель (НОД) двух чисел.
-    """
-    while a != b:
-        if a > b:
-            a -= b
-        else:
-            b -= a
-    return a
 
 
-@test_time
-def get_nod2(a: int, b: int) -> int:
-    """
-    Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
-    :param a: Первое целое число.
-    :param b: Второе целое число.
-    :return: Наибольший общий делитель (НОД) двух чисел.
-    """
-    if a > b:
-        a, b = b, a
-    while b != 0:
-        a, b = b, a % b
-
-    return a
 
 
-get_nod(2, 10000000)
-get_nod2(2, 10000000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -11,12 +11,12 @@ def server_program():
     print('Server is running, please, press ctrl+c to stop')
     data = sock.recv(1024).decode()
     try:
-        with open('data.json', 'r') as f:
+        with open('data.json') as f:
             js = f.read()
             data = json.loads(js) + data
         with open('data.json', 'w') as f:
             f.write(json.dumps(data + ', '))
-    except Exception:
+    except Exception as error:
         with open('data.json', 'w') as f:
             f.write(json.dumps(data + ', '))
     sock.close()
