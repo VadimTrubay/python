@@ -286,6 +286,56 @@
 #
 # some_func('vad', 12)
 
+#
+# import time
+#
+#
+# def test_time(func):
+#     def wrapper(*args, **kwargs):
+#         st = time.time()
+#         res = func(*args, **kwargs)
+#         ft = time.time()
+#         t = ft - st
+#         print(f'time: {t}')
+#         return res
+#
+#     return wrapper
+#
+#
+# @test_time
+# def get_nod(a: int, b: int) -> int:
+#     """
+#     Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
+#     :param a: Первое целое число.
+#     :param b: Второе целое число.
+#     :return: Наибольший общий делитель (НОД) двух чисел.
+#     """
+#     while a != b:
+#         if a > b:
+#             a -= b
+#         else:
+#             b -= a
+#     return a
+#
+#
+# @test_time
+# def get_nod2(a: int, b: int) -> int:
+#     """
+#     Эта функция вычисляет наибольший общий делитель (НОД) двух чисел.
+#     :param a: Первое целое число.
+#     :param b: Второе целое число.
+#     :return: Наибольший общий делитель (НОД) двух чисел.
+#     """
+#     if a > b:
+#         a, b = b, a
+#     while b != 0:
+#         a, b = b, a % b
+#
+#     return a
+#
+#
+# get_nod(2, 10000000)
+# get_nod2(2, 10000000)
 
 # import time
 #
@@ -366,6 +416,7 @@
 import sys
 
 print(sys.path)
+
 
 
 
