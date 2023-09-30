@@ -363,368 +363,81 @@
 # print(df)
 # print(sin_df.__name__, sin_df.__doc__)
 
-import sys
-
-print(sys.path)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# import sys
+#
+# print(sys.path)
+
+# import pickle
+# a = ['1', '2']
+# with open('temp.bin', 'rb') as fh:
+#     a = pickle.load(fh)
+#     print(a)
+
+
+# data = [i for i in range(1, 21)]
+#
+#
+# def iterator(n):
+#     index = 0
+#     temp = []
+#     for record in data:
+#         temp.append(record)
+#         index += 1
+#         if index >= n:
+#             yield temp
+#             temp.clear()
+#             index = 0
+#     if temp:
+#         yield temp
+#
+#
+# def get_page():
+#     n = int(input("number of record per page  >>>: "))
+#     r = iterator(n)
+#     for i in range(len(data)):
+#         try:
+#             result = next(r)
+#             for record in result:
+#                 print(record, end=', ')
+#             print(f"page {i + 1}")
+#             input("press enter for next page >>>")
+#
+#         except StopIteration:
+#             break
+#
+#
+# while True:
+#     try:
+#         if get_page():
+#             pass
+#         else:
+#             break
+#     except:
+#         print(" incorrect number of record, try again")
+#         continue
+
+
+def chunk_generator(data: list, size: int):
+    index = 0
+    while index < len(data):
+        res = data[index:index + size]
+        index += size
+        if not res:
+            break
+        yield res
+
+
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+size = 7
+
+gen = chunk_generator(data, size)
+
+while True:
+    input("Нажмите Enter, чтобы получить следующий набор элементов:")
+    try:
+        chunk = next(gen)
+        print("Следующий набор элементов:", chunk)
+    except StopIteration:
+        print("Все элементы были извлечены.")
+        break
 
