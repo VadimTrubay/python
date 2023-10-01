@@ -2,6 +2,7 @@ from tkinter import *
 import random
 import time
 
+
 class Paddle:
     def __init__(self, canvas, color):
         self.canvas = canvas
@@ -20,18 +21,20 @@ class Paddle:
         elif pos[2] >= self.canvas_width:
             self.x = 0
 
-   # def turn_left(self, event):
-   #     if event.keysym == 'Left':
-   #         canvas.move(1, -7, 0)
-   # def turn_right(self, event):
-   #     if event.keysym == 'Right0':
-   #         canvas.move(1, 7, 0)
+    # def turn_left(self, event):
+    #     if event.keysym == 'Left':
+    #         canvas.move(1, -7, 0)
+    #
+    # def turn_right(self, event):
+    #     if event.keysym == 'Right':
+    #         canvas.move(1, 7, 0)
 
     def turn_left(self, evt):
         self.x = -2
 
     def turn_right(self, evt):
         self.x = 2
+
 
 class Ball:
     def __init__(self, canvas, paddle, color):
@@ -58,18 +61,21 @@ class Ball:
         self.canvas.move(self.id, self.x, self.y)
         pos = self.canvas.coords(self.id)
         if pos[1] <= 0:
-            self.y = 2
+            self.y = 1
         if pos[3] >= self.canvas_height:
             self.hit_bottom = True
         if self.hit_paddle(pos) == True:
-            self.y = -2
+            self.y = -1
         if pos[0] <= 0:
-            self.x = 2
+            self.x = 1
         if pos[2] >= self.canvas_width:
-            self.x = -2
+            self.x = -1
+
 
 def start():
     start_win.destroy()
+
+
 start_win = Tk()
 start_win.title('Menu')
 start_win.geometry('500x400')

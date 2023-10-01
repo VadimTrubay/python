@@ -483,7 +483,13 @@
 # a1, b1, c1, z1 = zip(a, b, z)
 # print(a1, b1, c1, z1)
 
-
+N = 10
+P = [0] * (N*N)
+print(P)
+P[4] = '*'
+print(P)
+loss = any(map(lambda x: x == '*', P))
+print(loss)
 
 
 
