@@ -1,115 +1,115 @@
-# name = input('введите ваще имя: ')
-# print('Привет ', name)
+name = input('введите ваще имя: ')
+print('Привет ', name)
 
-# a = 1
-# b = 2
-# c = 3
-# d = 4
-# if a == 1 and b == 2 and c == 3 and d == 4:
-#     print('spam' * 3)
+a = 1
+b = 2
+c = 3
+d = 4
+if a == 1 and b == 2 and c == 3 and d == 4:
+    print('spam' * 3)
 
-# a = int(input("enter number: ")) + 5
-# print(a)
-
-
-# def f():
-#     global a
-#     a += 1
-#     print(a)
-# a = 10
-# f()
+a = int(input("enter number: ")) + 5
+print(a)
 
 
-# a = int(input('enter number: '))
-# if a < -5:
-#     print('Low')
-# elif -5 <= a <=5:
-#     print('Mid')
-# else:
-#     print('Height')
+def f():
+    global a
+    a += 1
+    print(a)
+a = 10
+f()
 
 
-# import time
-# x = 5
-# while x <= 15:
-#     time.sleep(1)
-#     print(x)
-#     x = x + 2.5
+a = int(input('enter number: '))
+if a < -5:
+    print('Low')
+elif -5 <= a <= 5:
+    print('Mid')
+else:
+    print('Height')
 
-# for i in 'hello world':
-#     print(i * 2, end=' ')
 
-# for i in 'hello world':
-#     if i == 'o':
-#         continue
-#     print(i * 2, end=' ')
+import time
+x = 5
+while x <= 15:
+    time.sleep(1)
+    print(x)
+    x += 2.5
 
-# from colorama import init
-# from colorama import Fore, Back, Style
-# init()
-# print(Fore.GREEN)
-# print(Back.WHITE)
-# print(Style.DIM)
-#
-# # дебильный калькулятор
-# import colorsys
-# import time
-# import sys
-# a = float(input("введите первое число: "))
-# b = float(input("введите второе число: "))
-# operation = input("что делаем?(+, -, * , /): ")
-# result = 0
-# if operation == '+':
-#     result = a + b
-# elif operation == '-':
-#     result = a - b
-# elif operation == '*':
-#     result = a * b
-# elif operation == '/':
-#     result = a / b
-# print(f"Результат: {result}")
-# print(sys.version)
+for i in 'hello world':
+    print(i * 2, end=' ')
+
+for i in 'hello world':
+    if i == 'o':
+        continue
+    print(i * 2, end=' ')
+
+from colorama import init
+from colorama import Fore, Back, Style
+init()
+print(Fore.GREEN)
+print(Back.WHITE)
+print(Style.DIM)
+
+# дебильный калькулятор
+import colorsys
+import time
+import sys
+a = float(input("введите первое число: "))
+b = float(input("введите второе число: "))
+operation = input("что делаем?(+, -, * , /): ")
+result = 0
+if operation == '+':
+    result = a + b
+elif operation == '-':
+    result = a - b
+elif operation == '*':
+    result = a * b
+elif operation == '/':
+    result = a / b
+print(f"Результат: {result}")
+print(sys.version)
 
 # это f строка сложения
-# name = "Vad"
-# weather = "Oblachno"
-# sum = 11.5
-# print(f"Привет {name}, сегодня {weather}, а у меня в кармане {sum} $")
-# weight = input("Введите ваш вес: ")
-# print(f"Ваш вес {weight} kg")
+name = "Vad"
+weather = "Oblachno"
+sum = 11.5
+print(f"Привет {name}, сегодня {weather}, а у меня в кармане {sum} $")
+weight = input("Введите ваш вес: ")
+print(f"Ваш вес {weight} kg")
 
 # модуль random генератор рандомных чисел
-# import random
-# print(random.randint(1, 54))
+import random
+print(random.randint(1, 54))
 
 # угадай число
-# import random
-# num = random.randint(1, 20)
-# while True:
-#     i = int(input("угадай число от 1 до 20: "))
-#     if i == num:
-#         print('ты угадал!')
-#         break
-#     elif i < num:
-#         print('бери больше')
-#     elif i > num:
-#         print('бери меньше')
+import random
+num = random.randint(1, 20)
+while True:
+    i = int(input("угадай число от 1 до 20: "))
+    if i == num:
+        print('ты угадал!')
+        break
+    elif i < num:
+        print('бери больше')
+    elif i > num:
+        print('бери меньше')
 
 # перетасовка списка функция shuffle
-# import random
-# desert = ['морожка', 'пирожка', 'творожка', 'кекс']
-# random.shuffle(desert)
-# print(', '.join(desert))
+import random
+desert = ['морожка', 'пирожка', 'творожка', 'кекс']
+random.shuffle(desert)
+print(', '.join(desert))
 
 # Управление оболочкой с помощью модуля sys
 '''import  sys
 sys.exit()'''
 
 # Ввод данных и объект stdin(стандартный ввод standart input)
-# import sys
-# print("введите слово: ")
-# inp = sys.stdin.readline(5)
-# print(f'вы ввели слово: {inp}')
+import sys
+print("введите слово: ")
+inp = sys.stdin.readline(5)
+print(f'вы ввели слово: {inp}')
 
 # Вывод данных и объект stdout (стандартный вывод standart out)типа (print)
 # import sys

@@ -41,7 +41,7 @@ while True:
                 elif computer == i[0] and player == i[1]:
                     print('Computer WIN!')
                     break
-    print('-------------------')
+    print()
     time.sleep(1)
     question = input('Repeat (y/n)?>: ')
     if question != 'y':

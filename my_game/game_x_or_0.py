@@ -11,6 +11,7 @@ def board():
 
 
 def draw_board(board):
+
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     print('---+---+---')
     print(' ' + board[4] + ' | ' + board[5] + ' | ' + board[6])
@@ -98,7 +99,7 @@ def get_computer_move(board, computer_letter):
             if winner(copy, player_letter):
                 return i
     move = choose_random_move_from_list(board, [1, 3, 7, 9])
-    if move is not None:
+    if move != None:
         return move
     if space_free(board, 5):
         return 5
