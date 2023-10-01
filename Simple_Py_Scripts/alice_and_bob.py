@@ -40,7 +40,7 @@ def bob():
     return count
 
 
-COUNT = 10000
+COUNT = 1000000
 
 print(sum([alice() for _ in range(COUNT)]) // COUNT)
 print(sum([bob() for _ in range(COUNT)]) // COUNT)

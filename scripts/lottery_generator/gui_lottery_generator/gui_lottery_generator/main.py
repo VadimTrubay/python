@@ -1,9 +1,13 @@
+__author__ = 'VadimTrubay'
+
 from tkinter import *
 from tkinter import ttk
 import random
 import sys
 import time
 from tkinter import font
+from tkinter.messagebox import showinfo, askyesno
+
 
 running = True
 selected_ball = 6
@@ -11,6 +15,15 @@ selected_all_ball = 52
 
 
 def main():
+    def try_again():
+        # Ask the user if they want to run again
+        response = askyesno("Generate Again", "Do you want to generate again?")
+        if response:
+            clear()
+            return
+        else:
+            pass
+
     def get_selected_ball(event):
         global selected_ball
         selected_ball = int(combobox_ball.get())
@@ -39,12 +52,13 @@ def main():
             random.shuffle(numbers)
             root.update()
             time.sleep(1)
+        try_again()
         print(new_list)
 
     def sort_balls():
-        list_sort = sorted(new_list)
+        new_list.sort()
         column = 3
-        for num in list_sort:
+        for num in new_list:
             b = Button(text=f"{num}")
             b.grid(row=9, column=column, padx=10, pady=10)
             column += 1
@@ -52,7 +66,8 @@ def main():
             # label_choose_all_ball.config(text=f"all ball: {selected_all_ball}")
             root.update()
             time.sleep(1)
-        print(list_sort)
+        try_again()
+        print(new_list)
 
     def clear():
         root.destroy()
@@ -98,6 +113,7 @@ def main():
     label_choose_all_ball.grid(row=3, column=0, padx=10, pady=10)
 
     button_start = Button(text="Start", command=get_balls, bg="#008000", fg="#FFFFFF", font=font1)
+    # print(button_start)
     button_start.grid(row=5, column=0, padx=10, pady=10)
 
     button_start = Button(text="Sort", command=sort_balls, bg="#1E90FF", fg="#FFFFFF", font=font1)

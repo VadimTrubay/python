@@ -417,27 +417,203 @@
 #         continue
 
 
-def chunk_generator(data: list, size: int):
-    index = 0
-    while index < len(data):
-        res = data[index:index + size]
-        index += size
-        if not res:
-            break
-        yield res
+# def chunk_generator(data: list, size: int):
+#     index = 0
+#     while index < len(data):
+#         res = data[index:index + size]
+#         index += size
+#         if not res:
+#             break
+#         yield res
+#
+#
+# data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# size = 7
+#
+# gen = chunk_generator(data, size)
+#
+# while True:
+#     input("Нажмите Enter, чтобы получить следующий набор элементов:")
+#     try:
+#         chunk = next(gen)
+#         print("Следующий набор элементов:", chunk)
+#     except StopIteration:
+#         print("Все элементы были извлечены.")
+#         break
 
 
-data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-size = 7
+## map is func
+# a = ['london', 'paris', 'kiev']
+# b = map(lambda x: x.upper(), a)
+# print(list(b))
+#
+# s = list(map(int, input('>>>: ').split()))
+# print(s)
 
-gen = chunk_generator(data, size)
 
-while True:
-    input("Нажмите Enter, чтобы получить следующий набор элементов:")
-    try:
-        chunk = next(gen)
-        print("Следующий набор элементов:", chunk)
-    except StopIteration:
-        print("Все элементы были извлечены.")
-        break
+#filter func
+# a = [x for x in range(1, 11)]
+# a = filter(lambda x: x % 2 == 0, a)
+# print(list(a))
+
+# def is_simple_number(x):
+#     d = x - 1
+#     if d < 0:
+#         return False
+#
+#     while d > 1:
+#         if x % d == 0:
+#             return False
+#         d -= 1
+#     return True
+#
+#
+# a = filter(is_simple_number, a)
+# print(list(a))
+
+# zip func
+
+# a = [1, 2, 3, 4]
+# b = [5, 6, 7, 8, 9, 10]
+# z = 'python'
+# c = zip(a, b, z)
+# for i in c:
+#     print(i)
+
+# a1, b1, c1, z1 = zip(a, b, z)
+# print(a1, b1, c1, z1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
