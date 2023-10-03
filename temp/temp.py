@@ -501,7 +501,7 @@
 # print(s)
 
 
-#filter func
+# filter func
 # a = [x for x in range(1, 11)]
 # a = filter(lambda x: x % 2 == 0, a)
 # print(list(a))
@@ -533,130 +533,127 @@
 # a1, b1, c1, z1 = zip(a, b, z)
 # print(a1, b1, c1, z1)
 
-N = 10
-P = [0] * (N*N)
-print(P)
-P[4] = '*'
-print(P)
-loss = any(map(lambda x: x == '*', P))
-print(loss)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# N = 10
+# P = [0] * (N*N)
+# print(P)
+# P[4] = '*'
+# print(P)
+# loss = any(map(lambda x: x == '*', P))
+# print(loss)
+
+# def mul2(x: float, y: int = 2) -> float:
+#     return x * y.
+
+# res = mul2(5, 4)
+# print(res.)
+
+# from typing import Union, Optional, Any, Final
+
+# typing
+# digitt = Union[int, float]  # int or float
+# strr = Optional[str]  # one type plus type None, (str, None)
+# typy_any = Any  # any type data
+# CONST = Final  # constant type data
+#
+#
+# def show_x(x: Union[int, float], y: int) -> float:
+#     return x * y
+#
+#
+# r = show_x(4.0, 5)
+# print(r)
+
+# a = [1, 2, 3, '4']
+#
+#
+# def example(x: List) -> list:
+#     return x
+#
+#
+# print(example(a))
+
+
+# lst: list[int] = [1, 2, '3']
+#
+# adddr: typle[int, str] = (1, 5)
+# print(adddr)
+
+
+# def get_positive(digit: list[int | float]) -> list[int]:
+#     return list(filter(lambda x: x > 0, digit))
+#
+#
+# print(get_positive([1, 2, -3, 4, -5]))
+
+# def get_digits(flt, lst: list[int]) -> list[int]:
+#     if lst is None:
+#         return []
+#     return list(filter(flt, lst))
+#
+#
+# print(get_digits(lambda x: x % 2 == 0, [1, 2, 3, 4, 5, 6]))
+
+
+# class Geom:
+#     pass
+#
+#
+# class Point(Geom):
+#     def __init__(self, x: int, y: int) -> None:
+#         self.x = x
+#         self.y = y
+#
+#
+# p = Point(2, 3)
+# p.x = 3
+
+#  operator math/case
+# a = 'left'
+#
+# match a:
+#     case 'top' | 'left':
+#         print('top')
+#     case 'left':
+#         print('left')
+#     case _:
+#         print('any')
+#
+# print('check finally')
+
+
+#  use operator match/case
+# a = 'hgjhh'
+# match a:
+#     case str() | 'top' as b if len(b) > 4:
+#         print(f'str: {b}')
+#     case int() | float() as b if 0 < b < 9:
+#         print(f'number: {b}')
+#     case _:  # wildcard
+#         print('other command')
+
+
+# cmd = ('trubay', 'python', 1999, 1, 4)
+# match cmd:
+# case tuple() as book:
+#     print(f'book: {book}')
+# case a, b, c:
+#     print(f'book: {a}, {b}, {c}')
+# case (str() as a, b, int() | float() as c, *_) if len(cmd) < 5:
+#     print(f'book: {a}, {b}, {c}')
+# case int() | float() as b if 0 < b < 9:
+#     print(f'number: {b}')
+# case _:  # wildcard
+#     print('other command')
+
+
+req = {'url': 'http://vad.ua', 'method': 'get', 'timeout': 50}
+
+match req:
+    case {'url': url, 'method': str(method) | int(method)}:
+        print(f'request: {url}, method: {method}')
+
+    case _:  # wildcard
+        print('other command')
 
 
 
