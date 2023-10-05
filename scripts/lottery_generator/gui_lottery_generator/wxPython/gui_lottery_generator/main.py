@@ -34,8 +34,7 @@ class MyFrame(wx.Frame):
         super().__init__(parent, title=title, size=size)
         self.selected_ball = 3
         self.selected_all_ball = 6
-        self.number_display = wx.TextCtrl(self, style=wx.TE_MULTILINE | wx.TE_READONLY)
-
+        self.list_result = []
         menu_bar = wx.MenuBar()
 
         menu_start = wx.Menu()
@@ -69,34 +68,46 @@ class MyFrame(wx.Frame):
         self.ctx = AppContextMenu(self)
         self.Bind(wx.EVT_RIGHT_DOWN, self.OnRightDown)
 
-        sizer = wx.BoxSizer()
-        sizer.Add(self.number_display, 1, wx.EXPAND)
-        self.SetSizer(sizer)
 
     def OnRightDown(self, event):
         self.PopupMenu(self.ctx, event.GetPosition())
 
     def start(self, event):
-        self.number_display.Clear()
+        panel = wx.Panel(self)
+        vbox = wx.BoxSizer()
+
         numbers = list(range(1, self.selected_all_ball + 1))
+
         for _ in range(self.selected_ball):
             num = random.choice(numbers)
-            self.number_display.AppendText(str(num) + ' ')
+            self.list_result.append(num)
+            button = wx.Button(panel, label=str(num), size=(30, 30))
+            vbox.Add(button, 0, wx.CENTER | wx.ALL, 5)
+
             numbers.remove(num)
             random.shuffle(numbers)
             time.sleep(1)
 
+        panel.SetSizerAndFit(vbox)
+        self.Layout()
+
     def sort(self, event):
-        current_numbers = self.number_display.GetValue().strip()
-        if not current_numbers:
-            return
-        current_numbers_list = [int(num.strip()) for num in current_numbers.split(' ')]
-        sorted_numbers_list = sorted(current_numbers_list)
-        sorted_numbers_text = ' '.join(map(str, sorted_numbers_list))
-        self.number_display.SetValue(sorted_numbers_text)
+        panel = self.GetChildren()[0]  # Get the panel containing the buttons
+        buttons = [child for child in panel.GetChildren() if isinstance(child, wx.Button)]
+
+        # Extract the numbers from button labels and sort them
+        numbers = [int(button.GetLabel()) for button in buttons]
+        numbers.sort()
+
+        # Update button labels with the sorted numbers
+        for i, button in enumerate(buttons):
+            button.SetLabel(str(numbers[i]))
+
+        self.Layout()
+
 
     def clear_all(self, event):
-        self.number_display.SetValue('')
+        pass
 
     def cansel(self, event):
         self.Close()
