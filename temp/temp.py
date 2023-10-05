@@ -646,14 +646,98 @@
 #     print('other command')
 
 
-req = {'url': 'http://vad.ua', 'method': 'get', 'timeout': 50}
+# req = {'url': 'http://vad.ua', 'method': 'get', 'timeout': 50}
+#
+# match req:
+#     case {'url': url, 'method': str(method) | int(method)}:
+#         print(f'request: {url}, method: {method}')
+#
+#     case _:  # wildcard
+#         print('other command')
 
-match req:
-    case {'url': url, 'method': str(method) | int(method)}:
-        print(f'request: {url}, method: {method}')
+# req = {'id': 2, 'access': True,
+#        'info': ['23.12.09', {'login': '123', 'email': 'vad@fd.r'}, True]}
+#
+# match req:
+#     case {'access': access, 'info': [_, {'email': email}, *_]}:
+#         print(f'access: {access}, email: {email}')
+#
+#     case _:  # wildcard
+#         print('other command')
 
-    case _:  # wildcard
-        print('other command')
+# import re
+
+# text = "+38(096)567-86-67"
+# text = 'odessa vinnisa yman'
+# text = 'gooogle, Google, gooooogle'
+# match = re.findall(r'[Mm]a[Pp]', text)  #  Map, map, MaP, map
+# match = re.findall(r'[0-9][^0-9]', text)  # ^ not
+# match = re.findall(r'[a-zA-Z0-9]', text)  # interval
+# match = re.match(r'\+380\d{9}', text)  # i+380965678667
+# match = re.findall(r'[Mm]a[Pp]', text)  #
+# match = re.match(r'^\+38\(0\d{2}\)\d{3}-\d{2}-\d{2}$', text)
+# match = re.split(r'[\n,:;]+', text)
+# match = re.sub(r'\s*(\w+)\s*', r'<option>\1</option>\n', text)
+# print(match)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
