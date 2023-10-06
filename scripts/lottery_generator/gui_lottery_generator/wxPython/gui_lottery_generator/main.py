@@ -62,52 +62,65 @@ class MyFrame(wx.Frame):
 
         self.Bind(wx.EVT_TOOL, self.start, id=APP_START)
         self.Bind(wx.EVT_TOOL, self.sort, id=APP_SORT)
-        self.Bind(wx.EVT_TOOL, self.clear_all, id=APP_CLEAR)
+        self.Bind(wx.EVT_MENU, self.clear_all, id=APP_CLEAR)
         self.Bind(wx.EVT_TOOL, self.cansel, id=APP_EXIT)
 
         self.ctx = AppContextMenu(self)
         self.Bind(wx.EVT_RIGHT_DOWN, self.OnRightDown)
+
+        self.panel = wx.Panel(self)
+        self.vbox = wx.BoxSizer()
+
 
 
     def OnRightDown(self, event):
         self.PopupMenu(self.ctx, event.GetPosition())
 
     def start(self, event):
-        panel = wx.Panel(self)
-        vbox = wx.BoxSizer()
 
         numbers = list(range(1, self.selected_all_ball + 1))
 
         for _ in range(self.selected_ball):
             num = random.choice(numbers)
             self.list_result.append(num)
-            button = wx.Button(panel, label=str(num), size=(30, 30))
-            vbox.Add(button, 0, wx.CENTER | wx.ALL, 5)
+            print(num)
+
+
+            button = wx.Button(self.panel, label=f'{num}', size=(50, 50))
+
+            hbox = wx.BoxSizer()
+            hbox.Add(button, 0, wx.LEFT | wx.RIGHT, 20)
+            self.vbox.Add(hbox, flag=wx.ALIGN_CENTRE)
+            self.panel.SetSizer(self.vbox)
+            self.Layout()
 
             numbers.remove(num)
             random.shuffle(numbers)
             time.sleep(1)
 
-        panel.SetSizerAndFit(vbox)
-        self.Layout()
+
 
     def sort(self, event):
-        panel = self.GetChildren()[0]  # Get the panel containing the buttons
-        buttons = [child for child in panel.GetChildren() if isinstance(child, wx.Button)]
-
-        # Extract the numbers from button labels and sort them
-        numbers = [int(button.GetLabel()) for button in buttons]
-        numbers.sort()
-
-        # Update button labels with the sorted numbers
-        for i, button in enumerate(buttons):
-            button.SetLabel(str(numbers[i]))
-
-        self.Layout()
-
+        pass
+        # panel = self.GetChildren()[0]  # Get the panel containing the buttons
+        # buttons = [child for child in panel.GetChildren() if isinstance(child, wx.Button)]
+        #
+        # # Extract the numbers from button labels and sort them
+        # numbers = [int(button.GetLabel()) for button in buttons]
+        # numbers.sort()
+        #
+        # # Update button labels with the sorted numbers
+        # for i, button in enumerate(buttons):
+        #     button.SetLabel(str(numbers[i]))
+        #
+        # self.Layout()
 
     def clear_all(self, event):
-        pass
+        self.panel = self.GetChildren()[0]
+        # Get the panel containing the buttons
+        self.panel.DestroyChildren()
+        print('ok')# Remove all child buttons from the panel
+        self.Layout()
 
     def cansel(self, event):
         self.Close()
