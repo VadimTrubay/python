@@ -681,7 +681,23 @@
 # print(match)
 
 
+class Point:
+    color = 'black'
+    circle = 4
 
+    def __init__(self, x=0, y=0): # initialize method
+        self.x = x
+        self.y = y
+
+    def __del__(self):  # delete method
+        print(f'delete obj {str(self)}')
+
+    def get_cords(self):
+        return self.x, self.y
+
+
+a = Point()
+print(a.get_cords())
 
 
 
