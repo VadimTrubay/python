@@ -681,55 +681,211 @@
 # print(match)
 
 
-class Point:
-    color = 'black'
-    circle = 4
-
-    def __init__(self, x=0, y=0): # initialize method
-        self.x = x
-        self.y = y
-
-    def __del__(self):  # delete method
-        print(f'delete obj {str(self)}')
-
-    def get_cords(self):
-        return self.x, self.y
-
-
-a = Point()
-print(a.get_cords())
-
-
+# class Point:
+#     color = 'black'
+#     circle = 4
+#
+#     def __init__(self, x=0, y=0): # initialize method
+#         self.x = x
+#         self.y = y
+#
+#     def __del__(self):  # delete method
+#         print(f'delete obj {str(self)}')
+#
+#     def get_cords(self):
+#         return self.x, self.y
+#
+#
+# a = Point()
+# print(a.get_cords())
 
 
+# def singleton(cls):
+#     instances = {}
+#     def getinstance(x):
+#         if cls not in instances:
+#             instances[cls] = cls(x)
+#         return instances[cls]
+#     return getinstance
+#
+# @singleton
+# class Database:  # pattern SINGLETON!!!
+#     __instanse = None
+#
+#     def __new__(cls, *args, **kwargs): # initialize method
+#         if cls.__instanse is None:
+#             cls.__instanse = super().__new__(cls)
+#         return cls.__instanse
+#
+#     def __del__(self):
+#         Database.__instanse = None
+#
+#     def __init__(self, x): #constructor method
+#         self.x = x
+#         print(x)
+#
+# a = Database(3)
+# b = Database(4)
+#
+# print(id(a), id(b))
+
+
+# import random
+
+# class Singleton:
+#     """Classic singleton"""
+#
+#     __instance = None
+#
+#     def __new__(cls, *args, **kwargs):
+#         if cls.__instance is None:
+#             cls.__instance = super().__new__(Singleton)
+#         return cls.__instance
+#
+#     def __init__(self, n):
+#         self.n = n
+#
+# a = Singleton(5)
+# b = Singleton(6)
+#
+# print(a.n, b.n)
 
 
 
+# class Vector: # @classmethod
+#     MIN = 0
+#     MAX = 20
+#
+#     @classmethod
+#     def valid(cls, arg):
+#         return cls.MIN <= arg <= cls.MAX
+#
+#     def __init__(self, x, y):
+#         self.x = self.y = 0
+#         if self.valid(x) and self.valid(y):
+#             self.x = x
+#             self.y = y
+#
+#     def __str__(self):
+#         return self.x, self.y
+#
+#     @staticmethod
+#     def norm(a, b):  # @staticmethod
+#         return a ** b
+#
+# v1 = Vector(20, 6)
+#
+# print(v1.x, v1.y)
+#
+# print(v1.norm(2, 2))
+
+# private and protected method
+# from accessify import private, protected
+# class Point:
+#     def __init__(self, x, y): # initialize method
+#         if isinstance(x, int) and isinstance(y, int):
+#             self.__x = x
+#             self.__y = y
+#
+#     @private
+#     @classmethod
+#     def check_value(cls, x):
+#         return type(x) in (int, float)
+#
+#     def get_value(self):
+#         return self.__x, self.__y
+#
+#     def set_value(self, x, y):
+#         if self.check_value(y) and self.check_value(y):
+#             self.__x = x
+#             self.__y = y
+#         else:
+#             raise ValueError('not int')
+#
+# a = Point(1, 2)
+# # print(a.get_value())
+# print(a.set_value(3, 4))
+# # print(a.get_value())
+# print(a.check_value(56))
 
 
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+#
+#     def __getattribute__(self, item): # вызывается при обращении к атрибуту через экземпляр класса
+#         if item == 'x':
+#             raise ValueError('access not')
+#         return  object.__getattribute__(self, item)
+#
+#     def __setattr__(self, key, value):  # вызывается при присвоении атрибуту какого то значения
+#         if key == 'z':
+#             raise ValueError('access not')
+#         return object.__setattr__(self, key, value)
+#
+#     def __getattr__(self, item):  # вызывается при обращении к несуществующему атрибуту экземпляра класса
+#         return False
+#
+#     def __delattr__(self, item):  # вызывается при удалении атрибута экземпляра класса
+#         object.__delattr__(self, item)
+#
+# a = Point(1, 3)
+# a.x = 2
+# a.z = 6
+# print(a.r)
 
+# pattern MONOSTATION
+# class Data:
+#     __attr = {
+#         'name': 'vad',
+#         'age': 22
+#     }
+#
+#     def __init__(self):
+#         self.__dict__ = self.__attr
+#
+# a = Data()
+# b = Data()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#@property and @value.setter
+# class Person:
+#     def __init__(self, name, age):
+#         self.__name = name
+#         self.__age = age
+#
+#     # def __str__(self):
+#     #     return self.__name, self.__age
+#
+#     @property
+#     def age(self):
+#         return self.__age
+#
+#     @age.setter
+#     def age(self, value):
+#         self.__age = value
+#
+#     @property
+#     def name(self):
+#         return self.__name
+#
+#     @name.setter
+#     def name(self, value):
+#         self.__name = value
+#
+#     @name.deleter
+#     def name(self):
+#         del self.__name
+#
+# a = Person('vad', 34)
+# print(a.age)
+# a.age = 99
+# print(a.age)
+# print(a.name)
+# a.name = 'qwery'
+# print(a.name)
+# del a.name
+# print(a.age, a.name)
 
 
 
