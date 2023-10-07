@@ -888,7 +888,12 @@
 # print(a.age, a.name)
 
 
+from jinja2 import Template
 
+name = 'vad'
+t = Template("hello {{ name*2 }}")
+m = t.render(name=name)
+print(t)
 
 
 
