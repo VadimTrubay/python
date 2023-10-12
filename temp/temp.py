@@ -888,23 +888,101 @@
 # print(a.age, a.name)
 
 
+# descriptor
+# class Integer:
+#
+#     @classmethod
+#     def varify(cls, cord):
+#         if type(cord) != int:
+#             raise TypeError('error type')
+#
+#     def __set_name__(self, owner, name):
+#         self.name = "_" + name
+#
+#     def __get__(self, instance, owner):
+#         return getattr(instance, self.name)
+#
+#     def __set__(self, instance, value):
+#         self.varify(value)
+#         setattr(instance, self.name, value)
+#
+#
+# class Point3D:
+#     x = Integer()
+#     y = Integer()
+#     z = Integer()
+#
+#     def __init__(self, x, y, z):
+#         self.x = x
+#         self.y = y
+#         self.z = z
+#
+# p = Point3D(1, 2, 3)
+#
+# print(p.__dict__)
+# print(p.x)
 
 
+# dunder method __call_
+
+# class Counter:
+#     def __init__(self):
+#         self.__counter = 0
+#
+#     def __call__(self, step=1, *args, **kwargs):
+#         print("__call__")
+#         self.__counter += step
+#         return self.__counter
+#
+# c = Counter() # dunder method __call_ вызывается
+# # в момент вызова класса через скобки()(функтор)
+# c()
+# c(5)
+# c()
+# print(c.__dict__)
 
 
+# # dunder method __str__, __repr__, __len__, __abs__
+# class Points:
+#     def __init__(self, *args):
+#         self.coords = list(args)
+#
+#     def __str__(self):
+#         return f"{type(self.coords)}"
+#
+#     def __len__(self):
+#         return len(self.coords)
+#
+#     def __abs__(self):
+#         return list(map(abs, self.coords))
+#
+# p = Points(-1, 2, -3, 5)
+# print(len(p))
+# print(p)
+# print(abs(p))
 
 
+# __add__"+", __sub__"-", __mul__"*", __truediv__"/"
+class Clock:
+    def __init__(self, *args):
+        self.coords = list(args)
 
+    def __str__(self):
+        return f"{type(self.coords)}"
 
+    def __len__(self):
+        return len(self.coords)
 
+    def __abs__(self):
+        return list(map(abs, self.coords))
 
+    def __abs__(self):
+        return list(map(abs, self.coords))
 
-
-
-
-
-
-
+p = Points(-1, 2, -3, 5)
+print(len(p))
+print(p)
+print(abs(p))
 
 
 
