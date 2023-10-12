@@ -963,26 +963,26 @@
 
 
 # __add__"+", __sub__"-", __mul__"*", __truediv__"/"
-class Clock:
-    def __init__(self, *args):
-        self.coords = list(args)
-
-    def __str__(self):
-        return f"{type(self.coords)}"
-
-    def __len__(self):
-        return len(self.coords)
-
-    def __abs__(self):
-        return list(map(abs, self.coords))
-
-    def __abs__(self):
-        return list(map(abs, self.coords))
-
-p = Points(-1, 2, -3, 5)
-print(len(p))
-print(p)
-print(abs(p))
+# class Clock:
+#     def __init__(self, *args):
+#         self.coords = list(args)
+#
+#     def __str__(self):
+#         return f"{type(self.coords)}"
+#
+#     def __len__(self):
+#         return len(self.coords)
+#
+#     def __abs__(self):
+#         return list(map(abs, self.coords))
+#
+#     def __abs__(self):
+#         return list(map(abs, self.coords))
+#
+# p = Points(-1, 2, -3, 5)
+# print(len(p))
+# print(p)
+# print(abs(p))
 
 
 
