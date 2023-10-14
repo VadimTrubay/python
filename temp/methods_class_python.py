@@ -10,6 +10,7 @@
 #
 # p = Point(2, 3)
 # p.x = 3
+import time
 
 #  operator math/case
 # a = 'left'
@@ -448,17 +449,97 @@
 #
 # print(c1 < c2)
 
-class Foo:
-    def __init__(self, name):
-        self._bar = name
+# class Foo:
+#     def __init__(self, name):
+#         self._bar = name
+#
+#     def __del__(self):
+#         print(f'del {self._bar}')
+#
+# f1 = Foo('1')
+# f2 = Foo('2')
+#
+# del f1
 
-    def __del__(self):
-        print(f'del {self._bar}')
 
-f1 = Foo('1')
-f2 = Foo('2')
+# import requests
+# import os
 
-del f1
+# url = 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5'
+# response = requests.get(url)
+# data = response.json()
+# for k, v in data[0].items():
+#     print(f'{k}: {v}')
+
+
+# url = "https://api.binance.com/api/v3/ticker/price?symbol=BNBBTC"
+#
+# while True:
+#     response = requests.get(url)
+#     if 200 < response.status_code < 299:
+#         print('error')
+#         break
+#     data = response.json()
+#     os.system('cls')
+#     print(f"'{data['symbol']}: {data['price']}'")
+#     time.sleep(1)
+
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+#
+#     def __eq__(self, other):
+#         return self.x == other.x and self.y == other.y
+#
+#     def __hash__(self):
+#         return hash((self.x, self.y))
+#
+# p1 = Point(1, 2)
+# p2 = Point(1,2)
+#
+# print(hash(p1), hash(p2), sep='\n')
+# print(id(p1), id(p2))
+
+
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+#
+#     def __len__(self):
+#         print('__len__')
+#         return self.x * self.x  +  self.y * self.y
+#
+#     def __bool__(self):
+#         print('__bool__')
+#         return self.x == self.y
+#
+# p1 = Point(0, 10)
+#
+# if p1:
+#     print('True')
+# else:
+#     print('False')
+
+
+
+class Student:
+    def __init__(self, name, marks):
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
