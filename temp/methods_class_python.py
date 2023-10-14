@@ -524,19 +524,64 @@ import time
 
 
 
-class Student:
-    def __init__(self, name, marks):
-        
+# class Student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = list(marks)
+#
+#     def __getitem__(self, item):
+#         return self.marks[item]
+#
+#     def __setitem__(self, key, value):
+#         if not isinstance(key, int) or key < 0:
+#             raise TypeError('not value')
+#         if key >= len(self.marks):
+#             off = key + 1 - len(self.marks)
+#             self.marks.extend([None] * off)
+#         self.marks[key] = value
+#
+#     def __delitem__(self, key):
+#         if not isinstance(key, int) or key < 0:
+#             raise TypeError('not value')
+#         del self.marks[key]
+#
+# s1 = Student('vad', [3, 5, 4, 5])
+# s1[6] = 7
+# print(s1[2])
+# print(s1.marks)
+
+
+# class Frange:
+#     def __init__(self, start=0.0, stop=0.0, step=1.0):
+#         self.start = start
+#         self.stop = stop
+#         self.step = step
+#
+#
+#     def __iter__(self):
+#         self.value = self.start - self.step
+#         return self
+#
+#     def __next__(self):
+#         if self.value + self.step < self.stop:
+#             self.value += self.step
+#             return self.value
+#         else:
+#             raise StopIteration
+#
+# fr = Frange(0, 2, 0.5)
+# for x in fr:
+#     print(x)
 
 
 
-
-
-
-
-
-
-
+# class Geom:
+#     name = 'Geom'
+#
+# class Line(Geom):
+#     name = 'Line'
+#
+# print(issubclass(Line, Geom))
 
 
 
