@@ -584,17 +584,58 @@ import time
 # print(issubclass(Line, Geom))
 
 
+# class Geom:
+#     name = 'Geom'
+#
+#     def __init__(self, x, y):
+#         self._x = x
+#         self._y = y
+#         print('init Geom')
+#
+# class Line(Geom):
+#     name = 'Line'
+#
+#     def __init__(self, x, y, fill='red'):
+#         super().__init__(x, y)
+#         print('init Line')
+#         self.__fill = fill
+#
+#     def get_coord(self):
+#         return (self._x, self._y)
+# l = Line(5,5)
+# print(l.__dict__)
+# l.get_coord()
 
 
 
+class Goods:
+    def __init__(self, name, price):
+        super().__init__()
+        print('init goods')
+        self.name = name
+        self.price = price
+
+    def info(self):
+        print(f'{self.name, self.price}')
+
+class MixinLog:
+    ID = 0
+    def __init__(self):
+        print('init Mixin')
+        self.ID += 1
+        self.id = self.ID
+
+    def save_log(self):
+        print(f'{self.id} sale')
 
 
+class NoteBook(Goods, MixinLog):
+    pass
 
-
-
-
-
-
+t = NoteBook('aser', 2000)
+print(t.info())
+print(t.save_log())
+print(NoteBook.__mro__)
 
 
 
