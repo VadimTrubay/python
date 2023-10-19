@@ -10,7 +10,8 @@
 #
 # p = Point(2, 3)
 # p.x = 3
-import time
+
+
 
 #  operator math/case
 # a = 'left'
@@ -608,42 +609,51 @@ import time
 
 
 
-class Goods:
-    def __init__(self, name, price):
-        super().__init__()
-        print('init goods')
-        self.name = name
-        self.price = price
-
-    def info(self):
-        print(f'{self.name, self.price}')
-
-class MixinLog:
-    ID = 0
-    def __init__(self):
-        print('init Mixin')
-        self.ID += 1
-        self.id = self.ID
-
-    def save_log(self):
-        print(f'{self.id} sale')
-
-
-class NoteBook(Goods, MixinLog):
-    pass
-
-t = NoteBook('aser', 2000)
-print(t.info())
-print(t.save_log())
-print(NoteBook.__mro__)
-
-
+# class Goods:
+#     def __init__(self, name, price):
+#         super().__init__()
+#         print('init goods')
+#         self.name = name
+#         self.price = price
+#
+#     def info(self):
+#         print(f'{self.name, self.price}')
+#
+# class MixinLog:
+#     ID = 0
+#     def __init__(self):
+#         print('init Mixin')
+#         self.ID += 1
+#         self.id = self.ID
+#
+#     def save_log(self):
+#         print(f'{self.id} sale')
+#
+#
+# class NoteBook(Goods, MixinLog):
+#     pass
+#
+# t = NoteBook('aser', 2000)
+# print(t.info())
+# print(t.save_log())
+# print(NoteBook.__mro__)
 
 
-
-
-
-
+# import time
+# import timeit
+# class Point:
+#     __slots__ = ('x', 'y') # install only local attributes x and y
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+#
+#
+#     def calc(self):
+#         return self.x ** self.y
+#
+# p = Point(10, 20)
+#
+# print(timeit.timeit(p.calc))
 
 
 
