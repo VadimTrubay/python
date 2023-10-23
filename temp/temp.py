@@ -221,21 +221,26 @@
 
 
 
-def wrap(func):
-    def inn(*args):
-        res = func(*args)
-        return print(f'res; {res*9}')
-    return inn
-
-@wrap
-def f(x):
-    return x
-
-f(3)
-
-
+# def wrap(func):
+#     def inn(*args):
+#         res = func(*args)
+#         return print(f'res; {res*9}')
+#     return inn
+#
+# @wrap
+# def f(x):
+#     return x
+#
+# f(3)
 
 
+# def intersection(*args):
+#     a, b = set(args[0]), set(args[1])
+#     c = a & b
+#     return list(c)
+#
+# i = intersection([4,9,5], [9,4,9,8,4]) # [9, 4]
+# print(i)
 
 
 

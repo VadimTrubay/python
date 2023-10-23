@@ -655,6 +655,120 @@
 #
 # print(timeit.timeit(p.calc))
 
+from dataclasses import dataclass, field
+
+
+# class Thing:
+#     def __init__(self, name, price):
+#         self.name = name
+#         self.price = price
+#
+#     def __repr__(self):
+#         return f'thing: {self.__dict__}'
+
+
+# @dataclass()
+# class Thing:
+#     name: str = 'v'
+#     price: int = 0
+#     dims: list = field(default_factory=list)
+#     res: int = field(init=False)
+#
+#     def __post_init__(self):
+#         self.res = self.price * 2
+#
+#
+# t = Thing('vad', 1200)
+# t1 = Thing('vad', 1200)
+# t.dims.append(10)
+# print(t, t1)
+
+
+# from typing import Any
+#
+# @dataclass
+# class Goods:
+#     name: Any = None
+#     price: Any = None
+#
+# @dataclass
+# class Books(Goods):
+#     name: str = 0
+#     price: int | float = 0
+#     title: str = ''
+#     author: str = ''
+#
+# b = Books('my', 12, 'fill', 'fg')
+# print(b)
+
+
+
+# class Mammal:
+#     phrase = ''
+#     def voice(self):
+#         return self.phrase
+#
+#
+# class Dog(Mammal):
+#     phrase = 'Bark!'
+#
+#
+#
+# class Cat(Mammal):
+#     phrase = 'Meow!'
+#
+#
+# class Chupakabra:
+#     def voice(self):
+#         return 'Whooooo!!!'
+#
+#
+# class Recorder:
+#     def record_animal(self, animal):
+#         voice = animal.voice()
+#         print(f'Recorded "{voice}"')
+#
+#
+# r = Recorder()
+# cat = Cat()
+# dog = Dog()
+# strange_animal = Chupakabra()
+#
+# r.record_animal(cat)            # Recorded "Meow!"
+# r.record_animal(dog)            # Recorded "Bark!"
+# r.record_animal(strange_animal) # Recorded "Whooooo!!!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
