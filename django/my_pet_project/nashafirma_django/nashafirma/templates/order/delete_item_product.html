@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4 style="text-align: center;">{{title}} "{{ object.product }}" из заказа "{{ object }}"</h4>
+<form action="" method="post">
+    {% csrf_token %}
+    <p style="text-align: center; color: red">вы действительно хотите удалить "{{ object.product }}"?</p>
+    <button type="submit">да</button>
+    <button type="button" onclick="history.back()">нет</button>
+</form>
+
+{% endblock content %}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"/>
+    <style>
+        /* Green Light scheme (Default) */
+        /* Can be forced with data-theme="light" */
+        [data-theme="light"],
+        :root:not([data-theme="dark"]) {
+          --primary: #43a047;
+          --primary-hover: #388e3c;
+          --primary-focus: rgba(67, 160, 71, 0.125);
+          --primary-inverse: #FFF;
+        }
+    </style>
+    <title>{{ title }}</title>
+</head>
+<body>
+<main class="container">
+    <h1><a href="/">Наша Фирма</a></h1>
+
+    {% if request.user.is_authenticated %}
+    <ul>
+        {% for m in menu %}
+        <button class="button-menu">
+            <a style="color: white" href="{% url m.url_name %}">{{ m.title }}</a>
+        </button>
+        {% endfor %}
+    </ul>
+
+    <div class="dropdown-content">
+        <a class="Back" href="javascript:history.back()">&lt;-- Назад</a>
+        <a style="float: right;" class="btn btn-outline-primary" href="{% url 'logout' %}">выйти</a>
+        <span style="float: right; color: green;">{{ user.username }}|</span>
+        {% else %}
+        <a class="btn btn-outline-primary" href="{% url 'register' %}">регистрация</a> |
+        <a class="btn btn-outline-primary" href="{% url 'login' %}">войти</a>
+        {% endif %}
+    </div>
+    <hr>
+    {% block content %}
+
+    {% endblock %}
+</main>
+</body>
+</html>

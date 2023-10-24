@@ -1,9 +1,9 @@
-import os
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-1%b#uh*aib%yw+5%s_zxnz&dw8iu=)vhpzne#()iy2+w=wp65#'
+SECRET_KEY = 'django-insecure-y=#iqnq9p2w(47tmqwuh_s+ot$)tov9bh%(=dxfj5as)u&2pts'
 
 DEBUG = True
 
@@ -17,14 +17,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'DjangoProjectRestaurant.core',
-    'DjangoProjectRestaurant.users',
-    'DjangoProjectRestaurant.subscribers',
-    'DjangoProjectRestaurant.contact',
-    'DjangoProjectRestaurant.menu',
-    'DjangoProjectRestaurant.reservations',
-    'DjangoProjectRestaurant.review',
-
+    'admin_totals',
+    'order',
+    'product',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -37,8 +33,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DjangoProjectRestaurant.urls'
+# SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Используем базу данных для хранения сессий
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = True  # Сессия будет истекать при закрытии браузера
 
+ROOT_URLCONF = 'nashafirma.urls'
 
 TEMPLATES = [
     {
@@ -56,10 +54,11 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DjangoProjectRestaurant.wsgi.application'
+WSGI_APPLICATION = 'nashafirma.wsgi.application'
+
 
 # Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -69,8 +68,8 @@ DATABASES = {
 }
 
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
+#     "default": {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #         'NAME': 'postgres',
 #         'USER': 'postgres',
 #         'PASSWORD': 'password',
@@ -78,8 +77,9 @@ DATABASES = {
 #         'PORT': '5432',
 #     }
 # }
+
 # Password validation
-# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
+# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -96,12 +96,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
 # Internationalization
-# https://docs.djangoproject.com/en/3.2/topics/i18n/
+# https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'
 
-TIME_ZONE = 'Europe/Sofia'
+TIME_ZONE = 'Europe/Kiev'
 
 USE_I18N = True
 
@@ -109,8 +110,9 @@ USE_L10N = True
 
 USE_TZ = True
 
+
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.2/howto/static-files/
+# https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
@@ -121,22 +123,18 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(
     BASE_DIR, 'media', )
 
-DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
-
 # Default primary key field type
-# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
+# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'users.RestaurantUser'
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
 
-LOGIN_URL = 'login'
-
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'myrestaurant010@gmail.com'
-EMAIL_HOST_PASSWORD = 'iijuiwqqzbkqievm'
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+#         'LOCATION': os.path.join(BASE_DIR, 'coolsite_cache'),
+#     }
+# }

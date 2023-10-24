@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4 style="text-align: center;">{{title}}</h4>
+
+<form class="d-flex" role="search" method="GET" action="{% url 'search_results_product' %}">
+    <input class="form-control me-4" name="search_product" type="search">
+    <button class="search-button" type="submit">поиск</button>
+</form>
+
+{% if request.user.username == 'admin' %}
+<button><a style="color: white" href="{% url 'add_product' %}">добавить новый продукт</a></button>
+<table>
+    <thead>
+    <tr>
+        <th scope="col">№</th>
+        <th scope="col">продукт</th>
+        <th scope="col">цена, грн</th>
+        <th scope="col">изменить</th>
+        <th scope="col">удалить</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for product in products %}
+    <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td scope="row"><a style="color:green" href="{% url 'edit_product' product.pk %}">{{ product.product }}</a></td>
+        <td scope="row"><a style="color:blue" href="{% url 'edit_product' product.pk %}">{{ product.price }}</a></td>
+        <td scope="row"><a style="color:blue" href="{% url 'edit_product' product.pk %}">изменить</a></td>
+        <td scope="row"><a style="color:red" href="{% url 'delete_product' product.pk %}">удалить</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<table>
+    <thead>
+    <tr>
+        <th scope="col">№</th>
+        <th scope="col">продукт</th>
+        <th scope="col">цена, грн</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for product in products %}
+    <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td scope="row" style="color:green">{{ product.product }}</td>
+        <td scope="row">{{ product.price }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4 style="text-align: center;">{{title}} "{{order}}" для пользователя "{{ order.user }}"</h4>
+
+{% if not request.user.username == 'admin' %}
+<button><a style="color:white" href="{% url 'add_item' order.pk %}">добавить продукт в заказ</a></button>
+{% endif %}
+
+<table>
+    <thead>
+    <tr>
+        <th scope="col">№</th>
+        <th scope="col">продукт</th>
+        <th scope="col">вес, кг</th>
+        <th scope="col">цена, грн</th>
+        <th scope="col">стоимость, грн</th>
+        <th scope="col">примечание</th>
+        <th scope="col">изменить</th>
+        <th scope="col">удалить</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for product in order.orderitem_set.all %}
+    <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <th><a href="{% url 'edit_item_product' product.pk %}">{{ product.product }}</a></th>
+        <th scope="row">{{product.weight}}</th>
+        <th scope="row">{{product.product.price}}</th>
+        <th scope="row">{{ product.calculate_sum}}</th>
+        <th scope="row">{{product.note}}</th>
+        <th scope="row"><a style="color:blue" href="{% url 'edit_item_product' product.pk %}">изменить</a></th>
+        <th scope="row"><a style="color:red" href="{% url 'delete_item_product' product.pk %}">удалить</a></th>
+    </tr>
+    {% endfor %}
+    </tbody>
+    <tfoot>
+    <tr>
+        <th style="color:green">Итого:</th>
+        <td></td>
+        <td style="color:red">{{ order.calculate_total_weight }}</td>
+        <td></td>
+        <td style="color:red">{{ order.calculate_total_sum }}</td>
+        <td></td>
+    </tr>
+    </tfoot>
+</table>
+
+{% endblock %}
