@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+
+<h1>{{'Page not fount'.upper()}}</h1>
+<p>Page not fount, returned for <a href="{{url_for('index')}}">main</a></p>
+
+{% endblock content %}
