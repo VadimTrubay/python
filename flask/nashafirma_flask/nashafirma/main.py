@@ -52,7 +52,7 @@ def orders():
 @app.errorhandler(404)
 def pageNotFount(error):
     return render_template(
-        'page404.html', title='page not fount', menu=menu)
+        'page404.html', title='page not fount', menu=menu), 404
 
 if __name__ == "__main__":
     app.run(debug=True)

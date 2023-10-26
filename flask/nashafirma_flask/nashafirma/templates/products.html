@@ -9,26 +9,26 @@
 
 <table>
     <thead>
-    <tr>
-        <th scope="col">№</th>
-        <th scope="col">product</th>
-        <th scope="col">price, ua</th>
-        <th scope="col">note</th>
-        <th scope="col">edit</th>
-        <th scope="col">delete</th>
-    </tr>
+        <tr>
+            <th scope="col">№</th>
+            <th scope="col">product</th>
+            <th scope="col">price, ua</th>
+            <th scope="col">note</th>
+            <th scope="col">edit</th>
+            <th scope="col">delete</th>
+        </tr>
     </thead>
     <tbody>
-    {% for product in products_list %}
-    <tr>
-        <th scope="row"></th>
-        <td scope="row"><a style="color:green" href="">{{ product.name }}</a></td>
-        <td scope="row"><a style="color:blue" href="">{{ product.price }}</a></td>
-        <td scope="row"><a style="color:blue" href="">{{ product.note }}</a></td>
-        <td scope="row"><a style="color:#66ff44" href="">edit</a></td>
-        <td scope="row"><a style="color:red" href="">delete</a></td>
-    </tr>
-    {% endfor %}
+        {% for product in products_list %}
+        <tr>
+            <th scope="row"></th>
+            <td scope="row"><a style="color:#66ff44" href="">{{ product.name }}</a></td>
+            <td scope="row"><a style="color:#4c39ca" href="">{{ product.price }}</a></td>
+            <td scope="row"><a style="color:#8a9089" href="">{{ product.note }}</a></td>
+            <td scope="row"><a style="color:#66ff44" href="">edit</a></td>
+            <td scope="row"><a style="color:#ef0d0d" href="">delete</a></td>
+        </tr>
+        {% endfor %}
     </tbody>
 </table>
 

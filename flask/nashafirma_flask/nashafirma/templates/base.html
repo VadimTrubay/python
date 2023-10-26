@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
     <link type="text/css" href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
     <title>{{ title }}</title>
 </head>
-<body>
-<main class="container">
-    <h1><a href="{{ url_for('index') }}">Наша Фирма</a></h1>
-    <div class="button-container">
-        {% for item_menu in menu %}
-        <button class="button">
-            <a style="color: white" href="{{ item_menu.url }}">{{ item_menu.name }}</a>
-        </button>
-        {% endfor %}
-    </div>
-    <div class="dropdown-content">
-        <a class="Back" href="javascript:history.back()">&lt;-- Назад</a>
-        <a style="float: right;" class="btn btn-outline-primary" href="{}">&nbsp;выйти</a>
-        <span style="float: right; color: green;">|</span>
-        <a class="btn btn-outline-primary" style="float: right;" href="{}">&nbsp;регистрация&nbsp;</a>
-        <a class="btn btn-outline-primary" style="float: right;" href="{}">войти&nbsp;|</a>
-    </div>
-    <hr>
-    {% block content %}
 
-    {% endblock content%}
-</main>
+<body>
+    <main class="container">
+        <h1><a href="{{ url_for('index') }}">Наша Фирма</a></h1>
+        <div class="button-container">
+            {% for item_menu in menu %}
+            <button class="button">
+                <a style="color: white" href="{{ item_menu.url }}">{{ item_menu.name }}</a>
+            </button>
+            {% endfor %}
+        </div>
+        <div class="dropdown-content">
+            <a class="Back" href="javascript:history.back()">&lt;-- Назад</a>
+            <a style="float: right;" class="btn btn-outline-primary" href="{}">&nbsp;выйти</a>
+            <span style="float: right; color: green;">|</span>
+            <a class="btn btn-outline-primary" style="float: right;" href="{}">&nbsp;регистрация&nbsp;</a>
+            <a class="btn btn-outline-primary" style="float: right;" href="{}">войти&nbsp;|</a>
+        </div>
+        <hr>
+        {% block content %}
+
+        {% endblock content%}
+    </main>
 </body>
+
 </html>
