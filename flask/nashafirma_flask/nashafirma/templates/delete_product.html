@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+{% for msg in get_flashed_messages() %}
+<h1 class="msg">{{ msg }}</h1>
+{% endfor %}
+
+<h1>Delete Product</h1>
+<p>Are you sure you want to delete the product "{{ product }}"?</p>
+
+<div class="form-container">
+    <form action="/delete_product/{{ product }}" method="post">
+        <input type="hidden" name="confirmation" value="yes">
+        <button type="submit" class="button-submit">Yes, delete</button>
+    </form>
+    <form action="/delete_product/{{ product }}" method="post">
+        <input type="hidden" name="confirmation" value="no">
+        <button type="submit" class="button-reset">No, cancel</button>
+    </form>
+</div>
+
+{% endblock content %}

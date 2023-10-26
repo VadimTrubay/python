@@ -22,10 +22,10 @@
         </div>
         <div class="dropdown-content">
             <a class="Back" href="javascript:history.back()">&lt;-- Назад</a>
-            <a style="float: right;" class="btn btn-outline-primary" href="{}">&nbsp;выйти</a>
+            <a style="float: right;" class="btn btn-outline-primary" href="{{ url_for('logout') }}">&nbsp;выйти</a>
             <span style="float: right; color: green;">|</span>
-            <a class="btn btn-outline-primary" style="float: right;" href="{}">&nbsp;регистрация&nbsp;</a>
-            <a class="btn btn-outline-primary" style="float: right;" href="{}">войти&nbsp;|</a>
+            <a class="btn btn-outline-primary" style="float: right;" href="">&nbsp;регистрация&nbsp;</a>
+            <a class="btn btn-outline-primary" style="float: right;" href="{{ url_for('login') }}">войти&nbsp;|</a>
         </div>
         <hr>
         {% block content %}

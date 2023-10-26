@@ -6,19 +6,21 @@
 <h1 class="msg">{{ msg }}</h1>
 {% endfor %}
 
+<h1>Edit Product</h1>
+
 <div class="form-container">
-    <form action="/add_product.html" method="post" class="form-contact">
+    <form action="/edit_product/{{ product }}" method="post" class="form-contact">
         <div class="form-group">
             <label>Product:</label>
-            <input type="text" name="product" value="" required/>
+            <input type="text" name="product" value="{{ product_data.product }}" required/>
         </div>
         <div class="form-group">
             <label>Price:</label>
-            <input type="text" name="price" value="" required/>
+            <input type="text" name="price" value="{{ product_data.price }}" required/>
         </div>
         <div class="form-group">
             <label>Note:</label>
-            <textarea name="note" rows="4" cols="50"></textarea>
+            <input type="text" name="note" value="{{ product_data.note }}"/>
         </div>
         <div class="button-container">
             <button class="button button-submit" type="submit">Submit</button>
