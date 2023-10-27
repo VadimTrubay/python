@@ -8,6 +8,18 @@
   --primary-inverse: #FFF;
 }
 
+.Back {
+    color: #ffffff;
+}
+
+.button-submit {
+    background-color: #ff0000;
+}
+
+.button-reset {
+    background-color: #006000;
+}
+
 .button-container {
     display: flex; /* Устанавливаем контейнеру flex-контейнером */
     justify-content: center; /* Выравниваем кнопки по горизонтали по центру */
@@ -17,7 +29,26 @@
     margin: 30px 30px 30px 30px;
     padding: 10px;
     display: inline-block;
-	font-size: 34px;
+}
+
+.button-add {
+    color: #122377;
+    font-size: 25px;
+}
+
+.button-menu {
+    color: #ffffff;
+    font-size: 34px;
+}
+
+.container {
+    margin: auto;
+}
+
+.lable-firma {
+    font-family:'Courier New', Courier, monospace;
+    color: #a851a7;
+    font-size: 56px;
 }
 
 .list-pages {
@@ -71,18 +102,6 @@
     text-align: center;
 }
 
-.Back {
-    color: #ffffff;
-}
-
-.button-submit {
-    background-color: #006000;
-}
-
-.button-reset {
-    background-color: #ff0000;
-}
-
 .msg {
     text-align:center;
     color: #43a047;
@@ -116,4 +135,12 @@
 
 th, td {
     text-align: center;
+}
+
+.title-table th{
+    color: #ffffff;
+}
+
+table {
+    font-size: 25px;
 }

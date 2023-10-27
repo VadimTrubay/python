@@ -9,7 +9,8 @@
 <h1>Edit Product</h1>
 
 <div class="form-container">
-    <form action="/edit_product/{{ product }}" method="post" class="form-contact">
+    <form action="/edit_product/{{ product }}"
+          method="post" class="form-contact">
         <div class="form-group">
             <label>Product:</label>
             <input type="text" name="product" value="{{ product_data.product }}" required/>
