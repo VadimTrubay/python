@@ -1,5 +1,6 @@
 import os
 import sqlite3
+import time
 from flask import (Flask,
                    render_template,
                    url_for,
@@ -18,6 +19,7 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 app.config.update(DATABASE=os.path.join(app.root_path, 'products_list.db'))
+
 
 def init_db():
     db = connect_db()
@@ -46,8 +48,10 @@ def close_db(error):
 
 
 menu = [
+    {"name": "main", "url": "index.html"},
     {"name": "products", "url": "products.html"},
     {"name": "orders", "url": "orders.html"},
+    {"name": "contacts", "url": "contacts.html"},
 ]
 
 
@@ -56,6 +60,12 @@ menu = [
 def index():
     return render_template(
         'index.html', title='nasha-firma', menu=menu)
+
+
+@app.route("/contacts.html")
+def contacts():
+    return render_template(
+        'contacts.html', title='nasha-firma', menu=menu)
 
 
 @app.route("/products.html", methods=["POST", "GET"])
@@ -74,21 +84,19 @@ def add_product():
         product = request.form.get('product')
         price = request.form.get('price')
         note = request.form.get('note')
-
         conn = get_db()
-        cursor = conn.execute('SELECT product FROM products_list WHERE product = ?', (product,))
+        cursor = conn.execute(
+            'SELECT product FROM products_list WHERE product = ?', (product,))
         existing_product = cursor.fetchone()
-
         if existing_product:
             flash(f'Error: Product "{product}" already exists')
         elif len(product) <= 2:
-            flash('Error: Product name must be at least 3 characters long')
+            flash('Product name must be at least 3 characters long')
         else:
-            conn.execute('INSERT INTO products_list (product, price, note) VALUES (?, ?, ?)', (product, price, note))
+            conn.execute(
+                'INSERT INTO products_list (product, price, note) VALUES (?, ?, ?)', (product, price, note))
             conn.commit()
-            flash('Product added')
             return redirect(url_for('products'))
-
     return render_template(
         'add_product.html', title='Add Product', menu=menu)
 
@@ -105,13 +113,13 @@ def edit_product(product):
                 'UPDATE products_list SET product = ?, price = ?, note = ? WHERE product = ?',
                 (new_product, new_price, new_note, product))
             conn.commit()
-            flash('Product edited')
             return redirect(url_for('products'))
         else:
-            flash('Error editing')
+            flash('Product name must be at least 3 characters long')
     else:
         conn = get_db()
-        cursor = conn.execute('SELECT product, price, note FROM products_list WHERE product = ?', (product,))
+        cursor = conn.execute(
+            'SELECT product, price, note FROM products_list WHERE product = ?', (product,))
         product_data = cursor.fetchone()
         return render_template(
             'edit_product.html', title='Edit product', menu=menu, product=product, product_data=product_data)
@@ -122,12 +130,11 @@ def delete_product(product):
     if request.method == "POST":
         if request.form.get("confirmation") == "yes":
             conn = get_db()
-            conn.execute('DELETE FROM products_list WHERE product = ?', (product,))
+            conn.execute(
+                'DELETE FROM products_list WHERE product = ?', (product,))
             conn.commit()
-            flash('Product deleted')
             return redirect(url_for('products'))
         else:
-            flash('Deletion canceled')
             return redirect(url_for('products'))
     else:
         return render_template('delete_product.html', title='Delete Product', menu=menu, product=product)
@@ -137,7 +144,6 @@ def delete_product(product):
 def orders():
     if request.method == "POST":
         print(request.form["product"])
-
     return render_template(
         'orders.html', title='orders', menu=menu)
 
@@ -155,7 +161,6 @@ def login():
     elif request.method == "POST" and request.form['username'] == 'admin' and request.form['psw'] == '1111':
         session['userLogger'] = request.form['username']
         return redirect(url_for("profile", username=session['userLogger']))
-
     return render_template('login.html', title='authorization', menu=menu)
 
 
@@ -169,9 +174,8 @@ def profile(username):
 @app.route("/logout")
 def logout():
     session.clear()
-    session.pop('username', None)  # Remove user-specific data from the session
-    return redirect(url_for('login', title='profile', menu=menu))  # Redirect to the login page
-
+    session.pop('username', None)
+    return redirect(url_for('login', title='profile', menu=menu))
 
 
 if __name__ == "__main__":

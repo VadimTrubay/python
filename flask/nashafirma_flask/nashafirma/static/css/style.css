@@ -32,7 +32,7 @@
 }
 
 .button-add {
-    color: #122377;
+    color: #ffffff;
     font-size: 25px;
 }
 
@@ -94,17 +94,19 @@
 	box-shadow: none;
 }
 
-.contact-page {
-    text-align: center;
+.menu {
+    font-weight: bold;
+    font-size: 30px;
 }
 
-.phone-page, .mail-page{
+.contact-page {
     text-align: center;
 }
 
 .msg {
     text-align:center;
-    color: #43a047;
+    color: #bc7059;
+    font-style: italic;
 }
 
 .form-container {
@@ -115,22 +117,22 @@
         border-radius: 5px;
     }
 
-    .form-group {
-        margin-bottom: 20px;
-    }
+.form-group {
+    margin-bottom: 20px;
+}
 
-    label {
-        display: block;
-        font-weight: bold;
-        color: #43a047;
-    }
+label {
+    display: block;
+    font-weight: bold;
+    color: #458220;
+}
 
-    input[type="text"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 th, td {
@@ -143,4 +145,9 @@ th, td {
 
 table {
     font-size: 25px;
+}
+
+.wellcome {
+    color: #b7a8a8;
+    font-style: italic;
 }
