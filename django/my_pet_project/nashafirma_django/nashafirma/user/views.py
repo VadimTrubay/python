@@ -38,7 +38,7 @@ class LoginUser(DataMixin, LoginView):
         return context
 
     def get_success_url(self):
-        return reverse_lazy('home_page')
+        return reverse_lazy('home')
 
 
 def logout_user(request):

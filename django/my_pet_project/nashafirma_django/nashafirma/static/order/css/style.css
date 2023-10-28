@@ -8,6 +8,12 @@
     --primary-inverse: #FFF;
 }
 
+.authorization {
+    float: right;
+    color: #73bad6;
+    font-size: 23px;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -54,8 +60,8 @@ a:hover {
 
 .lable-firma {
     font-family: 'Courier New', Courier, monospace;
-    color: #ffffff;
-    font-size: 56px;
+    color: #50c139;
+    font-size: 44px;
 }
 
 .list-pages {
@@ -138,7 +144,7 @@ a:hover {
 
 .form-container {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 25px auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -322,4 +328,10 @@ footer p {
 
 .container {
     padding-top: 5px;
+    margin-top: 10px;
+}
+
+
+.content {
+    height: 500px;
 }

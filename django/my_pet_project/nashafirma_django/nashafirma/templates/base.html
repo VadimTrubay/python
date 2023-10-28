@@ -23,20 +23,21 @@
                     </li>
                     {% endfor %}
                 </ul>
-                </div>
-           {% if request.user.is_authenticated %}
-            <div class="authorization">
+            </div>
+            <div>
                 <a class="Back" href="javascript:history.back()">&lt;-- Назад</a>
-                <a style="float: right; color: #ffffff" href="{% url 'logout' %}">выйти</a>
-                <span style="float: right; color: #1fab24;">{{ user.username }}&nbsp;|&nbsp;</span>
+            {% if request.user.is_authenticated %}
+                <span class="authorization">{{ user.username }}</span>
+                <a class="authorization" href="{% url 'logout' %}">выйти</a>
                 {% else %}
-                <a style="float: right; color: #ffffff" href="{% url 'register' %}">регистрация</a><span>&nbsp;|&nbsp;</span>
-                <a style="float: right; color: #ffffff" href="{% url 'login' %}">войти</a>
+                <a class="authorization" href="{% url 'register' %}">регистрация</a>
+                <a class="authorization" href="{% url 'login' %}">войти&nbsp;|&nbsp;</a>
                 {% endif %}
                 <hr>
             </div>
 
         </header>
+
         {% block content %} {% endblock content%}
 
         <footer>
@@ -49,13 +50,13 @@
                 <li><a href="#"><ion-icon name="logo-linkedin"><ion-icon></a></li>
                 <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
             </ul>
-            <ul class="menu">
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Orders</a></li>
-                <li><a href="{% url 'contacts' %}">Contact</a></li>
-            </ul>
+                <ul class="menu">
+                    {% for m in menu %}
+                    <li>
+                        <a href="{% url m.url_name %}">{{ m.menu_name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
             <p>©2023 Nasha-firma | All Rights Reserved</p>
         </footer>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
