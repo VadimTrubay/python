@@ -1,51 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"/>
-    <style>
-        /* Green Light scheme (Default) */
-        /* Can be forced with data-theme="light" */
-        [data-theme="light"],
-        :root:not([data-theme="dark"]) {
-          --primary: #43a047;
-          --primary-hover: #388e3c;
-          --primary-focus: rgba(67, 160, 71, 0.125);
-          --primary-inverse: #FFF;
-        }
-    </style>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+    <link href="{% static 'order/css/style.css' %}" rel="stylesheet">
     <title>{{ title }}</title>
 </head>
+
 <body>
-<main class="container">
-    <h1><a href="/">Наша Фирма</a></h1>
+    <main class="container">
+        <header>
+            <h1><a class="lable-firma" href="{% url 'home' %}">Наша Фирма</a></h1>
+            <div class="main-menu">
+                <ul class="menu">
+                    {% for m in menu %}
+                    <li>
+                        <a href="{% url m.url_name %}">{{ m.menu_name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                </div>
+           {% if request.user.is_authenticated %}
+            <div class="authorization">
+                <a class="Back" href="javascript:history.back()">&lt;-- Назад</a>
+                <a style="float: right; color: #ffffff" href="{% url 'logout' %}">выйти</a>
+                <span style="float: right; color: #1fab24;">{{ user.username }}&nbsp;|&nbsp;</span>
+                {% else %}
+                <a style="float: right; color: #ffffff" href="{% url 'register' %}">регистрация</a><span>&nbsp;|&nbsp;</span>
+                <a style="float: right; color: #ffffff" href="{% url 'login' %}">войти</a>
+                {% endif %}
+                <hr>
+            </div>
 
-    {% if request.user.is_authenticated %}
-    <ul>
-        {% for m in menu %}
-        <button class="button-menu">
-            <a style="color: white" href="{% url m.url_name %}">{{ m.title }}</a>
-        </button>
-        {% endfor %}
-    </ul>
+        </header>
+        {% block content %} {% endblock content%}
 
-    <div class="dropdown-content">
-        <a class="Back" href="javascript:history.back()">&lt;-- Назад</a>
-        <a style="float: right;" class="btn btn-outline-primary" href="{% url 'logout' %}">выйти</a>
-        <span style="float: right; color: green;">{{ user.username }}|</span>
-        {% else %}
-        <a class="btn btn-outline-primary" href="{% url 'register' %}">регистрация</a> |
-        <a class="btn btn-outline-primary" href="{% url 'login' %}">войти</a>
-        {% endif %}
-    </div>
-    <hr>
-    {% block content %}
-
-    {% endblock %}
-</main>
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+            </div>
+            <ul class="social">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"><ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="{% url 'contacts' %}">Contact</a></li>
+            </ul>
+            <p>©2023 Nasha-firma | All Rights Reserved</p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </main>
 </body>
+
 </html>

@@ -10,11 +10,21 @@ from django.db.models import Q
 
 
 class HomePage(DataMixin, TemplateView):
-    template_name = 'order/home_page.html'
+    template_name = 'order/index.html'
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='контакты')
+        context_menu = self.get_menu_context(title='Home')
+        context = dict(list(context.items()) + list(context_menu.items()))
+        return context
+
+
+class About(DataMixin, TemplateView):
+    template_name = 'order/about.html'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context_menu = self.get_menu_context(title='About')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -195,7 +205,7 @@ class SearchResultsOrder(DataMixin, ListView):
             if query:
                 queryset = user_orders.filter(
                     Q(user__username__icontains=query) |
-                    Q(created_at__day__icontains=query)|
+                    Q(created_at__day__icontains=query) |
                     Q(done__icontains=query)
                 )
                 queryset = queryset.reverse()
@@ -207,3 +217,17 @@ class SearchResultsOrder(DataMixin, ListView):
         context_menu = self.get_menu_context(title='результаты поиска заказа')
         context.update(context_menu)
         return context
+
+
+class Contacts(DataMixin, TemplateView):
+    template_name = 'order/contacts.html'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context_menu = self.get_menu_context(title='Contacts')
+        context = dict(list(context.items()) + list(context_menu.items()))
+        return context
+
+
+def pageNotFound(request, exception):
+    return render(request, '404.html', status=404)

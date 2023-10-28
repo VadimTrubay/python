@@ -1,57 +1,20 @@
-import os
-import sqlite3
-import time
-from flask import (Flask,
-                   render_template,
+from connect_db import init_db, get_db, app
+from flask import (render_template,
                    url_for,
                    request,
                    flash,
                    session,
                    redirect,
-                   abort,
-                   g)
+                   abort, make_response)
 
 DEBUG = True
-DATABASE = 'products_list.db'
-SECRET_KEY = 'bdrt6567hb45ergstrjh65hytg'
-
-app = Flask(__name__)
-app.config.from_object(__name__)
-
-app.config.update(DATABASE=os.path.join(app.root_path, 'products_list.db'))
-
-
-def init_db():
-    db = connect_db()
-    with app.open_resource('sq_db.sql', mode='r') as fh:
-        db.cursor().executescript(fh.read())
-    db.commit()
-    db.close()
-
-
-def connect_db():
-    conn = sqlite3.connect(app.config['DATABASE'])
-    conn.row_factory = sqlite3.Row
-    return conn
-
-
-def get_db():
-    if not hasattr(g, 'link_db'):
-        g.link_db = connect_db()
-    return g.link_db
-
-
-@app.teardown_appcontext
-def close_db(error):
-    if hasattr(g, 'link_db'):
-        g.link_db.close()
-
 
 menu = [
-    {"name": "main", "url": "index.html"},
-    {"name": "products", "url": "products.html"},
-    {"name": "orders", "url": "orders.html"},
-    {"name": "contacts", "url": "contacts.html"},
+    {"name": "Home", "url": "index.html"},
+    {"name": "About", "url": "about.html"},
+    {"name": "Products", "url": "products.html"},
+    {"name": "Orders", "url": "orders.html"},
+    {"name": "Contacts", "url": "contacts.html"},
 ]
 
 
@@ -59,13 +22,13 @@ menu = [
 @app.route("/index.html")
 def index():
     return render_template(
-        'index.html', title='nasha-firma', menu=menu)
+        'index.html', title='Home', menu=menu)
 
 
 @app.route("/contacts.html")
 def contacts():
     return render_template(
-        'contacts.html', title='nasha-firma', menu=menu)
+        'contacts.html', title='Contacts', menu=menu)
 
 
 @app.route("/products.html", methods=["POST", "GET"])
@@ -74,7 +37,7 @@ def products():
     all_products = conn.execute('SELECT * FROM products_list').fetchall()
     return render_template(
         'products.html',
-        title='products', menu=menu,
+        title='Products', menu=menu,
         products_list=all_products)
 
 
@@ -142,16 +105,18 @@ def delete_product(product):
 
 @app.route("/orders.html", methods=["POST", "GET"])
 def orders():
-    if request.method == "POST":
-        print(request.form["product"])
+    conn = get_db()
+    all_orders = conn.execute('SELECT * FROM orders_list').fetchall()
     return render_template(
-        'orders.html', title='orders', menu=menu)
+        'orders.html',
+        title='Orders', menu=menu,
+        orders_list=all_orders)
 
 
 @app.errorhandler(404)
 def pageNotFount(error):
     return render_template(
-        'page404.html', title='page not fount', menu=menu), 404
+        'page404.html', title='Page not fount', menu=menu), 404
 
 
 @app.route("/login.html", methods=["POST", "GET"])
@@ -161,21 +126,21 @@ def login():
     elif request.method == "POST" and request.form['username'] == 'admin' and request.form['psw'] == '1111':
         session['userLogger'] = request.form['username']
         return redirect(url_for("profile", username=session['userLogger']))
-    return render_template('login.html', title='authorization', menu=menu)
+    return render_template('login.html', title='Authorization', menu=menu)
 
 
 @app.route("/profile/<username>")
 def profile(username):
     if 'userLogger' not in session and session['userLogger'] != username:
         abort(401)
-    return render_template('profile.html', title='profile', menu=menu, username=username)
+    return render_template('profile.html', title='Profile', menu=menu, username=username)
 
 
 @app.route("/logout")
 def logout():
     session.clear()
     session.pop('username', None)
-    return redirect(url_for('login', title='profile', menu=menu))
+    return redirect(url_for('index', title='Home', menu=menu))
 
 
 if __name__ == "__main__":
