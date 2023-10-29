@@ -10,7 +10,7 @@
 
 .authorization {
     float: right;
-    color: #73bad6;
+    color: #15d355;
     font-size: 23px;
 }
 
@@ -25,10 +25,11 @@ a:hover {
 
 .button-submit {
     background-color: #ff0000;
+    font-size: 35px;
 }
 
 .button-reset {
-    background-color: #006000;
+    background-color: #1ddc1d;
 }
 
 .button-container {
@@ -146,7 +147,6 @@ a:hover {
     max-width: 400px;
     margin: 25px auto;
     padding: 20px;
-    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
@@ -333,5 +333,61 @@ footer p {
 
 
 .content {
+    padding: 50px;
     height: 500px;
+}
+
+.user-name {
+    float: right;
+    color: #c8d6dc;
+    font-size: 23px;
+}
+.title {
+    text-align: center;
+    color: #a1c5d4;
+}
+
+.nav-search {
+    border-radius: 25px;
+    right: 22px;
+    line-height: 24px;
+}
+
+.nav-search .form-search {
+    margin-bottom: 0;
+}
+
+span.input-icon {
+    display: flex;
+}
+.input-icon {
+position: relative;
+}
+
+.nav-search .nav-search-input {
+    border: 1px solid #25d465;
+    width: 220px;
+    height: 32px !important;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 12px !important;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #666 !important;
+    z-index: 11;
+    -webkit-transition: width ease .15s;
+    -o-transition: width ease .15s;
+    transition: width ease .15s;
+    margin-left: auto;
+}
+
+.input-icon>input {
+    padding-left: 24px;
+    padding-right: 6px;
+}
+
+.button-add-new-product {
+    margin-top: 30px;
+    margin-left: 12px;
+    max-width: 250px;
 }

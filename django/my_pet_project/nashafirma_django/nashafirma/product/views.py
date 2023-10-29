@@ -13,7 +13,7 @@ class AddProduct(DataMixin, CreateView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='добавить новый продукт')
+        context_menu = self.get_menu_context(title='+ Add new product')
         context = dict(list(context.items()) + list(context_menu.items()))
         # context = context | context_menu
         return context
@@ -27,7 +27,7 @@ class AllProducts(DataMixin, ListView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='продукты')
+        context_menu = self.get_menu_context(title='Products')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -39,7 +39,7 @@ class DeleteProduct(DataMixin, DeleteView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='удалить продукт')
+        context_menu = self.get_menu_context(title='Delete product')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -52,7 +52,7 @@ class EditProduct(DataMixin, UpdateView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='изменить продукт')
+        context_menu = self.get_menu_context(title='Edit product')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -74,6 +74,6 @@ class SearchResultsProduct(DataMixin, ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='результаты поиска продукта')
+        context_menu = self.get_menu_context(title='Result search product')
         context.update(context_menu)
         return context

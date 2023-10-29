@@ -1,6 +1,6 @@
-from django.shortcuts import render, redirect, HttpResponse
+from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
-from django.views.generic import ListView, CreateView, DeleteView, UpdateView, DetailView
+from django.views.generic import CreateView
 from django.urls import reverse_lazy
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.views import LoginView
@@ -17,7 +17,7 @@ class RegisterUser(DataMixin, CreateView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='регистрация')
+        context_menu = self.get_menu_context(title='Registrations')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -33,7 +33,7 @@ class LoginUser(DataMixin, LoginView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='авторизация')
+        context_menu = self.get_menu_context(title='Login')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 

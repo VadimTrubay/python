@@ -40,7 +40,7 @@ class AddOrder(DataMixin, CreateView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='+ добавить новый заказ')
+        context_menu = self.get_menu_context(title='+ Add new order')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -55,12 +55,13 @@ class ViewOrder(DataMixin, DetailView):
         if self.request.user.username == 'admin':
             object_list = self.model.objects.all().reverse()
         else:
-            object_list = self.model.objects.filter(user=self.request.user).reverse()
+            object_list = self.model.objects.filter(
+                user=self.request.user).reverse()
         return object_list
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='просмотр заказа')
+        context_menu = self.get_menu_context(title='View order')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -75,12 +76,13 @@ class AllOrders(DataMixin, ListView):
         if self.request.user.username == 'admin':
             object_list = self.model.objects.all().reverse()
         else:
-            object_list = self.model.objects.filter(user=self.request.user).reverse()
+            object_list = self.model.objects.filter(
+                user=self.request.user).reverse()
         return object_list
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='заказы')
+        context_menu = self.get_menu_context(title='Orders')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -91,7 +93,8 @@ class EditOrder(DataMixin, UpdateView):
     context_object_name = 'order'
 
     def get_success_url(self):
-        referer = self.request.session.get('previous_url')  # Получаем предыдущий URL-адрес из сессии
+        # Получаем предыдущий URL-адрес из сессии
+        referer = self.request.session.get('previous_url')
         if referer:
             return referer
         return reverse_lazy('all_orders')
@@ -103,7 +106,7 @@ class EditOrder(DataMixin, UpdateView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='изменить заказ')
+        context_menu = self.get_menu_context(title='Edit order')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -128,7 +131,7 @@ class EditItemProduct(DataMixin, UpdateView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='изменить продукт')
+        context_menu = self.get_menu_context(title='Edit product')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -140,7 +143,7 @@ class DeleteOrder(DataMixin, DeleteView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='удалить заказ')
+        context_menu = self.get_menu_context(title='Delete order')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -156,7 +159,7 @@ class DeleteItemProduct(DataMixin, DeleteView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='удалить продукт')
+        context_menu = self.get_menu_context(title='Delete product')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -178,7 +181,8 @@ class AddItem(DataMixin, CreateView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='добавить новый продукт в заказ')
+        context_menu = self.get_menu_context(
+            title='+ Add new product to order',)
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 
@@ -214,7 +218,7 @@ class SearchResultsOrder(DataMixin, ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='результаты поиска заказа')
+        context_menu = self.get_menu_context(title='Result search order')
         context.update(context_menu)
         return context
 
