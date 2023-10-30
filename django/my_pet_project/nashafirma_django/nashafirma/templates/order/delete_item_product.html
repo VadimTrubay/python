@@ -2,12 +2,17 @@
 
 {% block content %}
 
-<h4 style="text-align: center;">{{title}} "{{ object.product }}" из заказа "{{ object }}"</h4>
-<form action="" method="post">
-    {% csrf_token %}
-    <p style="text-align: center; color: red">вы действительно хотите удалить "{{ object.product }}"?</p>
-    <button type="submit">да</button>
-    <button type="button" onclick="history.back()">нет</button>
-</form>
+<div class="content">
+    <div class="form-container">
+        <form method="post" action="">
+            {% csrf_token %}
+            <p>are you sure you want to delete the "{{ object.product }}" for order "{{ object }}?</p>
+            <div class="button-container">
+                <button type="reset" class="button" onclick="history.back()">No</button>
+                <button type="submit" class="button">Yes</button>
+            </div>
+        </form>
+    </div>
+</div>
 
 {% endblock content %}

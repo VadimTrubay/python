@@ -2,65 +2,73 @@
 
 {% block content %}
 
-<h4 style="text-align: center;">{{title}} "{{order}}" для пользователя "{{ order.user }}"</h4>
-
-{% if not request.user.username == 'admin' %}
-<button><a style="color:white" href="{% url 'add_item' order.pk %}">добавить продукт в заказ</a></button>
-{% endif %}
-
-<table>
-    <thead>
-    <tr>
-        <th scope="col">№</th>
-        <th scope="col">продукт</th>
-        <th scope="col">вес, кг</th>
-        <th scope="col">цена, грн</th>
-        <th scope="col">стоимость, грн</th>
-        <th scope="col">примечание</th>
-        <th scope="col">изменить</th>
-        <th scope="col">удалить</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for product in order.orderitem_set.all %}
-    <tr>
-        <th scope="row">{{ forloop.counter }}</th>
-        <th><a href="{% url 'edit_item_product' product.pk %}">{{ product.product }}</a></th>
-        <th scope="row">{{product.weight}}</th>
-        <th scope="row">{{product.product.price}}</th>
-        <th scope="row">{{ product.calculate_sum}}</th>
-        <th scope="row">{{product.note}}</th>
-        <td scope="row">
-            <a style="color:#2d457d" href="{% url 'edit_item_product' product.pk %}">
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 20h9"></path>
-                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
-                </svg>
-            </a>
-        </td>
-        <td scope="row">
-            <a style="color:#b43636" href="{% url 'delete_item_product' product.pk %}">
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                    <polyline points="3 6 5 6 21 6"></polyline>
-                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                    <line x1="10" y1="11" x2="10" y2="17"></line>
-                    <line x1="14" y1="11" x2="14" y2="17"></line>
-                </svg>
-            </a>
-        </td>
-    </tr>
-    {% endfor %}
-    </tbody>
-    <tfoot>
-    <tr>
-        <th style="color:green">Итого:</th>
-        <td></td>
-        <td style="color:red">{{ order.calculate_total_weight }}</td>
-        <td></td>
-        <td style="color:red">{{ order.calculate_total_sum }}</td>
-        <td></td>
-    </tr>
-    </tfoot>
-</table>
-
+<br>
+<div class="content">
+    <h5 style="text-align: center;">{{title}} "{{order}}" for user "{{ order.user }}"</h5>
+    {% if not request.user.username == 'admin' %}
+    <button class="button-add-new-product">
+        <a style="color: #ffffff;" href="{% url 'add_item' order.pk %}">+ Add product to order</a>
+    </button>
+    {% endif %}
+    {% if order %}
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>product</th>
+                <th>weight</th>
+                <th>price</th>
+                <th>total</th>
+                <th>note</th>
+                <th>edit</th>
+                <th>delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product in order.orderitem_set.all %}
+            <tr>
+                <th>{{ forloop.counter }}</th>
+                <th><a href="{% url 'edit_item_product' product.pk %}">{{ product.product }}</a></th>
+                <th>{{product.weight}}</th>
+                <th>{{product.product.price}}</th>
+                <th>{{ product.calculate_sum}}</th>
+                <th>{{product.note}}</th>
+                <td>
+                    <a href="{% url 'edit_item_product' product.pk %}">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 20h9"></path>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                    </a>
+                </td>
+                <td scope="row">
+                    <a href="{% url 'delete_item_product' product.pk %}">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                            </path>
+                            <line x1="10" y1="11" x2="10" y2="17"></line>
+                            <line x1="14" y1="11" x2="14" y2="17"></line>
+                        </svg>
+                    </a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Итого:</th>
+                <td></td>
+                <td>{{ order.calculate_total_weight }}</td>
+                <td></td>
+                <td>{{ order.calculate_total_sum }}</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+    {% endif %}
 {% endblock %}

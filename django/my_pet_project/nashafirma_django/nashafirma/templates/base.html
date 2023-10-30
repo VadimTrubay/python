@@ -14,16 +14,45 @@
 <body>
     <main class="container">
         <header>
-            <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
+            {% if request.user.is_authenticated %}
+            {% if request.path == '/all_products/' or request.path == '/search_product/' %}
             <div class="nav-search" id="nav-search">
-                <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get" action="{% url 'search_results_order' %}">
+                <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
+                <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get"
+                    action="{% url 'search_results_product' %}">
                     <span class="input-icon">
-                        <input type="text" name="search_order" placeholder="Search order..." class="nav-search-input queryField" autocomplete="off">
+                        <input type="text" name="search_product" placeholder="Search product..."
+                            class="nav-search-input queryField" autocomplete="off">
                         <i class="ace-icon fa fa-search nav-search-icon"></i>
                     </span>
                 </form>
             </div>
-
+            {% else %}
+            <div class="nav-search" id="nav-search">
+                <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
+                <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get"
+                    action="{% url 'search_results_order' %}">
+                    <span class="input-icon">
+                        <input type="text" name="search_order" placeholder="Search order..."
+                            class="nav-search-input queryField" autocomplete="off">
+                        <i class="ace-icon fa fa-search nav-search-icon"></i>
+                    </span>
+                </form>
+            </div>
+            {% endif %}
+            {% else %}
+            <div class="nav-search" id="nav-search">
+                <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
+                <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get"
+                    action="">
+                    <span class="input-icon">
+                        <input type="text" name="" placeholder="Search ..." class="nav-search-input queryField"
+                            autocomplete="off">
+                        <i class="ace-icon fa fa-search nav-search-icon"></i>
+                    </span>
+                </form>
+            </div>
+            {% endif %}
             <div class="main-menu">
                 <ul class="menu">
                     {% for m in menu %}

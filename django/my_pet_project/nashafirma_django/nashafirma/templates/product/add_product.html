@@ -2,25 +2,20 @@
 
 {% block content %}
 
-<h4 style="text-align: center;">{{title}}</h4>
-
-<!--<form method="POST" action="{% url 'add_product' %}">-->
-<!--    {% csrf_token %}-->
-
-<!--    <label for="{{ form.product.id_for_label }}">продукт:</label>-->
-<!--    {{ form.product }}-->
-<!--    <span>{{ form.errors.product }}</span><br>-->
-
-<!--    <button type="submit">сохранить</button>-->
-<!--    <button type="reset">сбросить</button>-->
-<!--</form>-->
-
-<form method="POST" action="">
-    {% csrf_token %}
-    <label>{{form.as_p}}</label>
-    <span>{{ form.errors.name }}</span>
-    <button type="submit">сохранить</button>
-    <button type="reset">сбросить</button>
-</form>
+<div class="content">
+    <div class="form-container">
+        <form method="post" action="">
+            {% csrf_token %}
+            {% for f in form %}
+            <p><label for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+            <div class="form-error">{{ f.errors }}</div>
+            {% endfor %}
+            <div class="button-container">
+                <button type="submit" class="button">Save</button>
+                <button type="reset" class="button">Reset</button>
+            </div>
+        </form>
+    </div>
+</div>
 
 {% endblock %}

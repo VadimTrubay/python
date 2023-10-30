@@ -2,14 +2,18 @@
 
 {% block content %}
 
-<h4 style="text-align: center;">{{title}} "{{ object }}" для пользователя "{{ order.user }}"</h4>
-
-<form action="" method="post">
-    {% csrf_token %}
-    <label>{{form.as_p}}</label>
-    <span>{{ form.errors.name }}</span>
-    <button type="submit">изменить</button>
-    <button type="button" onclick="history.back()">назад</button>
-</form>
+<div class="content">
+<h4 style="text-align: center;">{{title}} "{{ object }}" for user "{{ order.user }}"</h4>
+    <div class="form-container">
+        <form method="post" action="">
+            {% csrf_token %}
+            <label>{{form.as_p}}</label>
+            <span>{{ form.errors.name }}</span>
+            <div class="button-container">
+                <button type="submit" class="button">Save</button>
+                <button type="button" class="button" onclick="history.back()">Back</button>
+        </form>
+    </div>
+</div>
 
 {% endblock content %}

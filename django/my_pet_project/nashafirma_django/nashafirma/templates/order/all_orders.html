@@ -2,37 +2,40 @@
 
 {% block content %}
 
+<br>
 <div class="content">
     {% if not request.user.username == 'admin' %}
-    <button><a style="color:white" href="{% url 'add_order' %}">+ Add new order</a></button>
+    <button class="button-add-new-product">
+        <a style="color: #ffffff;" href="{% url 'add_order' %}">+ Add new order</a>
+    </button>
     {% endif %}
-
+    {% if orders %}
     <table>
         <thead>
             <tr>
-                <th scope="col">№</th>
-                <th scope="col">order</th>
-                <th scope="col">user</th>
-                <th scope="col">status</th>
-                <th scope="col">edit</th>
-                <th scope="col">delete</th>
+                <th>№</th>
+                <th>order</th>
+                <th>user</th>
+                <th>status</th>
+                <th>edit</th>
+                <th>delete</th>
             </tr>
         </thead>
         <tbody>
             {% for order in orders %}
             <tr>
-                <th scope="row">{{ forloop.counter }}</th>
-                <td scope="row"><a href="{% url 'view_order' order.pk %}">{{ order.created_at }}</a></td>
-                <td scope="row">{{ order.user }}</td>
-                <td scope="row">
+                <th>{{ forloop.counter }}</th>
+                <td><a href="{% url 'view_order' order.pk %}">{{ order.created_at }}</a></td>
+                <td>{{ order.user }}</td>
+                <td>
                     {% if request.user.username == 'admin' %}
-                    <a style="color:green" href="{% url 'edit_order' order.pk %}">
+                    <a href="{% url 'edit_order' order.pk %}">
                         {% endif %}
-                        {% if order.done %}<span style="color: green;">&#10004;</span>
-                        {% else %}<span style="color: red;">&#10008;</span>{% endif %}</a>
+                        {% if order.done %}<span class="status-done">&#10004;</span>
+                        {% else %}<span class="status-not-done">&#10008;</span>{% endif %}</a>
                 </td>
-                <td scope="row">
-                    <a style="color:#2d457d" href="{% url 'view_order' order.pk %}">
+                <td>
+                    <a href="{% url 'view_order' order.pk %}">
                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
                             stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em"
                             xmlns="http://www.w3.org/2000/svg">
@@ -41,8 +44,8 @@
                         </svg>
                     </a>
                 </td>
-                <td scope="row">
-                    <a style="color:#b43636" href="{% url 'delete_order' order.pk %}">
+                <td>
+                    <a href="{% url 'delete_order' order.pk %}">
                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
                             stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em"
                             xmlns="http://www.w3.org/2000/svg">
@@ -58,6 +61,7 @@
             {% endfor %}
         </tbody>
     </table>
+    {% endif %}
 
     {% if page_obj.has_other_pages %}
     <nav class="list-pages">

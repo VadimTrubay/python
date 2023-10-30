@@ -67,7 +67,7 @@ class ViewOrder(DataMixin, DetailView):
 
 
 class AllOrders(DataMixin, ListView):
-    paginate_by = 10
+    paginate_by = 7
     model = Order
     template_name = 'order/all_orders.html'
     context_object_name = 'orders'
