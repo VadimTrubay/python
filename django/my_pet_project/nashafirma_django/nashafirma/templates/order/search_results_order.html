@@ -4,12 +4,14 @@
 
 <div class="content">
     {% if not request.user.username == 'admin' %}
-    <button><a style="color:white" href="{% url 'add_order' %}">+ Add new order</a></button>
+    <button class="button-add-new-product">
+        <a style="color: #ffffff;" href="{% url 'add_product' %}">+ Add new product</a>
+    </button>
     {% endif %}
     {% if orders %}
     <table>
         <thead>
-            <tr>
+            <tr class="title-table">
                 <th>№</th>
                 <th>order</th>
                 <th>user</th>

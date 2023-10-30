@@ -69,11 +69,11 @@ span.input-icon {
 .nav-search .nav-search-input {
     border: 1px solid #25d465;
     width: 220px;
-    height: 32px !important;
+    height: 45px !important;
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 12px !important;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.3;
     color: #666 !important;
     z-index: 11;
@@ -117,7 +117,8 @@ body {
 
 .content {
     padding: 30px;
-    height: 550px;
+    height: auto;
+    min-height: 550px;
 }
 
 a:hover {
@@ -221,9 +222,13 @@ a:hover {
     color: #ff0000;
 }
 
-.contact-page * {
+.contact-page {
     text-align: center;
     margin: 0;
+}
+
+.contact-page h5 {
+    color: #388e3c;
 }
 
 .msg {
@@ -271,7 +276,8 @@ td {
 }
 
 .title-table th {
-    color: #ffffff;
+    color: #82a3b5;
+    font-size: 25px;
 }
 
 table {

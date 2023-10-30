@@ -1,6 +1,6 @@
 from .models import Product
 from .forms import ProductForm
-from django.views.generic import ListView, CreateView, DeleteView, UpdateView, DetailView
+from django.views.generic import ListView, CreateView, DeleteView, UpdateView
 from django.urls import reverse_lazy
 from utils.utils import DataMixin
 from django.db.models import Q
@@ -27,7 +27,7 @@ class AllProducts(DataMixin, ListView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='Products')
+        context_menu = self.get_menu_context(title='All products')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 

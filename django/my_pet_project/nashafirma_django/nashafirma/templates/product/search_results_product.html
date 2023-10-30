@@ -8,10 +8,11 @@
     <button class="button-add-new-product">
         <a style="color: #ffffff;" href="{% url 'add_product' %}">+ Add new product</a>
     </button>
+    {% endif %}
     {% if products %}
     <table>
         <thead>
-            <tr>
+            <tr class="title-table">
                 <th>№</th>
                 <th>product</th>
                 <th>price</th>
@@ -54,7 +55,7 @@
             {% endfor %}
         </tbody>
     </table>
-    {% endif %}
+
     {% else %}
     {% if products %}
     <table>

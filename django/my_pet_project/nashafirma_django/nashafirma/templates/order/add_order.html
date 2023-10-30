@@ -2,21 +2,20 @@
 
 {% block content %}
 
-<h4 style="text-align:center">{{ title }} для {{user}} --> "{{current_date}}"</h4>
+<div class="content">
+    <h1 style="text-align:center">{{ title }} for "{{user}}" --> "{{current_date}}"</h1>
+    <div class="form-container">
+        <form method="post" action="">
+            {% csrf_token %}
+            <div class="form-error">{{ f.errors }}</div>
+            <div class="button-container">
+                <button type="submit" class="button">Add</button>
+                <button type="reset" class="button" onclick="history.back()">No</button>
+            </div>
+        </form>
+    </div>
+</div>
 
-<!--<form method="POST" action="{% url 'add_order' %}">-->
-<!--    {% csrf_token %}-->
-<!--    <label>{{form.as_p}}</label>-->
-<!--    <span>{{ form.errors.name }}</span>-->
-<!--    <button type="submit">добавить</button>-->
-<!--    <button type="button" onclick="history.back()">назад</button>-->
-<!--</form>-->
 
-
-<form method="POST" action="{% url 'add_order' %}">
-    {% csrf_token %}
-    <button type="submit">добавить</button>
-    <button type="button" onclick="history.back()">назад</button>
-</form>
 
 {% endblock %}

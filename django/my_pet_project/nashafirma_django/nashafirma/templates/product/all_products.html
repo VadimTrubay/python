@@ -4,15 +4,18 @@
 
 <br>
 <div class="content">
+    <div class="contact-page">
+        <h1>{{ title }}</h1>
+    </div>
+    {% if products %}
     {% if request.user.username == 'admin' %}
     <button class="button-add-new-product">
         <a style="color: #ffffff;" href="{% url 'add_product' %}">+ Add new product</a>
     </button>
-    {% endif %}
-    {% if products %}
+
     <table>
         <thead>
-            <tr>
+            <tr class="title-table">
                 <th>№</th>
                 <th>product</th>
                 <th>price</th>
@@ -57,7 +60,7 @@
     </table>
     {% else %}
     <table>
-        <thead>
+        <thead class="title-table">
             <tr>
                 <th>№</th>
                 <th>product</th>
@@ -76,4 +79,5 @@
     </table>
     {% endif %}
 </div>
+{% endif %}
 {% endblock %}

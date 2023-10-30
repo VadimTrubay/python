@@ -4,6 +4,9 @@
 
 <br>
 <div class="content">
+    <div class="contact-page">
+        <h1>{{ title }}</h1>
+    </div>
     {% if not request.user.username == 'admin' %}
     <button class="button-add-new-product">
         <a style="color: #ffffff;" href="{% url 'add_order' %}">+ Add new order</a>
@@ -12,7 +15,7 @@
     {% if orders %}
     <table>
         <thead>
-            <tr>
+            <tr class="title-table">
                 <th>№</th>
                 <th>order</th>
                 <th>user</th>

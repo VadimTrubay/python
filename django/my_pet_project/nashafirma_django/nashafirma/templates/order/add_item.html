@@ -2,32 +2,21 @@
 
 {% block content %}
 
-<h4>{{ title }}</h4>
-
-<!--<form style="width: 50%" method="POST" action="{% url 'add_order' %}">-->
-<!--    {% csrf_token %}-->
-
-<!--    <label for="{{ form.order.id_for_label }}">продукт:</label>-->
-<!--    {{ form.product }}-->
-<!--    <span>{{ form.errors.order }}</span>-->
-
-<!--    <label for="{{ form.weight.id_for_label }}">вес (кг):</label>-->
-<!--    {{ form.weight }}-->
-<!--    <span>{{ form.errors.weight }}</span><br>-->
-
-<!--    <label for="{{ form.done.id_for_label }}">выполнен:</label>-->
-<!--    {{ form.done }}-->
-<!--    <span>{{ form.errors.done }}</span><br>-->
-
-<!--    <button type="submit">сохранить</button>-->
-<!--    <button type="reset">сбросить</button>-->
-<!--</form>-->
-<form method="POST">
-    {% csrf_token %}
-    <label>{{form.as_p}}</label>
-    <span>{{ form.errors.name }}</span>
-    <button type="submit">добавить</button>
-    <button type="reset">сбросить</button>
-</form>
+<div class="content">
+    <h1 style="text-align:center">{{ title }}</h1>
+    <div class="form-container">
+        <form method="post" action="">
+            {% csrf_token %}
+            {% for f in form %}
+            <p><label for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+            <div class="form-error">{{ f.errors }}</div>
+            {% endfor %}
+            <div class="button-container">
+                <button type="submit" class="button">Add</button>
+                <button type="reset" class="button" onclick="history.back()">No</button>
+            </div>
+        </form>
+    </div>
+</div>
 
 {% endblock %}

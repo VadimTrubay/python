@@ -1,11 +1,9 @@
-from django.shortcuts import render, get_object_or_404, redirect, HttpResponse, reverse
-from .models import Order, Product, OrderItem
+from django.shortcuts import render, get_object_or_404, reverse
+from .models import Order, OrderItem
 from .forms import OrderForm, OrderItemForm
 from django.views.generic import ListView, CreateView, TemplateView, DeleteView, UpdateView, DetailView
 from django.urls import reverse_lazy, reverse
 from utils.utils import DataMixin
-from django.http import HttpResponseRedirect
-from django.core.paginator import Paginator
 from django.db.models import Q
 
 
@@ -82,7 +80,7 @@ class AllOrders(DataMixin, ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context_menu = self.get_menu_context(title='Orders')
+        context_menu = self.get_menu_context(title='All orders')
         context = dict(list(context.items()) + list(context_menu.items()))
         return context
 

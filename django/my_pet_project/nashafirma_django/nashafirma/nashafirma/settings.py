@@ -18,9 +18,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'admin_totals',
-    'order',
-    'product',
-    'user',
+    'order.apps.OrderConfig',
+    'product.apps.ProductConfig',
+    'user.apps.UserConfig',
 ]
 
 MIDDLEWARE = [
