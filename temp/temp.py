@@ -244,8 +244,20 @@
 
 
 
+import random
 
+num = random.randint(1, 16)
+print('я умный комп я загадал число, нука отгадай кожаный мешок тупой')
+while True:
 
+    user_num = int(input('введите ваше число>: '))
+    if num > user_num:
+        print('бери больше')
+    elif num < user_num:
+        print('бери меньше')
+    else:
+        print('ты угадал кожаный мешок тупой')
+        break
 
 
 

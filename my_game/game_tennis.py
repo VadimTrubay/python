@@ -61,15 +61,15 @@ class Ball:
         self.canvas.move(self.id, self.x, self.y)
         pos = self.canvas.coords(self.id)
         if pos[1] <= 0:
-            self.y = 1
+            self.y = 2
         if pos[3] >= self.canvas_height:
             self.hit_bottom = True
         if self.hit_paddle(pos) == True:
-            self.y = -1
+            self.y = -2
         if pos[0] <= 0:
-            self.x = 1
+            self.x = 2
         if pos[2] >= self.canvas_width:
-            self.x = -1
+            self.x = -2
 
 
 def start():
