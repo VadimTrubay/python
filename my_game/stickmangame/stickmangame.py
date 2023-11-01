@@ -121,15 +121,15 @@ class StickFigureSprite(Sprite):
 
     def turn_left(self, evt):
         if self.y == 0:
-            self.x = -2
+            self.x = -1
 
     def turn_right(self, evt):
         if self.y == 0:
-            self.x = 2
+            self.x = 1
 
     def jump(self, evt):
         if self.y == 0:
-            self.y = -4
+            self.y = -1
             self.jump_count = 0
 
     def animate(self):
@@ -163,7 +163,7 @@ class StickFigureSprite(Sprite):
         if self.y < 0:
             self.jump_count += 1
             if self.jump_count > 20:
-                self.y = 4
+                self.y = 2
         if self.y > 0:
             self.jump_count -= 1
         co = self.coords()
