@@ -7,14 +7,14 @@
 {% endfor %}
 <h2>Add product</h2>
 <div class="form-container">
-    <form action="/add_product.html" method="post" class="form-contact">
+    <form action="{{url_for('add_product')}}" method="post" class="form-contact">
         <div class="form-group">
             <label>Product:</label>
             <input type="text" name="product" value="" required/>
         </div>
         <div class="form-group">
             <label>Price:</label>
-            <input type="text" name="price" value="0"/>
+            <input type="text" name="price" value="0" required/>
         </div>
         <div class="form-group">
             <label>Note:</label>
