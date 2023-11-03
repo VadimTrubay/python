@@ -3,8 +3,6 @@ from order.views import *
 
 
 urlpatterns = [
-    path('', HomePage.as_view(), name='home'),
-    path('about/', About.as_view(), name='about'),
     path('add_order/', AddOrder.as_view(), name='add_order'),
     path('view_order/<int:pk>/', ViewOrder.as_view(), name='view_order'),
     path('all_orders/', AllOrders.as_view(), name='all_orders'),
@@ -14,5 +12,4 @@ urlpatterns = [
     path('edit_order/<int:pk>/', EditOrder.as_view(), name='edit_order'),
     path('add_item/<int:pk>/', AddItem.as_view(), name='add_item'),
     path('search_order/', SearchResultsOrder.as_view(), name='search_results_order'),
-    path('contacts/', Contacts.as_view(), name='contacts'),
 ]

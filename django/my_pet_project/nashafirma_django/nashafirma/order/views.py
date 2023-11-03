@@ -1,10 +1,11 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from .models import Order, OrderItem
-from .forms import OrderForm, OrderItemForm
 from django.views.generic import ListView, CreateView, TemplateView, DeleteView, UpdateView, DetailView
 from django.urls import reverse_lazy, reverse
 from utils.utils import DataMixin
 from django.db.models import Q
+
+from .models import Order, OrderItem
+from .forms import OrderForm, OrderItemForm
 
 
 class HomePage(DataMixin, TemplateView):

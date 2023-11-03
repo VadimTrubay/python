@@ -16,7 +16,7 @@
         <header>
             {% if request.user.is_authenticated %}
             {% if request.path == '/all_products/' or request.path == '/search_product/' %}
-            <div class="nav-search" id="nav-search">
+            <div class="nav-search">
                 <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
                 <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get"
                     action="{% url 'search_results_product' %}">
@@ -28,7 +28,7 @@
                 </form>
             </div>
             {% else %}
-            <div class="nav-search" id="nav-search">
+            <div class="nav-search">
                 <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
                 <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get"
                     action="{% url 'search_results_order' %}">
@@ -55,17 +55,20 @@
             {% endif %}
             <div class="main-menu">
                 <ul class="menu">
-                    {% for m in menu %}
                     <li>
-                        {% if not request.user.is_authenticated %}
-                        {% if m.menu_name != 'Orders' %}
-                        <a href="{% url m.url_name %}">{{ m.menu_name }}</a>
-                        {% endif %}
-                        {% else %}
-                        <a href="{% url m.url_name %}">{{ m.menu_name }}</a>
-                        {% endif %}
-                    </li>
-                    {% endfor %}
+                {% if not request.user.is_authenticated %}
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'all_products' %}">Products</a></li>
+                    <li><a href="{% url 'contacts' %}">Contacts</a></li>
+                {% else %}
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'all_products' %}">Products</a></li>
+                    <li><a href="{% url 'all_orders' %}">Orders</a></li>
+                    <li><a href="{% url 'profile details' request.user.pk %}"><span>Profile</span></a>
+                    <li><a href="{% url 'contacts' %}">Contacts</a></li>
+                    {% endif %}
                 </ul>
             </div>
             <div>

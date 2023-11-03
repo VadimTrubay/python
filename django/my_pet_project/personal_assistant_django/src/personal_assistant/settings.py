@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os.path
 import logging
-import openai
+# import openai
 import os
 from pathlib import Path
 import environ

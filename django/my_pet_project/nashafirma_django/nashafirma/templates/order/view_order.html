@@ -31,7 +31,7 @@
                 <th><a href="{% url 'edit_item_product' product.pk %}">{{ product.product }}</a></th>
                 <th>{{product.weight}}</th>
                 <th>{{product.product.price}}</th>
-                <th>{{ product.calculate_sum}}</th>
+                <th>{{ product.calculate_total}}</th>
                 <th>{{product.note}}</th>
                 <td>
                     <a href="{% url 'edit_item_product' product.pk %}">
@@ -63,9 +63,9 @@
             <tr>
                 <th>Итого:</th>
                 <td></td>
-                <td>{{ order.calculate_total_weight }}</td>
+                <td>{{ order.calculate_sum_weight }}</td>
                 <td></td>
-                <td>{{ order.calculate_total_sum }}</td>
+                <td>{{ order.calculate_sum_total }}</td>
                 <td></td>
             </tr>
         </tfoot>

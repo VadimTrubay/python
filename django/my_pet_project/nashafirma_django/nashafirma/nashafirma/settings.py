@@ -18,9 +18,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'admin_totals',
-    'order.apps.OrderConfig',
-    'product.apps.ProductConfig',
-    'user.apps.UserConfig',
+    'order',
+    'product',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -33,8 +33,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Используем базу данных для хранения сессий
-# SESSION_EXPIRE_AT_BROWSER_CLOSE = True  # Сессия будет истекать при закрытии браузера
 
 ROOT_URLCONF = 'nashafirma.urls'
 
@@ -123,18 +121,24 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(
     BASE_DIR, 'media', )
 
+
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-INTERNAL_IPS = [
-    '127.0.0.1',
-]
+AUTH_USER_MODEL = 'user.SiteUser'
 
-# CACHES = {
-#     'default': {
-#         'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
-#         'LOCATION': os.path.join(BASE_DIR, 'coolsite_cache'),
-#     }
-# }
+LOGIN_URL = 'login'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'myrestaurant010@gmail.com'
+EMAIL_HOST_PASSWORD = 'iijuiwqqzbkqievm'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+

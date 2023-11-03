@@ -2,12 +2,12 @@ from django.db import models
 from django.urls import reverse
 from product.models import Product
 from datetime import datetime, timedelta
-from django.contrib.auth.models import User
+from user.models import SiteUser
 
 
 class Order(models.Model):
     created_at = models.DateField(auto_now_add=True, verbose_name='создан')
-    user = models.ForeignKey(User, blank=True, null=True, on_delete=models.CASCADE, verbose_name='заказчик')
+    user = models.ForeignKey(SiteUser, blank=True, null=True, on_delete=models.CASCADE, verbose_name='заказчик')
     products = models.ManyToManyField(Product, through='OrderItem', verbose_name='продукты')
     done = models.BooleanField(default=False, verbose_name='выполнен')
 
@@ -18,14 +18,11 @@ class Order(models.Model):
     def get_absolute_url(self):
         return reverse('view_order', kwargs={'pk': self.pk})
 
-    def calculate_total_weight(self):
+    def calculate_sum_weight(self):
         return sum(item.weight for item in self.orderitem_set.all())
 
-    # def calculate_total_price(self):
-    #     return sum(item.product.price for item in self.orderitem_set.all())
-
-    def calculate_total_sum(self):
-        return round(sum(item.calculate_sum() for item in self.orderitem_set.all()), 2)
+    def calculate_sum_total(self):
+        return round(sum(item.calculate_total() for item in self.orderitem_set.all()), 2)
 
     class Meta:
         verbose_name = 'заказ'
@@ -45,7 +42,7 @@ class OrderItem(models.Model):
     def get_absolute_url(self):
         return reverse('view_order', kwargs={'pk': self.pk})
 
-    def calculate_sum(self):
+    def calculate_total(self):
         return round(self.product.price * self.weight, 2)
 
     class Meta:

@@ -290,6 +290,13 @@ table {
     color: #c8d6dc;
     font-size: 23px;
 }
+
+.profile-left {
+    float: left;
+
+.profile-right {
+    float: right;
+
 .title {
     text-align: center;
     color: #a1c5d4;
