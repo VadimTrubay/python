@@ -53,10 +53,10 @@ def new_post():
     return render_template('add_post.html')
 
 
-@app.before_first_request
-def before_first_request():
-    init_db()
+# @app.before_first_request
+# def before_first_request():
+#     init_db()
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, host='127.0.0.1', port=8080 )
