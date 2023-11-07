@@ -24,6 +24,7 @@ a {
     font-size: 1.3em;
 }
 .container {
+    display: inline-block;
     margin: auto;
 }
 
@@ -32,22 +33,37 @@ a {
     color: #50c139;
     font-size: 44px;
 }
-.main-menu {
-    position: relative;
-    /*относительное позиционирование*/
-    width: 100%;
-    /*на всю ширину*/
-    padding: 20px 50px;
-    /*поля для контента*/
-    background: #000000;
-    /*цвет футера*/
+
+/* Center-align the menu items in a single row */
+.main-menu ul.menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
     display: flex;
     justify-content: center;
-    /*в центре по горизонтали*/
     align-items: center;
-    /*в центре по вертикали*/
-    flex-direction: column;
 }
+
+.main-menu ul.menu li {
+    margin: 0 15px;
+}
+
+.main-menu ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    opacity: 0.75;
+}
+
+.main-menu ul.menu li a:hover {
+    opacity: 1;
+}
+
+.menu li,
+.menu li a {
+    list-style: none;
+}
+
 .nav-search {
     border-radius: 25px;
     right: 22px;
@@ -64,6 +80,10 @@ span.input-icon {
 
 .input-icon {
     position: relative;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .nav-search .nav-search-input {
@@ -142,11 +162,22 @@ a:hover {
     /* Выравниваем кнопки по горизонтали по центру */
 }
 
-.button {
-    margin: 30px 30px 30px 30px;
-    padding: 10px;
-    display: inline-block;
+.button-left {
+    display: flex;
+    /* Устанавливаем контейнеру flex-контейнером */
+    justify-content: left;
+    /* Выравниваем кнопки по горизонтали по центру */
+    weight: 50%;
 }
+
+
+.button-right {
+    display: flex;
+    /* Устанавливаем контейнеру flex-контейнером */
+    justify-content: right;
+    /* Выравниваем кнопки по горизонтали по центру */
+}
+
 
 .button-add {
     color: #ffffff;
@@ -292,7 +323,7 @@ table {
 }
 
 .profile-left {
-    float: left;
+    display: inline;
 
 .profile-right {
     float: right;
@@ -307,11 +338,6 @@ table {
     padding-right: 6px;
 }
 
-.button-add-new-product {
-    margin-top: 10px;
-    margin-left: 12px;
-    max-width: 250px;
-}
 /* body styles */
 
 /* footer styles */
@@ -345,65 +371,6 @@ footer .wave {
     /*картинка волны*/
     background-size: 1000px 100px;
     /*ширина и высота волны*/
-}
-
-.social,
-.menu {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
-    /*разрешен перенос на новую строку*/
-}
-
-.social li,
-.menu li {
-    list-style: none;
-    /*удалить черные маркеры*/
-}
-
-.social li a {
-    font-size: 2em;
-    /*размер иконок*/
-    color: #fff;
-    /*цвет иконок*/
-    margin: 0 10px;
-    display: inline-block;
-    /*отображать как строчно-блочный элемент*/
-    transition: 0.5s;
-    /*плавный переход*/
-}
-
-.menu li a {
-    font-size: 1.2em;
-    /*размер ссылок меню*/
-    color: #fff;
-    /*цвет ссылок меню*/
-    opacity: 0.75;
-    /*значение прозрачности*/
-    margin: 0 15px;
-    text-decoration: none;
-    /*ссылка без подчеркивания*/
-    display: inline-block;
-}
-
-.main-menu li a {
-    font-size: 1.6em;
-    /*размер ссылок меню*/
-    color: #fff;
-    /*цвет ссылок меню*/
-    opacity: 0.75;
-    /*значение прозрачности*/
-    margin: 0 15px;
-    text-decoration: none;
-    /*ссылка без подчеркивания*/
-    display: inline-block;
-}
-
-.menu li a:hover {
-    opacity: 1;
 }
 
 footer p {
