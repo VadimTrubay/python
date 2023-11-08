@@ -16,7 +16,7 @@
         <header>
             {% if request.user.is_authenticated %}
             {% if request.path == '/products/all_products/' or request.path == '/products/search_product/' %}
-            <div class="nav-search" id="nav-search">
+            <div class="nav-search">
                 <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
                 <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get"
                     action="{% url 'search_results_product' %}">
@@ -28,7 +28,7 @@
                 </form>
             </div>
             {% else %}
-            <div class="nav-search" id="nav-search">
+            <div class="nav-search">
                 <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
                 <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get"
                     action="{% url 'search_results_order' %}">

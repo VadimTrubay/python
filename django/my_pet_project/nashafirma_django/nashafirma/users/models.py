@@ -5,6 +5,11 @@ from django.db import models
 from users.validators import validate_file_size
 
 
+def user_directory_path(instance, filename):
+    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
+    return "user_{0}/{1}".format(instance.username, filename)
+
+
 class SiteUser(AbstractUser):
     MAX_LEN_USERNAME = 20
     MIN_LEN_USERNAME = 2
@@ -47,7 +52,7 @@ class SiteUser(AbstractUser):
         default="",
     )
     profile_picture = models.ImageField(
-        upload_to="profile_pictures",
+        upload_to=user_directory_path,
         default="profile_pictures/profile_picture_default.jpg",
         null=True,
         blank=True,

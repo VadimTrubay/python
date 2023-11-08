@@ -7,11 +7,10 @@
     <div class="container">
         <div class="profile-left">
             <h1>{{ title }}</h1>
-            {% if profile.profile_picture %}
-            <img src="{{ profile.profile_picture.url }}" alt="profile_picture">
+            {% if user.profile_picture %}
+                <img src="{{ user.profile_picture.url }}" alt="profile_picture">
             {% else %}
-            <img src="/media/profile_pictures/profile_picture_default.jpg"
-                 alt="profile_picture">
+                <img src="{% static 'profile_pictures/profile_picture_default.jpg' %}" alt="profile_picture">
             {% endif %}
             <h3>{{ user.first_name }} {{ user.last_name }}</h3>
             <p><strong>Username</strong>: {{ user.username }}</p>

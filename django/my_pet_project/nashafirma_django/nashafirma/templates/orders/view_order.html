@@ -1,7 +1,23 @@
 {% extends "base.html" %}
 
 {% block content %}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var productNotes = document.querySelectorAll(".product-note");
 
+    productNotes.forEach(function(note) {
+        note.addEventListener("mouseover", function() {
+            note.querySelector(".truncated-text").style.display = "none";
+            note.querySelector(".full-text").style.display = "inline";
+        });
+
+        note.addEventListener("mouseout", function() {
+            note.querySelector(".full-text").style.display = "none";
+            note.querySelector(".truncated-text").style.display = "inline";
+        });
+    });
+});
+</script>
 <br>
 <div class="content">
     <h5 class="center">{{title}} "{{order}}" for user "{{ order.user }}"</h5>
@@ -32,7 +48,12 @@
                 <th>{{product.weight}}</th>
                 <th>{{product.product.price}}</th>
                 <th>{{ product.calculate_total}}</th>
-                <th>{{product.note}}</th>
+<th>
+    <a href="{% url 'edit_item_product' product.pk %}" class="product-note">
+        <span class="truncated-text">{{ product.note | truncatewords:3 }}</span>
+        <span class="full-text" style="display: none;">{{ product.note }}</span>
+    </a>
+</th>
                 <td>
                     <a href="{% url 'edit_item_product' product.pk %}">
                         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"

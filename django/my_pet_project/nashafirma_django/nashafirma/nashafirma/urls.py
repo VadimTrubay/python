@@ -3,7 +3,10 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 
-from orders.views import HomeView, AboutView, ContactsView, pageNotFound
+from orders.views import (HomeView,
+                          AboutView,
+                          ContactsView,
+                          pageNotFound)
 
 urlpatterns = [
                   path("admin/", admin.site.urls),
