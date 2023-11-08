@@ -63,6 +63,7 @@ class ProfileDetailView(LoginRequiredMixin, UserPassesTestMixin, view.DetailView
 
 
 class EditProfileView(LoginRequiredMixin, UserPassesTestMixin, view.UpdateView):
+    title = "Edit profile"
     model = SiteUser
     form_class = EditProfileForm
     template_name = "users/edit-profile.html"
@@ -75,6 +76,7 @@ class EditProfileView(LoginRequiredMixin, UserPassesTestMixin, view.UpdateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
+        context['title'] = self.title
         context["user"] = self.object
         return context
 
@@ -83,17 +85,15 @@ class EditProfileView(LoginRequiredMixin, UserPassesTestMixin, view.UpdateView):
 
 
 class DeleteProfileView(LoginRequiredMixin, UserPassesTestMixin, view.DeleteView):
+    title = "Delete profile"
     model = SiteUser
     template_name = "users/delete-profile.html"
-    context_object_name = "user"
+    success_url = reverse_lazy("login")
 
-    def get_object(self, queryset=None):
-        pk = self.kwargs.get("pk")
-        profile = get_object_or_404(SiteUser, pk=pk)
-        return profile
-
-    def get_success_url(self):
-        return reverse_lazy("home")
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = self.title
+        return context
 
     def test_func(self):
         return self.request.user.pk == self.kwargs.get("pk")

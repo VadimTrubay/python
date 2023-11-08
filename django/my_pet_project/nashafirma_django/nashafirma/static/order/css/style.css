@@ -146,44 +146,6 @@ a:hover {
 }
 
 
-.button-submit {
-    background-color: #ff0000;
-    font-size: 35px;
-}
-
-.button-reset {
-    background-color: #1ddc1d;
-}
-
-.button-container {
-    display: flex;
-    /* Устанавливаем контейнеру flex-контейнером */
-    justify-content: center;
-    /* Выравниваем кнопки по горизонтали по центру */
-}
-
-.button-left {
-    display: flex;
-    /* Устанавливаем контейнеру flex-контейнером */
-    justify-content: left;
-    /* Выравниваем кнопки по горизонтали по центру */
-    weight: 50%;
-}
-
-
-.button-right {
-    display: flex;
-    /* Устанавливаем контейнеру flex-контейнером */
-    justify-content: right;
-    /* Выравниваем кнопки по горизонтали по центру */
-}
-
-
-.button-add {
-    color: #ffffff;
-    font-size: 25px;
-}
-
 .button-menu {
     color: #ffffff;
     font-size: 34px;

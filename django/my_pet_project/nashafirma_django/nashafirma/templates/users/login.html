@@ -12,13 +12,14 @@
             {% endfor %}
             <div class="button-container">
                 <button type="submit" class="button">Login</button>
-                <button type="reset" class="button">Reset</button>
             </div>
-            <div>
-                <a href="{% url 'password_reset' %}" class="text-center">
+            <br>
+            <div class="text-center">
+                <a href="{% url 'password_reset' %}">
                     <i>Forgot Password?</i>
                 </a>
             </div>
+            <br>
             <div class="text-center">
                 <a href="{% url 'register' %}" class="text-center">
                     <i>Don't have account yet?</i>

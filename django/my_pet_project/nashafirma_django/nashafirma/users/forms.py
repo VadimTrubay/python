@@ -14,25 +14,25 @@ class RegistrationForm(UserCreationForm):
         model = UserModel
         fields = (
             "username",
-            "first_name",
-            "last_name",
+            # "first_name",
+            # "last_name",
             "email",
-            "telephone_number",
+            # "telephone_number",
             "password1",
             "password2",
         )
 
-    def __init__(self, *args, **kwargs):
-        super(RegistrationForm, self).__init__(*args, **kwargs)
-        self.fields["username"].widget.attrs["placeholder"] = "Enter username"
-        self.fields["first_name"].widget.attrs["placeholder"] = "Enter first name"
-        self.fields["last_name"].widget.attrs["placeholder"] = "Enter last name"
-        self.fields["email"].widget.attrs["placeholder"] = "Enter email"
-        self.fields["telephone_number"].widget.attrs[
-            "placeholder"
-        ] = "Enter phone number"
-        self.fields["password1"].widget.attrs["placeholder"] = "Enter password"
-        self.fields["password2"].widget.attrs["placeholder"] = "Confirm password"
+    # def __init__(self, *args, **kwargs):
+    #     super(RegistrationForm, self).__init__(*args, **kwargs)
+    #     self.fields["username"].widget.attrs["placeholder"] = "Enter username"
+    #     self.fields["first_name"].widget.attrs["placeholder"] = "Enter first name"
+    #     self.fields["last_name"].widget.attrs["placeholder"] = "Enter last name"
+    #     self.fields["email"].widget.attrs["placeholder"] = "Enter email"
+    #     self.fields["telephone_number"].widget.attrs[
+    #         "placeholder"
+    #     ] = "Enter phone number"
+    #     self.fields["password1"].widget.attrs["placeholder"] = "Enter password"
+    #     self.fields["password2"].widget.attrs["placeholder"] = "Confirm password"
 
 
 class LoginForm(AuthenticationForm):

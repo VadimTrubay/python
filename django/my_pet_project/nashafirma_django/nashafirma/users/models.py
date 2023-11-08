@@ -19,6 +19,12 @@ class SiteUser(AbstractUser):
     MIN_LEN_SECOND_NAME = 2
     MIN_LEN_TELEPHONE_NUMBER = 7
 
+    username = models.CharField(
+        unique=True,
+        max_length=MAX_LEN_USERNAME,
+        validators=(validators.MinLengthValidator(MIN_LEN_USERNAME),),
+        default="",
+    )
     email = models.EmailField(
         null=False,
         blank=False,
@@ -44,12 +50,6 @@ class SiteUser(AbstractUser):
         blank=True,
         max_length=15,
         validators=(validators.MinLengthValidator(MIN_LEN_TELEPHONE_NUMBER),),
-    )
-    username = models.CharField(
-        unique=True,
-        max_length=MAX_LEN_USERNAME,
-        validators=(validators.MinLengthValidator(MIN_LEN_USERNAME),),
-        default="",
     )
     profile_picture = models.ImageField(
         upload_to=user_directory_path,
