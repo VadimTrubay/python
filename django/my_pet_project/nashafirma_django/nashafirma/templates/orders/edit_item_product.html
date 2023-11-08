@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class="content">
-    <h4 style="text-align: center;">{{title}} "{{ object.product }}" for order "{{ object }}"</h4>
+    <h4 class="center">{{title}} "{{ object.product }}" for order "{{ object }}"</h4>
     <div class="form-container">
         <form method="post" action="">
             {% csrf_token %}

@@ -3,6 +3,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import text
 import uvicorn
 
+
+
 app = FastAPI()
 
 

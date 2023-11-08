@@ -4,7 +4,7 @@
 
 <br>
 <div class="content">
-    <div class="contact-page">
+    <div>
         <h1>{{ title }}</h1>
     </div>
 
@@ -12,6 +12,8 @@
     <button role="button">
         <a style="color: #ffffff;" href="{% url 'add_order' %}">+ Add new order</a>
     </button>
+    {% endif %}
+
     <table>
         <thead>
         <tr class="title-table">
@@ -63,7 +65,6 @@
         {% endfor %}
         </tbody>
     </table>
-    {% endif %}
 
     {% if page_obj.has_other_pages %}
     <nav class="list-pages">

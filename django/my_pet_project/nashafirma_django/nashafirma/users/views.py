@@ -21,20 +21,6 @@ def get_profile(pk):
         return None
 
 
-# def register(request):
-#     if request.user.is_authenticated:
-#         return redirect('home')
-#
-#     if request.method == 'POST':
-#         form = RegistrationForm(request.POST)
-#         if form.is_valid():
-#             form.save()
-#             return redirect(to='home')
-#         else:
-#             return render(request, 'user/register.html', context={"form": form})
-#
-#     return render(request, 'user/register.html', context={"form": RegistrationForm()})
-
 class UserRegistrationView(view.CreateView):
     model = UserModel
     template_name = "users/register.html"
@@ -47,21 +33,6 @@ class UserRegistrationView(view.CreateView):
         return response
 
 
-# def login_user(request):
-#     if request.user.is_authenticated:
-#         return redirect(to='home')
-#
-#     if request.method == 'POST':
-#         user = authenticate(username=request.POST['username'], password=request.POST['password'])
-#         if user is None:
-#             messages.error(request, 'Username or password didn\'t match')
-#             return redirect(to='login')
-#
-#         login(request, user)
-#         return redirect(to='home')
-#
-#     return render(request, 'user/login.html', context={"form": forms.LoginForm()})
-
 class UserLoginView(auth_views.LoginView):
     form_class = LoginForm
     template_name = "users/login.html"
@@ -71,15 +42,15 @@ class UserLoginView(auth_views.LoginView):
 
 
 class ProfileDetailView(LoginRequiredMixin, UserPassesTestMixin, view.DetailView):
+    title = "Profile"
     model = SiteUser
     template_name = "users/profile-details.html"
     context_object_name = "users"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-
         context["is_owner"] = self.request.user == self.object
-
+        context["title"] = self.title
         return context
 
     def get_object(self, queryset=None):
