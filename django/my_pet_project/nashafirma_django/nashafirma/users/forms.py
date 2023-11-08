@@ -6,10 +6,14 @@ from django.contrib.auth.forms import (
     UsernameField,
 )
 
+from captcha.fields import CaptchaField
+
 UserModel = get_user_model()
 
 
 class RegistrationForm(UserCreationForm):
+    captcha = CaptchaField()
+
     class Meta:
         model = UserModel
         fields = (
@@ -36,6 +40,7 @@ class RegistrationForm(UserCreationForm):
 
 
 class LoginForm(AuthenticationForm):
+    captcha = CaptchaField()
     username = UsernameField(
         widget=forms.TextInput(attrs={"autofocus": True, "placeholder": "Username"})
     )

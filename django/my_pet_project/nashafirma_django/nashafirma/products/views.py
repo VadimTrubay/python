@@ -71,7 +71,8 @@ class SearchResultsProductView(ListView):
         query = self.request.GET.get("search_product")
         if query:
             queryset = self.model.objects.filter(
-                Q(product__icontains=query) | Q(price__icontains=query)
+                Q(product__icontains=query) |
+                Q(price__icontains=query)
             )
             return queryset
         return self.model.objects.none()

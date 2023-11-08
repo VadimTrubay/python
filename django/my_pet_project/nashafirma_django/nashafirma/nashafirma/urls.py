@@ -10,6 +10,7 @@ from orders.views import (HomeView,
 
 urlpatterns = [
                   path("admin/", admin.site.urls),
+                  path("captcha/", include("captcha.urls")),
                   path("", HomeView.as_view(), name="home"),
                   path("about/", AboutView.as_view(), name="about"),
                   path("products/", include("products.urls")),

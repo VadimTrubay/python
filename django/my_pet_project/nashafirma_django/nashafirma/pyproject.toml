@@ -13,6 +13,7 @@ admin-totals = "1.0.1"
 psycopg2 = "^2.9.9"
 pillow = "^10.1.0"
 environ = "^1.0"
+django-simple-captcha = "^0.5.20"
 
 
 [build-system]

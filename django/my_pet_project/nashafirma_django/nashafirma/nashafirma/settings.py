@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "admin_totals",
+    "captcha",
     "orders.apps.OrdersConfig",
     "products.apps.ProductsConfig",
     "users.apps.UsersConfig",
@@ -163,3 +164,8 @@ EMAIL_USE_TLS = False
 EMAIL_HOST_USER = env('GMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = env('GMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
+CAPTCHA_FONT_SIZE = 33
+CAPTCHA_LENGTH = 6
+CAPTCHA_LETTER_ROTATION = -66, 66

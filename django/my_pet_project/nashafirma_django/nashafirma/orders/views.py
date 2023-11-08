@@ -204,6 +204,8 @@ class SearchResultsOrderView(ListView):
                 queryset = self.model.objects.all().filter(
                     Q(user__username__icontains=query)
                     | Q(created_at__day__icontains=query)
+                    | Q(created_at__month__icontains=query)
+                    | Q(created_at__year__icontains=query)
                     | Q(done__icontains=query)
                 )
                 queryset = queryset.reverse()
@@ -215,6 +217,8 @@ class SearchResultsOrderView(ListView):
                 queryset = user_orders.filter(
                     Q(user__username__icontains=query)
                     | Q(created_at__day__icontains=query)
+                    | Q(created_at__month__icontains=query)
+                    | Q(created_at__year__icontains=query)
                     | Q(done__icontains=query)
                 )
                 queryset = queryset.reverse()
