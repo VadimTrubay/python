@@ -20,7 +20,7 @@ class AddProductView(CreateView):
 
 class AllProductsView(ListView):
     title = "All products"
-    paginate_by = 10
+    paginate_by = 5
     model = Product
     template_name = "products/all_products.html"
     context_object_name = "products"

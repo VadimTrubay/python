@@ -68,26 +68,26 @@ class EditProfileForm(forms.ModelForm):
             "profile_picture",
         ]
 
-        widgets = {
-            "first_name": forms.TextInput(
-                attrs={"class": "form-control", "placeholder": "Enter your first name"}
-            ),
-            "last_name": forms.TextInput(
-                attrs={"class": "form-control", "placeholder": "Enter your last name"}
-            ),
-            "username": forms.TextInput(
-                attrs={"class": "form-control", "placeholder": "Enter your username"}
-            ),
-            "telephone_number": forms.TextInput(
-                attrs={"class": "form-control", "placeholder": "Enter your number"}
-            ),
-            "email": forms.EmailInput(
-                attrs={
-                    "class": "form-control",
-                    "placeholder": "Enter your email address",
-                }
-            ),
-            "profile_picture": forms.ClearableFileInput(
-                attrs={"class": "form-control"}
-            ),
-        }
+        # widgets = {
+        #     "first_name": forms.TextInput(
+        #         attrs={"class": "form-control", "placeholder": "Enter your first name"}
+        #     ),
+        #     "last_name": forms.TextInput(
+        #         attrs={"class": "form-control", "placeholder": "Enter your last name"}
+        #     ),
+        #     "username": forms.TextInput(
+        #         attrs={"class": "form-control", "placeholder": "Enter your username"}
+        #     ),
+        #     "telephone_number": forms.TextInput(
+        #         attrs={"class": "form-control", "placeholder": "Enter your number"}
+        #     ),
+        #     "email": forms.EmailInput(
+        #         attrs={
+        #             "class": "form-control",
+        #             "placeholder": "Enter your email address",
+        #         }
+        #     ),
+        #     "profile_picture": forms.ClearableFileInput(
+        #         attrs={"class": "form-control"}
+        #     ),
+        # }

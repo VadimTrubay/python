@@ -17,6 +17,7 @@ class SiteUser(AbstractUser):
     MIN_LEN_FIRST_NAME = 2
     MAX_LEN_SECOND_NAME = 25
     MIN_LEN_SECOND_NAME = 2
+    MAX_LEN_TELEPHONE_NUMBER = 15
     MIN_LEN_TELEPHONE_NUMBER = 7
 
     username = models.CharField(
@@ -48,7 +49,7 @@ class SiteUser(AbstractUser):
     telephone_number = models.CharField(
         null=True,
         blank=True,
-        max_length=15,
+        max_length=MAX_LEN_TELEPHONE_NUMBER,
         validators=(validators.MinLengthValidator(MIN_LEN_TELEPHONE_NUMBER),),
     )
     profile_picture = models.ImageField(

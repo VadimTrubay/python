@@ -33,7 +33,7 @@
             <td><a href="{% url 'edit_product' product.pk %}">{{ product.price }}</a>
             </td>
             <td>
-                <a href="{% url 'edit_product' product.pk %}">
+                <a style="color: #115588" href="{% url 'edit_product' product.pk %}">
                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
                          stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em"
                          xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +43,7 @@
                 </a>
             </td>
             <td>
-                <a href="{% url 'delete_product' product.pk %}">
+                <a style="color: #565511" href="{% url 'delete_product' product.pk %}">
                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
                          stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em"
                          xmlns="http://www.w3.org/2000/svg">
@@ -79,5 +79,31 @@
         </tbody>
     </table>
     {% endif %}
+        {% if page_obj.has_other_pages %}
+    <nav class="list-pages">
+        <ul>
+            {% if page_obj.has_previous %}
+            <li class="page-num">
+                <a href="?page={{ page_obj.previous_page_number }}">&lt;</a>
+            </li>
+            {% endif %}
+
+            {% for p in paginator.page_range %}
+            {% if page_obj.number == p %}
+            <li class="page-num page-num-selected">{{ p }}</li>
+            {% elif p >= page_obj.number|add:-2 and p <= page_obj.number|add:2 %} <li class="page-num">
+                <a href="?page={{ p }}">{{ p }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% if page_obj.has_next %}
+            <li class="page-num">
+                <a href="?page={{ page_obj.next_page_number }}">&gt;</a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}
+</div>
 </div>
 {% endblock %}

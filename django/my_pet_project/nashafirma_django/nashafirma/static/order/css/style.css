@@ -82,6 +82,14 @@ span.input-icon {
     position: relative;
 }
 
+.icon-edit {
+    color: #ff00ff
+}
+
+.icon-delete {
+    color: #ff4343f
+}
+
 .text-center {
     text-align: center;
 }
