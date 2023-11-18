@@ -6,7 +6,7 @@
 # from pathlib import Path
 #
 # import openai
-# from aiogram import Bot, Dispatcher, types, executor
+# from aiogram import Bot, Dispatcher, types
 # from aiogram.types import Message, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
 # from django.shortcuts import render, redirect
 # import environ

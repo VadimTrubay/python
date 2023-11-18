@@ -8,6 +8,7 @@
     {% load static %}
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
     <link href="{% static 'order/css/style.css' %}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
     <title>{{ title }}</title>
 </head>
 
@@ -15,7 +16,7 @@
     <main class="container">
         <header>
             {% if request.user.is_authenticated %}
-            {% if request.path == '/all_products/' or request.path == '/search_product/' %}
+            {% if request.path == '/products/all_products/' or request.path == '/products/search_product/' %}
             <div class="nav-search">
                 <h1><a class="lable-firma" href="{% url 'home' %}">Nasha-Firma</a></h1>
                 <form class="form-search" onsubmit="this.sfSbm.disabled=true" method="get"
@@ -55,7 +56,6 @@
             {% endif %}
             <div class="main-menu">
                 <ul class="menu">
-                    <li>
                 {% if not request.user.is_authenticated %}
                     <li><a href="{% url 'home' %}">Home</a></li>
                     <li><a href="{% url 'about' %}">About</a></li>
@@ -86,26 +86,28 @@
 
         {% block content %} {% endblock content%}
 
-        <footer>
-            <ul class="social">
+        <footer class="main-menu">
+            <ul class="menu">
                 <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
                 <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
                 <li><a href="#"><ion-icon name="logo-linkedin"><ion-icon></a></li>
                 <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
             </ul>
             <ul class="menu">
-                {% for m in menu %}
-                <li>
-                    {% if not request.user.is_authenticated %}
-                    {% if m.menu_name != 'Orders' %}
-                    <a href="{% url m.url_name %}">{{ m.menu_name }}</a>
+                {% if not request.user.is_authenticated %}
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'all_products' %}">Products</a></li>
+                    <li><a href="{% url 'contacts' %}">Contacts</a></li>
+                {% else %}
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'all_products' %}">Products</a></li>
+                    <li><a href="{% url 'all_orders' %}">Orders</a></li>
+                    <li><a href="{% url 'profile details' request.user.pk %}"><span>Profile</span></a>
+                    <li><a href="{% url 'contacts' %}">Contacts</a></li>
                     {% endif %}
-                    {% else %}
-                    <a href="{% url m.url_name %}">{{ m.menu_name }}</a>
-                    {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
+                </ul>
             <p>©2023 Nasha-firma | All Rights Reserved</p>
         </footer>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
