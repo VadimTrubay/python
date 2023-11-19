@@ -1,22 +1,35 @@
-from fastapi import FastAPI, Depends, HTTPException, Request
-from fastapi.templating import Jinja2Templates
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse
-from sqlalchemy.orm import Session
-from sqlalchemy import text
-import uvicorn
+import time
 
+from fastapi import FastAPI, Path, Query, Depends, HTTPException, Request
+from sqlalchemy.orm import Session
+
+from nasha_firma_fastapi.database.models import Product
+from nasha_firma_fastapi.database.db import get_db
+from nasha_firma_fastapi.schemas import ProductModel, ResponseProductModel
 
 app = FastAPI()
 
-# staticfiles = StaticFiles(directory="static/css")
-# app.mount("/static", staticfiles, name="static")
-# templates = Jinja2Templates(directory="templates")
+
+@app.middleware("http")
+async def add_process_time_header(request: Request, call_next):
+    start_time = time.time()
+    response = await call_next(request)
+    process_time = time.time() - start_time
+    response.headers["X-Process-Time"] = str(process_time)
+    return response
 
 
-# @app.get("/", response_class=HTMLResponse)
-# async def index(request: Request):
-#     return templates.TemplateResponse("index.html", {"request": request, "title": "Kaustubh Demo", "body_content": "This is the demo for using FastAPI with Jinja templates"})
+@app.get("/api/healthchecker")
+def healthchecker(db: Session = Depends(get_db)):
+    try:
+        # Make request
+        result = db.execute("SELECT 1").fetchone()
+        if result is None:
+            raise HTTPException(status_code=500, detail="Database is not configured correctly")
+        return {"message": "Welcome to FastAPI!"}
+    except Exception as e:
+        print(e)
+        raise HTTPException(status_code=500, detail="Error connecting to the database")
 
 
 @app.get("/")
@@ -24,15 +37,25 @@ async def index():
     return {"message": "Wellcome index"}
 
 
+@app.post("/add_product")
+async def add_product(product: ProductModel, db: Session = Depends(get_db())):
+    new_product = Product(name=product.name, price=product.price)
+    db.add(new_product)
+    db.commit()
+    db.refresh(new_product)
+    return new_product
+
+
 @app.get("/products")
-async def products():
-    return {"message": "Wellcome products"}
+async def all_products(skip: int = 0, limit: int = Query(default=10, le=100, ge=10), db: Session = Depends(get_db)):
+    products = db.query(Product).offset(skip).limit(limit).all()
+    return products
 
 
-@app.get("/product/{product_id}")
-async def get_product(product_id: int):
-    return {"message": product_id}
-
-
-# if __name__ == '__main__':
-#     uvicorn.run('main:app', host=localhost, port=5000, reload=True)
+@app.get("/products/{product_id}", response_model=ResponseProductModel)
+async def read_note(product_id: int = Path(description="The ID of the product to get", gt=0, le=10),
+                    db: Session = Depends(get_db)):
+    product = db.query(Product).filter(Product.id == product_id).first()
+    if product is None:
+        raise HTTPException(status_code=500, detail='Not found')
+    return product
