@@ -376,22 +376,22 @@ def menu(*args):
     print(Fore.RED + f" {' ' * 9}CLI ASSISTANT BOT")
     print(Fore.WHITE + ' ************** NOTEBOOK **************\n',
           Fore.GREEN + ' 1. show all notes\n',
-                       ' 2. add new note\n',
-                       ' 3. add tag for note\n',
-                       ' 4. find note by word\n',
-                       ' 5. find note by tag\n',
-                       ' 6. edit note\n',
-                       ' 7. delete  note\n',
-                       ' 8. clear notebook\n',
-                       ' 9. save notebook\n',
-                       ' 10. load notebook\n',
-                       ' 11. exit\n',
+          ' 2. add new note\n',
+          ' 3. add tag for note\n',
+          ' 4. find note by word\n',
+          ' 5. find note by tag\n',
+          ' 6. edit note\n',
+          ' 7. delete  note\n',
+          ' 8. clear notebook\n',
+          ' 9. save notebook\n',
+          ' 10. load notebook\n',
+          ' 11. exit\n',
           Fore.WHITE + '**************************************\n')
 
 
 def main():
     init()
-    file_name = 'nb_save.bin'
+    file_name = 'save/note_book_save.bin'
     bot = Bot()
     bot.book.load(file_name)
 

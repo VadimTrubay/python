@@ -1,7 +1,7 @@
-from address_book import main as ab
-from note_book import main as nb, NoteBook, Record, Tag
-from files_sort import main as fs
-from calculator import main as calc
+from address_book import main as addressbook
+from note_book import main as notebook
+from files_sort import main as filessort
+from calculator import main as calculat
 import os
 from time import sleep
 from colorama import init, Fore
@@ -23,22 +23,22 @@ def main():
         user_input = input(Fore.BLUE + '  your choose >>>: ')
 
         if user_input == '1':
-            result = ab()
+            result = addressbook()
             if result == 'exit':
                 continue
 
         elif user_input == '2':
-            result = nb()
+            result = notebook()
             if result == 'exit':
                 continue
 
         elif user_input == '3':
-            result = fs()
+            result = filessort()
             if result == 'exit':
                 continue
 
         elif user_input == '4':
-            result = calc()
+            result = calculat()
             if result == 'exit':
                 continue
 

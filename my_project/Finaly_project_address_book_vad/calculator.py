@@ -8,17 +8,17 @@ def about():
     print(Fore.RED + f" {' ' * 18}CLI ASSISTANT BOT")
     print(Fore.WHITE + ' ******************** DESCRIPTION *******************\n',
           Fore.GREEN + ' to use the calculator in the line, enter the\n',
-                            ' mathematical operation of the example "5+12/9",and\n',
-                            ' to get the result of the calculation, press Enter\n',
+          ' mathematical operation of the example "5+12/9",and\n',
+          ' to get the result of the calculation, press Enter\n',
           Fore.WHITE + '****************************************************\n')
 
 
 def menu():
     print(Fore.RED + f" {' ' * 4}CLI ASSISTANT BOT")
     print(Fore.WHITE + ' ****** CALCULATOR ******\n',
-               Fore.GREEN + ' 1. about\n',
-                            ' 2. run calculator\n',
-                            ' 3. exit\n',
+          Fore.GREEN + ' 1. about\n',
+          ' 2. run calculator\n',
+          ' 3. exit\n',
           Fore.WHITE + '************************\n')
 
 

@@ -158,21 +158,21 @@ def delete_empty_folders(path):  # видаляє порожні папки
 def about():
     print(Fore.RED + f" {' ' * 18}CLI ASSISTANT BOT")
     print(Fore.WHITE + ' ********************* DESCRIPTION ********************\n',
-               Fore.GREEN + ' the script helps to sort files in folders according\n',
-                            ' to popular file types as a result, files will be \n',
-                            ' moved into folders: <images>, <documents>,\n',
-                            ' <audio>, <video>, <archives>, <programs>, <unknown>\n',
-                            ' if the folder does\'t contain files of some file\n',
-                            ' type then a new folder for this type will not create\n',
+          Fore.GREEN + ' the script helps to sort files in folders according\n',
+          ' to popular file types as a result, files will be \n',
+          ' moved into folders: <images>, <documents>,\n',
+          ' <audio>, <video>, <archives>, <programs>, <unknown>\n',
+          ' if the folder does\'t contain files of some file\n',
+          ' type then a new folder for this type will not create\n',
           Fore.WHITE + '*******************************************************\n')
 
 
 def menu():
     print(Fore.RED + f" {' ' * 4}CLI ASSISTANT BOT")
     print(Fore.WHITE + ' ****** FILE SORT ******\n',
-               Fore.GREEN + ' 1. about\n',
-                            ' 2. run file sort\n',
-                            ' 3. exit\n',
+          Fore.GREEN + ' 1. about\n',
+          ' 2. run file sort\n',
+          ' 3. exit\n',
           Fore.WHITE + '************************\n')
 
 

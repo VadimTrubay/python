@@ -138,7 +138,12 @@ class AddressBook(UserList):
         for k, v in congratulate.items():
             if len(v):
                 result.append(Fore.GREEN + f"{k}:" + Fore.WHITE + f" {', '.join(v)}")
+
+        if not result:
+            print(Fore.RED + "  contacts not found")
+
         return '  ' + '\n  '.join(result)
+
 
     def days_to_birthday(self, name):
         for contact in self.data:
@@ -490,23 +495,23 @@ def log(command):
 def menu():
     print(Fore.RED + f" {' ' * 9}CLI ASSISTANT BOT")
     print(Style.RESET_ALL + ' ************** ADDRESSBOOK **************\n',
-               Fore.GREEN + ' 1. show all contacts\n',
-                            ' 2. add new contact\n',
-                            ' 3. find contacts by pattern\n',
-                            ' 4. edit contact\n',
-                            ' 5. congratulate contacts\n',
-                            ' 6. days to birthday\n',
-                            ' 7. delete contact\n',
-                            ' 8. clear Addressbook\n',
-                            ' 9. save Addressbook\n',
-                            ' 10. load Addressbook\n',
-                            ' 11. exit\n',
+          Fore.GREEN + ' 1. show all contacts\n',
+          ' 2. add new contact\n',
+          ' 3. find contacts by pattern\n',
+          ' 4. edit contact\n',
+          ' 5. congratulate contacts\n',
+          ' 6. days to birthday\n',
+          ' 7. delete contact\n',
+          ' 8. clear Addressbook\n',
+          ' 9. save Addressbook\n',
+          ' 10. load Addressbook\n',
+          ' 11. exit\n',
           Style.RESET_ALL + '******************************************\n')
 
 
 def main():
     init()
-    file_name = 'ab_save.bin'
+    file_name = 'save/address_book_save.bin'
     bot = Bot()
     bot.book.load(file_name)
 
