@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+clean_folder_Andrii_OSA/__init__.py
+clean_folder_Andrii_OSA/file_parser.py
+clean_folder_Andrii_OSA/main.py
+clean_folder_Andrii_OSA/normalize.py
+clean_folder_Andrii_OSA.egg-info/PKG-INFO
+clean_folder_Andrii_OSA.egg-info/SOURCES.txt
+clean_folder_Andrii_OSA.egg-info/dependency_links.txt
+clean_folder_Andrii_OSA.egg-info/entry_points.txt
+clean_folder_Andrii_OSA.egg-info/not-zip-safe
+clean_folder_Andrii_OSA.egg-info/top_level.txt
