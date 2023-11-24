@@ -1,0 +1,1043 @@
+[2023-11-24] [09:16:15] - address_book_vad_1.0.01 created
+[2023-11-24] [09:17:31] - incorrect value
+[2023-11-24] [09:17:39] - contact vadim added
+[2023-11-24] [09:17:41] - address_book_vad_1.0.01 saved
+[2023-11-24] [09:18:29] - contact vadim edited
+[2023-11-24] [09:18:31] - address_book_vad_1.0.01 saved
+[2023-11-24] [09:21:41] - address_book_vad_1.0.01 loaded
+[2023-11-24] [09:23:27] - address_book_vad_1.0.01 loaded
+[2023-11-24] [09:24:43] - address_book_vad_1.0.01 loaded
+[2023-11-24] [09:25:47] - address_book_vad_1.0.01 loaded
+[2023-11-24] [09:26:04] - contact not found
+[2023-11-24] [09:27:00] - address_book_vad_1.0.01 saved
+[2023-11-24] [09:27:05] - note_book_vad created
+[2023-11-24] [09:27:24] - record vad added
+[2023-11-24] [09:27:26] - note_book_vad saved
+[2023-11-24] [09:27:47] - note_book_vad saved
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\images' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\unknown' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\unknown' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\images' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\unknown' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\unknown' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\archives' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\images' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\archives' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\archives' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\images' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\unknown' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\audio' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\documents' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\images' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\unknown' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\programs' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\video' has been removed successfully
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:12:37] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\audio' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\audio' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\audio' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\audio' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\images' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\unknown' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\video' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\unknown' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\video' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\archives' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\audio' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\images' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\video' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\video' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\archives' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\archives' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\audio' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\audio' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\images' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\video' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\unknown' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\video' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\audio' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\documents' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\images' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\unknown' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\video' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\programs' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\video' has been removed successfully
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\audio' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\must_sort\papka моя\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\programs' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\files\video' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\new\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\archives' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\documents' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\gfnfg\unknown' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\my_mess\Новая папка1\asdc 32вы\images' can not be removed
+[2023-11-24] [10:15:03] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\audio' has been removed successfully
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\programs' has been removed successfully
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\video' has been removed successfully
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:18:27] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\audio' has been removed successfully
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\programs' has been removed successfully
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\video' has been removed successfully
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:20:31] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\audio' has been removed successfully
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\programs' has been removed successfully
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\video' has been removed successfully
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [10:21:22] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [10:40:21] - address_book_vad_1.0.01 loaded
+[2023-11-24] [10:40:27] - address_book_vad_1.0.01 saved
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\audio' has been removed successfully
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\programs' has been removed successfully
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\video' has been removed successfully
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\archives' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\documents' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\images' can not be removed
+[2023-11-24] [11:12:31] - directory 'C:\Users\admin\Desktop\mess\unknown' can not be removed
+[2023-11-24] [11:12:46] - note_book_vad loaded
+[2023-11-24] [11:12:59] - record not found
+[2023-11-24] [11:13:01] - note_book_vad saved
+[2023-11-24] [11:13:06] - record vad deleted
+[2023-11-24] [11:13:08] - note_book_vad saved
+[2023-11-24] [11:13:23] - note_book_vad saved
+[2023-11-24] [11:13:26] - address_book_vad_1.0.01 loaded
+[2023-11-24] [11:13:39] - contact vadim deleted
+[2023-11-24] [11:13:41] - address_book_vad_1.0.01 saved
