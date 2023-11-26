@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "addressbookv"
+version = "0.1.0"
+description = ""
+authors = ["VadimTrubay <vadnetvadnet@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+numexpr = "^2.8.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "addressbookv"
+version = "0.1.0"
+authors = [
+  { name="VadimTrubay", email="vadnetvadnet@ukr.net" },
+]
+description = ""
+readme = "README.md"
+requires-python = "^3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/VadimTrubay/Vad_address_book"
+Issues = "https://github.com/VadimTrubay/Vad_address_book/issues"
