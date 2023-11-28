@@ -22,5 +22,5 @@ def fib(n):
     else:
         return fib(n - 1) + fib(n - 2)
 
-
+print(help(fib))
 print(fib(0))

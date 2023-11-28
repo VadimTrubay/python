@@ -33,7 +33,7 @@ def calculate():
     value = calc.get()
     try:
         if value[-1] in '+-*/':
-            value = value + value[:-1]
+            value += value[:-1]
         calc['state'] = tk.NORMAL
         calc.delete(0, tk.END)
         calc.insert(0, eval(value))
