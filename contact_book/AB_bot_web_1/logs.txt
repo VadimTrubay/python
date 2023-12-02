@@ -1,0 +1,5 @@
+[07:51:34] Addressbook has been loaded!
+[07:53:26] Contact vad has been added.
+[07:53:26] Addressbook has been saved!
+[07:54:18] Contact vad has been removed!
+[07:54:18] Addressbook has been saved!
