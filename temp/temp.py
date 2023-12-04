@@ -243,21 +243,74 @@
 # print(i)
 
 
+#
+# import random
+#
+# num = random.randint(1, 16)
+# print('я умный комп я загадал число, нука отгадай кожаный мешок тупой')
+# while True:
+#
+#     user_num = int(input('введите ваше число>: '))
+#     if num > user_num:
+#         print('бери больше')
+#     elif num < user_num:
+#         print('бери меньше')
+#     else:
+#         print('ты угадал кожаный мешок тупой')
+#         break
 
-import random
-
-num = random.randint(1, 16)
-print('я умный комп я загадал число, нука отгадай кожаный мешок тупой')
-while True:
-
-    user_num = int(input('введите ваше число>: '))
-    if num > user_num:
-        print('бери больше')
-    elif num < user_num:
-        print('бери меньше')
+from datetime import datetime, timedelta
+def __get_current_week():
+    now = datetime.now()
+    current_weekday = now.weekday()
+    print(current_weekday)
+    if current_weekday <= 5:
+        week_start = now - timedelta(days=0 + current_weekday)
     else:
-        print('ты угадал кожаный мешок тупой')
-        break
+        week_start = now - timedelta(days=current_weekday - 4)
+
+    return [week_start.date(), week_start.date() + timedelta(days=7)]
+
+
+print(__get_current_week())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
