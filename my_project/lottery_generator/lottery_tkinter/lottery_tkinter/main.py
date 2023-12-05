@@ -19,6 +19,7 @@ selected_day = 5
 selected_hour = 0
 selected_minut = 0
 selected_second = 0
+selected_microsecond = 0
 
 
 def main():
@@ -62,6 +63,11 @@ def main():
         selected_second = int(combobox_second.get())
 
 
+    def get_selected_microsecond(event):
+        global selected_microsecond
+        selected_microsecond = int(combobox_microsecond.get())
+
+
     def get_selected_ball(event):
         global selected_ball
         selected_ball = int(combobox_ball.get())
@@ -80,7 +86,7 @@ def main():
             numbers = list(range(1, selected_all_ball + 1))
 
             random.seed(my_seed)
-            new_list = random.sample(numbers, k=selected_ball)
+            new_list = random.sample(numbers, k=selected_ball) # generated random numbers
 
             column = 0
             for num in new_list:
@@ -116,12 +122,12 @@ def main():
     root.title("lottery_tkinter")
     # root.iconbitmap(default="favicon.ico")
     root.resizable(False, False)
-    root.geometry("600x400+300+100")
+    root.geometry("700x500+300+100")
     root.update_idletasks()
     # устанавливаем тему "classic"
     ttk.Style().theme_use("clam")
 
-    my_seed = datetime(year=selected_year, month=selected_month, day=selected_day, hour=selected_hour, minute=selected_minut, second=selected_second).timestamp()
+    my_seed = datetime(year=selected_year, month=selected_month, day=selected_day, hour=selected_hour, minute=selected_minut, second=selected_second, microsecond=selected_microsecond).timestamp()
 
     label = Label(text="", font=('Arial', 10, 'bold'))
     label.grid(row=0, column=0)
@@ -221,8 +227,25 @@ def main():
     combobox_second.bind("<<ComboboxSelected>>", get_selected_second)
 
 
+    # microsecond
+    label_choose_microsecond = ttk.Label(text="micro", font=('Arial', 10, 'bold'))
+    label_choose_microsecond.grid(row=2, column=6, padx=10)
+
+    values_microsecond = [str(i) for i in range(0, 999999)]
+    microsecond = StringVar(value=str(selected_microsecond))
+    combobox_microsecond = ttk.Combobox(values=values_microsecond,
+                                 justify=CENTER,
+                                 width=8,
+                                 state="readonly",
+                                 textvariable=microsecond)
+    combobox_microsecond.grid(row=3, column=6, padx=10)
+    microsecond.get()
+    combobox_microsecond.bind("<<ComboboxSelected>>", get_selected_microsecond)
+
+
     button_seed = Button(text="Enter seed", command=clear, bd=5, font=('Arial', 10, 'bold'), fg='#000000')
-    button_seed.grid(row=3, column=6)
+    button_seed.grid(row=3, column=8)
+
 
     label = Label(text="", font=('Arial', 10, 'bold'))
     label.grid(row=4, column=0)
