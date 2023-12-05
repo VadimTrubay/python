@@ -14,9 +14,9 @@ running = True
 selected_ball = 6
 selected_all_ball = 52
 selected_year = 2023
-selected_month = 6
-selected_day = 15
-selected_hour = 21
+selected_month = 12
+selected_day = 5
+selected_hour = 0
 selected_minut = 0
 selected_second = 0
 
@@ -78,24 +78,23 @@ def main():
             global new_list
             new_list = []
             numbers = list(range(1, selected_all_ball + 1))
-            column = 0
 
-            for _ in numbers[:selected_ball]:
-                random.seed(my_seed)
-                num = random.choice(numbers)
+            random.seed(my_seed)
+            new_list = random.sample(numbers, k=selected_ball)
+
+            column = 0
+            for num in new_list:
                 b = Button(text=f"{num}", bd=2, font=('Arial', 15, 'bold'), fg='#002222', width=3, height=1)
                 b.grid(row=11, column=column, padx=5, pady=10)
                 column += 1
-                new_list.append(num)
-                numbers.remove(num)
-                random.shuffle(numbers)
                 root.update()
                 time.sleep(1)
 
+
     def sort_balls():
         new_list.sort()
-        column = 0
 
+        column = 0
         for num in new_list:
             b = Button(text=f"{num}", bd=2, font=('Arial', 15, 'bold'), fg='#002222', width=3, height=1)
             b.grid(row=13, column=column, padx=5, pady=10)
@@ -178,7 +177,7 @@ def main():
     label_choose_hour = ttk.Label(text="hour", font=('Arial', 10, 'bold'))
     label_choose_hour.grid(row=2, column=3, padx=10)
 
-    values_hour = [str(i) for i in range(1, 25)]
+    values_hour = [str(i) for i in range(0, 24)]
     hour = StringVar(value=str(selected_hour))
     combobox_hour = ttk.Combobox(values=values_hour,
                                  justify=CENTER,
@@ -194,7 +193,7 @@ def main():
     label_choose_minut = ttk.Label(text="min ", font=('Arial', 10, 'bold'))
     label_choose_minut.grid(row=2, column=4, padx=10)
 
-    values_minut = [str(i) for i in range(0, 61)]
+    values_minut = [str(i) for i in range(0, 60)]
     minut = StringVar(value=str(selected_minut))
     combobox_minut = ttk.Combobox(values=values_minut,
                                  justify=CENTER,
@@ -210,7 +209,7 @@ def main():
     label_choose_second = ttk.Label(text="sec ", font=('Arial', 10, 'bold'))
     label_choose_second.grid(row=2, column=5, padx=10)
 
-    values_second = [str(i) for i in range(0, 61)]
+    values_second = [str(i) for i in range(0, 60)]
     second = StringVar(value=str(selected_second))
     combobox_second = ttk.Combobox(values=values_second,
                                  justify=CENTER,
