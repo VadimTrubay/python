@@ -12,14 +12,14 @@ victory = ""
 list_ball = [num for num in range(1, 53)]
 
 year = 2023
-month = 12
-day = 2
+month = 11
+day = 15
 hours = 23
 minutes = 59
 seconds = 59
 microseconds = 999999
 
-lottery = [14, 15, 26, 23, 46, 51]
+lottery = [9, 15, 31, 34, 43, 49]
 
 for hour in range(1, hours + 1):
     for minute in range(0, minutes + 1):

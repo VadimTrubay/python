@@ -239,10 +239,10 @@ def main():
                                  state="readonly",
                                  textvariable=microsecond)
     combobox_microsecond.grid(row=3, column=6, padx=10)
-    microsecond.get()
+    # microsecond.get()
     combobox_microsecond.bind("<<ComboboxSelected>>", get_selected_microsecond)
 
-
+    #  enter seed value
     button_seed = Button(text="Enter seed", command=clear, bd=5, font=('Arial', 10, 'bold'), fg='#000000')
     button_seed.grid(row=3, column=8)
 

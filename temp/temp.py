@@ -259,53 +259,93 @@
 #         print('ты угадал кожаный мешок тупой')
 #         break
 
-from datetime import datetime, timedelta
-def __get_current_week():
-    now = datetime.now()
-    current_weekday = now.weekday()
-    print(current_weekday)
-    if current_weekday <= 5:
-        week_start = now - timedelta(days=0 + current_weekday)
-    else:
-        week_start = now - timedelta(days=current_weekday - 4)
+# from datetime import datetime, timedelta
+# def __get_current_week():
+#     now = datetime.now()
+#     current_weekday = now.weekday()
+#     print(current_weekday)
+#     if current_weekday <= 5:
+#         week_start = now - timedelta(days=0 + current_weekday)
+#     else:
+#         week_start = now - timedelta(days=current_weekday - 4)
+#
+#     return [week_start.date(), week_start.date() + timedelta(days=7)]
+#
+#
+# print(__get_current_week())
 
-    return [week_start.date(), week_start.date() + timedelta(days=7)]
+# named typle
+
+# from collections import namedtuple
+# movies = namedtuple('movies', ['title', 'year', 'season'])
+# m1 = movies("qwerty", "1982", "2")
+#
+# print(m1)
+
+# from collections import Counter
+# text = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+# "Нет никого, кто любил бы боль саму по себе, кто искал бы её и кто хотел бы иметь её просто потому, что это боль.."
+#
+# c = Counter(text)
+#
+# print(c)
+
+# from time import time
+# from tqdm import tqdm
+# def decor(func):
+#     def inner( *args, **kwargs):
+#         s = time()
+#
+#         res = func(*args, **kwargs)
+#         e = time() - s
+#         print(e)
+#         return res
+#     return inner
+#
+#
+# @decor
+# def add(x, y):
+#     a = []
+#     for i in tqdm(range(15050000)):
+#         a.append(x ** y)
+#     return a
+#
+# add(2, 45)
+
+# def func():
+#     i = 0
+#     while i < 6:
+#         yield i
+#         i += 1
+#
+#
+# for j in func():
+#     input(">>")
+#     print(j)
 
 
-print(__get_current_week())
+
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+#
+# b = list(map(lambda x: x * 2, a))
+#
+# print(b)
 
 
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+#
+# b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+#
+# c = dict(zip(a, b))
+#
+# print(c)
 
 
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
+b = list(filter(lambda x: x > 5, a))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(b)
 
 
 

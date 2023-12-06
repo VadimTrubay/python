@@ -24,23 +24,23 @@ from calendar import monthrange
 
 
 
-# all_numbers = []
-# numbers = list(range(1, 53))
-# result = sorted(random.sample(numbers, k=6))
-# my_seed = datetime(year=2023, month=11, day=23, hour=11, minute=11, second=11).timestamp()
-# random.seed(my_seed)
-#
-# for i in tqdm(range(10)):
-#     new_list = random.sample(numbers, k=6)  # generated random numbers
-#     all_numbers.append(sorted(new_list))
-#
-# for j in tqdm(all_numbers):
-#     print(f"{result}: {j}")
-#     if result == j:
-#         print(f"Success: {result} = {j}")
-#         break
-# else:
-#     print("false")
+all_numbers = []
+numbers = list(range(1, 53))
+result = sorted(random.sample(numbers, k=6))
+my_seed = datetime(year=2023, month=11, day=23, hour=11, minute=11, second=11).timestamp()
+random.seed(my_seed)
+
+for i in tqdm(range(10000000)):
+    new_list = random.sample(numbers, k=6)  # generated random numbers
+    all_numbers.append(sorted(new_list))
+
+for j in tqdm(all_numbers):
+    # print(f"{result}: {j}")
+    if result == j:
+        print(f"Success: {result} = {j}")
+        break
+else:
+    print("false")
 
 
 
@@ -50,8 +50,8 @@ from calendar import monthrange
 
 
 
-d = datetime.now()
-print(d)
+# d = datetime.now()
+# print(d)
 
 
 
