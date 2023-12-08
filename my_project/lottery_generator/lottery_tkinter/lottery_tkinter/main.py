@@ -227,20 +227,20 @@ def main():
     combobox_second.bind("<<ComboboxSelected>>", get_selected_second)
 
 
-    # microsecond
-    label_choose_microsecond = ttk.Label(text="micro", font=('Arial', 10, 'bold'))
-    label_choose_microsecond.grid(row=2, column=6, padx=10)
-
-    values_microsecond = [str(i) for i in range(0, 999999)]
-    microsecond = StringVar(value=str(selected_microsecond))
-    combobox_microsecond = ttk.Combobox(values=values_microsecond,
-                                 justify=CENTER,
-                                 width=8,
-                                 state="readonly",
-                                 textvariable=microsecond)
-    combobox_microsecond.grid(row=3, column=6, padx=10)
-    # microsecond.get()
-    combobox_microsecond.bind("<<ComboboxSelected>>", get_selected_microsecond)
+    # # microsecond
+    # label_choose_microsecond = ttk.Label(text="micro", font=('Arial', 10, 'bold'))
+    # label_choose_microsecond.grid(row=2, column=6, padx=10)
+    #
+    # values_microsecond = [str(i) for i in range(0, 999999)]
+    # microsecond = StringVar(value=str(selected_microsecond))
+    # combobox_microsecond = ttk.Combobox(values=values_microsecond,
+    #                              justify=CENTER,
+    #                              width=8,
+    #                              state="readonly",
+    #                              textvariable=microsecond)
+    # combobox_microsecond.grid(row=3, column=6, padx=10)
+    # # microsecond.get()
+    # combobox_microsecond.bind("<<ComboboxSelected>>", get_selected_microsecond)
 
     #  enter seed value
     button_seed = Button(text="Enter seed", command=clear, bd=5, font=('Arial', 10, 'bold'), fg='#000000')

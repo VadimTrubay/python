@@ -341,21 +341,62 @@
 # print(c)
 
 
-a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-
-b = list(filter(lambda x: x > 5, a))
-
-print(b)
-
-
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+#
+# b = list(filter(lambda x: x > 5, a))
+#
+# print(b)
 
 
+# import collections
+#
+# a = collections.UserDict()
+# a.data['1'] = 1
+# print(a)
+
+# help(super)
+
+# class User:
+#     def __init__(self):
+#         self.__hp = 100
+#
+#
+#     @property
+#     def hp(self):
+#         return self.__hp
+#
+#     @hp.setter
+#     def hp(self, new_value):
+#         self.__hp = new_value
+#
+#
+#
+# user = User()
+#
+# print(user.hp)
+#
+# user.hp = 150
+#
+# print(user.hp)
 
 
-
-
-
-
+# class Foo:
+#     def __init__(self, x):
+#         self.x = x
+#
+#     def __add__(self, other):
+#         return self.x + other
+#
+# class Bazz:
+#     def __init__(self, x):
+#         self.x = x
+#
+#     def __add__(self, other):
+#         return self.x + other
+#
+# a = Foo(2)
+# b = Bazz(2)
+# print(a + 3)
 
 
 
