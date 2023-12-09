@@ -122,7 +122,7 @@ def main():
     root.title("lottery_tkinter")
     # root.iconbitmap(default="favicon.ico")
     root.resizable(False, False)
-    root.geometry("700x500+300+100")
+    root.geometry("600x400+50+50")
     root.update_idletasks()
     # устанавливаем тему "classic"
     ttk.Style().theme_use("clam")
@@ -244,7 +244,7 @@ def main():
 
     #  enter seed value
     button_seed = Button(text="Enter seed", command=clear, bd=5, font=('Arial', 10, 'bold'), fg='#000000')
-    button_seed.grid(row=3, column=8)
+    button_seed.grid(row=3, column=7)
 
 
     label = Label(text="", font=('Arial', 10, 'bold'))
