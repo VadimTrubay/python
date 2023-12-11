@@ -91,7 +91,7 @@ def press_key(event):
 
 
 win = tk.Tk()
-win.geometry(f'356x360+900+150')
+win.geometry(f'356x360+50+50')
 win.resizable(False, False)
 win.title('Calculator')
 win['bg'] = '#404040'
