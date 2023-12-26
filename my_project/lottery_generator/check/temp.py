@@ -23,12 +23,14 @@ from calendar import monthrange
 #         fh.write(str(result) + " - " + res_dat + "\n")
 
 
-
 all_numbers = []
+
+my_seed = datetime(year=2023, month=12, day=27, hour=21,
+                   minute=15, second=00).timestamp()
+random.seed(my_seed)
 numbers = list(range(1, 53))
 result = sorted(random.sample(numbers, k=6))
-my_seed = datetime(year=2023, month=11, day=23, hour=11, minute=11, second=11).timestamp()
-random.seed(my_seed)
+print(result)
 
 for i in tqdm(range(10000000)):
     new_list = random.sample(numbers, k=6)  # generated random numbers
@@ -43,24 +45,10 @@ else:
     print("false")
 
 
-
 # r = random.gauss(6)
 #
 # print(r)
 
 
-
 # d = datetime.now()
 # print(d)
-
-
-
-
-
-
-
-
-
-
-
-
