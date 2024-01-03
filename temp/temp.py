@@ -70,7 +70,7 @@
 #     print(sh.final_price(20))
 #     h.buy_house(sh, 20)
 #     h.info()
-
+import pathlib
 
 
 # import string
@@ -220,7 +220,6 @@
 # print(func())
 
 
-
 # def wrap(func):
 #     def inn(*args):
 #         res = func(*args)
@@ -324,7 +323,6 @@
 #     print(j)
 
 
-
 # a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 #
 # b = list(map(lambda x: x * 2, a))
@@ -399,14 +397,133 @@
 # print(a + 3)
 
 
+# from enum import Enum
+#
+# class Color(Enum):
+#     RED = 1
+#     GREEN = 2
+#     BLUE = 3
+#
+# print(Color.RED)  # Выведет: Color.RED
+# print(Color.RED.value)
 
 
+# import requests
+#
+#
+# class RequestConnection:
+#     def __init__(self, request):
+#         self.request = request
+#
+#     def get_json_from_url(self, url):
+#         return self.request.get(url).json()
+#
+#
+# class ApiClient:
+#     def __init__(self, fetch: RequestConnection):
+#         self.fetch = fetch
+#
+#     def get_data(self, url):
+#         response = self.fetch.get_json_from_url(url)
+#         return response
+#
+#
+# def data_adapter(data: dict):
+#     return [{f"{el.get('ccy')}": {"buy": float(el.get('buy')), "sale": float(el.get('sale'))}} for el in data]
+#
+#
+# def pretty_view(data):
+#     pattern = '|{:^10}|{:^10}|{:^10}|'
+#     print(pattern.format('currency', 'sale', 'buy'))
+#     for el in data:
+#         currency, *_ = el.keys()
+#         buy = el.get(currency).get('buy')
+#         sale = el.get(currency).get('sale')
+#         print(pattern.format(currency, sale, buy))
+#
+#
+# if __name__ == '__main__':
+#     api_client = ApiClient(RequestConnection(requests))
+#
+#     data = api_client.get_data('https://api.privatbank.ua/p24api/pubinfo?exchange&coursid=11')
+#     pretty_view(data_adapter(data))
+
+# from enum import Enum
+#
+# class Some(Enum):
+#     name = 'name'
+#     age = 'age'
+#
+#
+#
+# if __name__ == '__main__':
+#     for i in Some:
+#         print(f'Name: {i.value}')
+
+# from abc import ABC, abstractmethod
+#
+# class My(ABC):
+#
+#     @abstractmethod
+#     def method_1(self):
+#         return NotImplementedError
+#
+#
+#
+# class MyM(My):
+#
+#     def foo(self):
+#         pass
+#
+#     def method_1(self):
+#         print('foo')
+#
+# m = MyM()
+# m.method_1()
+
+# import logging
+#
+# logging.basicConfig(
+#     format='%(asctime)s %(message)s',
+#     level=logging.DEBUG,
+#         handlers=[
+#         logging.FileHandler("program.log"),
+#         logging.StreamHandler()
+#     ])
+# logging.warning('An example message.')
+# logging.warning('Another message')
 
 
+# def foo(a: int, b: float) -> int:
+#     return a * b
+#
+# print(foo(2, 2.2))
 
 
+# from threading import Thread
+#
+# def foo(par):
+#     return par
+#
+# if __name__ == '__main__':
+#     for j in range(5):
+#         th = Thread(target=foo, args=(f'Count thread - {j}',))
+#         th.start()
+
+# from  pathlib import Path
+# path = pathlib.Path(__file__)
+# print(path.suffix)
 
 
-
-
+def foo():
+    while True:
+        i = input('>> ')
+        match i:
+            case '1':
+                print(i)
+            case '2':
+                print(i)
+            case _:
+                print('end')
+                break
 
