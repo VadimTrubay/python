@@ -1,0 +1,47 @@
+{% extends "quoteapp/base.html" %}
+
+{% block content %}
+
+<h2 style="color: #6C8CD5">Viewing tag:</h2>
+    {% if quotes %}
+    {% for q in quotes %}
+    <ul>
+        <li>
+            <p style="border: 3px solid #C1FF0A;  border-radius: 20px, background-color: #d5d5d1; padding: 10px; border-radius: 15px;">
+                <b><i>Quote</i></b>: {{ q.quote }}<br />
+                <b><i>Author</i></b>: <strong style="color: blue">
+                            {% for a in q.authors.all %}
+                            {{ a }}
+                            <a href="{% url 'quoteapp:detail'  a.id %}"> (about)</a>
+                            {% endfor %}</strong>
+                        <br />
+                <b><i>Tags</i></b>:
+                            {% for tag in q.tags.all %}
+                            <a href="{% url 'quoteapp:tag_search'  tag.id %}"> {{ tag }},</a>
+                            {% endfor %}
+            </p>
+        </li>
+    </ul>
+    {% endfor %}
+
+ <div class="pagination">
+      <span class="step-links">
+          {% if quotes.has_previous %}
+              <a href="?page=1">&laquo;FIRST PAGE</a>
+              <a href="?page={{ posts.previous_page_number }}">PREVIOUS</a>
+          {% endif %}
+
+          <span class="current-page">
+              PAGE{{ quotes.number }}or{{ quotes.paginator.num_pages }}.
+          </span>
+
+          {% if quotes.has_next %}
+              <a href="?page={{ quotes.next_page_number }}">NEXT</a>
+              <a href="?page={{ quotes.paginator.num_pages }}">LAST</a>
+          {% endif %}
+      </span>
+    </div>
+  {% else %}
+    <p>Not quotes.</p>
+  {% endif %}
+{% endblock %}

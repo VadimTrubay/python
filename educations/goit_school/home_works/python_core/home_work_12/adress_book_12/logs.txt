@@ -1,0 +1,175 @@
+
+[13:06:45] Adressbook has been created!
+[13:21:17] adress_book created
+[13:21:58] adress_book created
+[13:23:08] adress_book created
+[13:36:11] adress_book created
+[13:36:29] adress_book created
+[13:38:36] adress_book created
+[13:45:27] adress_book created
+[13:47:08] adress_book created
+[13:47:57] contact vad added
+[13:47:57] address_book saved
+[13:48:36] address_book loaded
+[13:51:53] address_book loaded
+[13:52:37] address_book loaded
+[13:53:11] address_book loaded
+[13:53:14] address_book loaded
+[13:53:23] address_book loaded
+[13:55:16] address_book loaded
+[13:58:25] address_book loaded
+[13:58:36] address_book loaded
+[13:58:50] address_book loaded
+[13:59:02] address_book loaded
+[14:01:41] address_book loaded
+[14:02:36] address_book loaded
+[14:03:03] address_book loaded
+[14:03:16] address_book loaded
+[14:05:34] address_book loaded
+[14:07:01] contact vika added
+[14:07:01] address_book saved
+[14:39:32] address_book loaded
+[14:41:06] address_book loaded
+[14:41:17] address_book loaded
+[14:41:33] address_book loaded
+[14:41:41] address_book loaded
+[14:41:46] address_book loaded
+[14:42:14] address_book loaded
+[14:42:31] address_book loaded
+[14:42:52] address_book loaded
+[14:43:16] address_book loaded
+[14:44:37] address_book loaded
+[14:44:58] address_book loaded
+[14:46:21] contact nik added
+[14:46:21] address_book saved
+[14:49:52] address_book loaded
+[14:52:14] address_book loaded
+[15:04:55] address_book loaded
+[15:08:08] address_book loaded
+[15:08:15] address_book loaded
+[15:10:17] address_book loaded
+[15:16:31] address_book loaded
+[15:17:40] address_book loaded
+[15:18:48] contact tima added
+[15:18:48] address_book saved
+[15:23:55] address_book loaded
+[15:26:15] address_book loaded
+[15:27:03] address_book loaded
+[15:28:55] address_book loaded
+[15:31:49] address_book loaded
+[15:33:09] contact vad edited
+[15:33:09] address_book saved
+[15:33:50] address_book loaded
+[15:39:31] address_book loaded
+[15:39:38] address_book loaded
+[15:40:01] address_book loaded
+[15:40:32] address_book saved
+[15:41:01] address_book loaded
+[15:41:28] address_book loaded
+[15:43:33] address_book loaded
+[15:43:42] address_book loaded
+[15:43:46] address_book loaded
+[15:44:53] address_book loaded
+[15:52:21] address_book loaded
+[15:54:46] address_book loaded
+[16:04:03] address_book loaded
+[16:04:37] address_book loaded
+[16:05:18] address_book loaded
+[16:07:20] address_book loaded
+[16:10:21] address_book loaded
+[16:17:47] address_book loaded
+[16:18:24] address_book loaded
+[16:18:44] contact tima removed
+[16:18:44] address_book saved
+[16:20:37] address_book loaded
+[16:20:48] >adress_book cleared
+[16:20:48] address_book saved
+[16:23:34] address_book loaded
+[16:23:41] address_book loaded
+[16:25:46] address_book loaded
+[16:26:42] address_book loaded
+[16:29:13] address_book loaded
+[16:29:49] address_book loaded
+[16:30:28] >address_book loaded
+[16:30:37] >address_book loaded
+[16:31:45] >address_book loaded
+[16:32:59] >address_book loaded
+[16:33:24] >contact vad added
+[16:33:24] >address_book saved
+[16:33:58] >address_book loaded
+[16:34:33] >address_book loaded
+[16:34:53] >address_book loaded
+[16:38:28] >address_book loaded
+[16:40:28] >address_book loaded
+[16:41:05] >contact vik added
+[16:41:05] >address_book saved
+[16:42:19] >address_book loaded
+[16:43:14] >address_book loaded
+[16:44:07] >contact vad added
+[16:44:07] >address_book saved
+[17:04:10] >address_book loaded
+[17:04:26] >address_book loaded
+[17:04:43] >contact vad deleted
+[17:04:43] >contact vad deleted
+[17:04:43] >address_book saved
+[17:05:11] >adress_book cleared
+[17:05:11] >address_book saved
+[17:05:31] >contact vad added
+[17:05:31] >address_book saved
+[17:07:34] >contact vika added
+[17:07:34] >address_book saved
+[17:08:54] >address_book loaded
+[17:09:18] >contact vika edited
+[17:09:18] >address_book saved
+[17:09:49] >address_book saved
+[17:10:19] >contact vik edited
+[17:10:19] >address_book saved
+[17:16:17] >address_book loaded
+[17:16:43] >contact vik edited
+[17:16:43] >address_book saved
+[17:17:02] >address_book saved
+[17:17:49] >contact vik deleted
+[17:17:49] >address_book saved
+[17:18:15] >contact vik added
+[17:18:15] >address_book saved
+[17:18:41] >contact vik edited
+[17:18:41] >address_book saved
+[17:20:41] >address_book loaded
+[17:20:49] >address_book loaded
+[17:21:08] >contact vik edited
+[17:21:08] >address_book saved
+[17:22:08] >contact vika edited
+[17:22:08] >address_book saved
+[17:22:39] >contact vika edited
+[17:22:39] >address_book saved
+[17:25:27] >address_book loaded
+[17:25:36] >contact vika deleted
+[17:25:36] >address_book saved
+[17:26:06] >contact vad edited
+[17:26:06] >address_book saved
+[17:30:57] >address_book loaded
+[17:31:01] >adress_book cleared
+[17:31:01] >address_book saved
+[17:31:21] >contact vad added
+[17:31:21] >address_book saved
+[17:31:35] >address_book loaded
+[17:36:08] >address_book loaded
+[17:36:36] >contact vad edited
+[17:36:36] >address_book saved
+[17:37:39] >address_book loaded
+[17:38:45] >address_book loaded
+[17:39:18] >contact vad added
+[17:39:18] >address_book saved
+[17:40:06] >address_book loaded
+[17:40:17] >adress_book cleared
+[17:40:17] >address_book saved
+[17:40:39] >contact vad added
+[17:40:39] >address_book saved
+[17:41:07] >contact vad edited
+[17:41:07] >address_book saved
+[17:44:30] >address_book loaded
+[17:44:43] >adress_book cleared
+[17:44:43] >address_book saved
+[17:45:14] >contact vad added
+[17:45:14] >address_book saved
+[17:45:36] >address_book loaded

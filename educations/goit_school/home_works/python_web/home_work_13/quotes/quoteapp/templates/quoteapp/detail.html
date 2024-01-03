@@ -1,0 +1,22 @@
+{% extends "quoteapp/base.html" %}
+{% block content %}
+<h2 style="color: #6C8CD5">Viewing author:</h2>
+    <ul>
+        <li>
+            <p style="border: 3px solid #C1FF0A;  border-radius: 20px, background-color: #d5d5d1; padding: 10px; border-radius: 15px;">
+                <b><i>Author</i></b>:
+                <strong style="color: blue">{{ author.name }}</strong>
+                <br />
+                <b><i>Born date</i></b>:
+                    {{ author.born_date }}
+                <br />
+                <b><i>Born location</i></b>:
+                    {{ author.born_location }}
+                <br />
+                <b><i>Description</i></b>:
+                {{ author.description }}
+                <br />
+            </p>
+        </li>
+    </ul>
+  {% endblock %}

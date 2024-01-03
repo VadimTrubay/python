@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "h-w-7"
+version = "0.1.0"
+description = ""
+authors = ["VadimTrubay <vadnetvadnet@ukr.net>"]
+readme = "README.md"
+packages = [{include = "h_w_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+alembic = "^1.11.0"
+sqlalchemy = "^2.0.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

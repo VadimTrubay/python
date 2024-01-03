@@ -1,0 +1,397 @@
+
+18:09:09 - phonebook created
+18:09:33 - contact vadim added
+18:09:33 - phonebook saved
+18:09:33 - phonebook saved
+18:09:39 - phonebook saved
+18:09:40 - phonebook saved
+18:09:40 - phonebook saved
+18:10:03 - contact vika added
+18:10:03 - phonebook saved
+18:10:03 - phonebook saved
+18:10:09 - phonebook saved
+18:10:13 - phonebook saved
+18:10:13 - phonebook saved
+10:56:16 - phonebook loaded
+10:56:21 - phonebook saved
+10:56:38 - phonebook saved
+10:57:08 - contact tima added
+10:57:08 - phonebook saved
+10:57:08 - phonebook saved
+10:57:30 - contact nikita added
+10:57:30 - phonebook saved
+10:57:30 - phonebook saved
+10:57:39 - phonebook saved
+10:57:50 - contact not found
+10:57:50 - phonebook saved
+10:58:05 - phonebook saved
+10:58:05 - phonebook saved
+11:02:25 - phonebook loaded
+11:02:29 - phonebook saved
+11:02:51 - contact vadim edited
+11:02:51 - phonebook saved
+11:02:51 - phonebook saved
+11:02:59 - phonebook saved
+11:03:26 - contact vadim edited
+11:03:26 - phonebook saved
+11:03:26 - phonebook saved
+11:03:33 - phonebook saved
+11:03:33 - phonebook saved
+12:19:15 - phonebook loaded
+12:20:08 - phonebook loaded
+12:20:32 - phonebook saved
+12:20:32 - phonebook saved
+13:53:47 - phonebook loaded
+13:54:48 - phonebook loaded
+13:55:10 - phonebook loaded
+13:58:20 - phonebook loaded
+13:58:27 - phonebook saved
+14:01:04 - phonebook loaded
+14:03:48 - phonebook loaded
+14:03:59 - phonebook saved
+14:04:09 - phonebook saved
+14:04:09 - phonebook saved
+14:05:40 - phonebook loaded
+14:05:47 - phonebook saved
+14:05:47 - phonebook saved
+14:05:55 - phonebook saved
+14:05:55 - phonebook saved
+14:06:20 - phonebook loaded
+14:06:30 - contact not found
+14:06:30 - contact not found
+14:06:30 - contact not found
+14:06:30 - contact not found
+14:06:30 - phonebook saved
+14:06:30 - phonebook saved
+14:06:51 - phonebook loaded
+14:06:57 - contact not found
+14:06:57 - phonebook saved
+14:06:57 - phonebook saved
+14:07:20 - contact vadim edited
+14:07:20 - contact not found
+14:07:20 - phonebook saved
+14:07:20 - phonebook saved
+14:08:12 - phonebook loaded
+14:08:23 - phonebook saved
+14:08:27 - phonebook saved
+14:08:31 - phonebook saved
+14:08:38 - data not found
+14:08:38 - phonebook saved
+14:09:27 - phonebook loaded
+14:09:35 - phonebook saved
+14:09:35 - phonebook saved
+14:09:40 - contact not found
+14:09:40 - phonebook saved
+14:09:40 - phonebook saved
+14:09:56 - phonebook saved
+14:10:03 - contact not found
+14:10:03 - phonebook saved
+14:10:18 - phonebook saved
+14:10:48 - contact vadim edited
+14:10:48 - phonebook saved
+14:10:48 - phonebook saved
+14:11:04 - phonebook saved
+14:11:15 - phonebook saved
+14:11:15 - phonebook saved
+14:11:43 - phonebook loaded
+14:11:51 - phonebook saved
+14:11:54 - phonebook saved
+14:11:54 - phonebook saved
+14:12:00 - phonebook saved
+14:12:00 - phonebook saved
+14:12:21 - phonebook loaded
+14:12:24 - phonebook saved
+14:12:24 - phonebook saved
+14:13:13 - phonebook loaded
+14:13:15 - phonebook saved
+14:13:15 - phonebook saved
+14:13:36 - phonebook loaded
+14:14:12 - phonebook loaded
+14:14:17 - phonebook saved
+14:14:21 - contact  added
+14:14:21 - phonebook saved
+14:14:21 - phonebook saved
+14:14:37 - phonebook saved
+14:14:43 - phonebook saved
+14:14:43 - phonebook saved
+14:15:10 - contact not found
+14:15:10 - phonebook saved
+14:15:10 - phonebook saved
+14:15:17 - phonebook saved
+14:15:17 - phonebook saved
+14:20:30 - phonebook loaded
+14:20:38 - phonebook saved
+14:20:48 - phonebook cleared
+14:20:48 - phonebook saved
+14:20:48 - phonebook saved
+14:20:55 - phonebook saved
+14:21:03 - contact vad added
+14:21:03 - phonebook saved
+14:21:03 - phonebook saved
+14:21:12 - contact vad added
+14:21:12 - phonebook saved
+14:21:12 - phonebook saved
+14:21:58 - phonebook saved
+14:21:58 - phonebook saved
+14:21:59 - phonebook saved
+14:23:12 - phonebook loaded
+14:23:19 - phonebook saved
+14:23:19 - phonebook saved
+14:23:23 - phonebook saved
+14:23:23 - phonebook saved
+14:24:17 - phonebook loaded
+14:24:22 - phonebook saved
+14:24:23 - phonebook saved
+14:24:23 - phonebook saved
+14:24:27 - phonebook saved
+14:24:27 - phonebook saved
+14:24:39 - phonebook loaded
+14:25:23 - phonebook loaded
+14:25:29 - contact vad added
+14:25:29 - phonebook saved
+14:25:29 - phonebook saved
+14:26:28 - phonebook loaded
+14:26:51 - phonebook saved
+14:27:15 - phonebook loaded
+14:27:20 - phonebook saved
+14:27:20 - phonebook saved
+14:27:21 - phonebook saved
+14:27:24 - phonebook saved
+14:27:24 - phonebook saved
+14:28:42 - phonebook loaded
+14:28:47 - phonebook saved
+14:28:47 - phonebook saved
+14:29:06 - phonebook loaded
+14:29:19 - phonebook loaded
+14:29:25 - phonebook saved
+14:29:25 - phonebook saved
+14:29:28 - phonebook saved
+14:29:28 - phonebook saved
+14:29:52 - phonebook saved
+14:29:52 - phonebook saved
+14:29:57 - phonebook saved
+14:29:57 - phonebook saved
+14:30:03 - contact r added
+14:30:09 - contact r added
+14:30:15 - contact r added
+14:30:15 - phonebook saved
+14:30:15 - phonebook saved
+14:30:46 - phonebook loaded
+14:30:51 - phonebook cleared
+14:30:51 - phonebook saved
+14:30:51 - phonebook saved
+14:30:55 - phonebook saved
+14:30:56 - phonebook saved
+14:30:59 - phonebook saved
+14:30:59 - phonebook saved
+14:31:51 - phonebook loaded
+14:31:54 - phonebook saved
+14:31:55 - phonebook saved
+14:31:59 - contact vad added
+14:31:59 - phonebook saved
+14:31:59 - phonebook saved
+14:32:04 - phonebook saved
+14:32:05 - phonebook saved
+14:35:32 - phonebook loaded
+14:35:37 - phonebook saved
+14:35:37 - phonebook saved
+14:35:48 - contact vika added
+14:35:48 - phonebook saved
+14:35:48 - phonebook saved
+14:36:24 - phonebook loaded
+14:36:29 - phonebook saved
+14:36:29 - phonebook saved
+14:36:33 - contact gfh added
+14:36:33 - phonebook saved
+14:36:33 - phonebook saved
+14:36:45 - phonebook saved
+14:36:49 - phonebook cleared
+14:36:49 - phonebook saved
+14:36:49 - phonebook saved
+14:36:53 - phonebook saved
+14:36:53 - phonebook saved
+14:37:03 - phonebook saved
+14:37:03 - phonebook saved
+14:37:56 - phonebook loaded
+14:38:00 - phonebook saved
+14:38:01 - phonebook saved
+14:38:04 - phonebook saved
+14:38:04 - phonebook saved
+14:38:13 - phonebook loaded
+14:38:18 - phonebook loaded
+14:38:26 - phonebook saved
+14:38:26 - phonebook saved
+14:41:31 - phonebook loaded
+14:41:36 - phonebook saved
+14:41:36 - phonebook saved
+14:43:11 - phonebook loaded
+14:43:15 - phonebook saved
+14:43:19 - phonebook saved
+14:43:19 - phonebook saved
+14:43:30 - phonebook loaded
+14:48:00 - phonebook loaded
+14:48:05 - phonebook saved
+14:48:12 - contact vad added
+14:48:12 - phonebook saved
+14:48:12 - phonebook saved
+14:48:18 - phonebook saved
+14:48:20 - phonebook saved
+14:48:42 - phonebook loaded
+14:48:51 - contact vad added
+14:48:54 - contact vad added
+14:48:54 - contact vad added
+14:48:55 - contact vad added
+14:49:35 - phonebook loaded
+14:49:39 - phonebook cleared
+14:49:39 - phonebook saved
+14:49:39 - phonebook saved
+14:49:43 - contact vad added
+14:49:43 - phonebook saved
+14:49:43 - phonebook saved
+14:49:47 - phonebook saved
+14:49:47 - phonebook saved
+14:50:50 - phonebook loaded
+14:50:54 - phonebook saved
+14:50:54 - phonebook saved
+14:50:57 - phonebook saved
+14:50:57 - phonebook saved
+14:51:00 - phonebook saved
+14:51:00 - phonebook saved
+14:52:24 - phonebook loaded
+14:52:28 - contact vad added
+14:54:18 - phonebook loaded
+14:54:22 - phonebook cleared
+14:54:22 - phonebook saved
+14:54:22 - phonebook saved
+14:54:27 - contact vad added
+14:54:27 - phonebook saved
+14:54:27 - phonebook saved
+14:54:31 - phonebook saved
+14:54:31 - phonebook saved
+14:54:36 - phonebook saved
+14:54:36 - phonebook saved
+14:55:16 - phonebook loaded
+14:55:45 - phonebook loaded
+14:55:57 - phonebook loaded
+14:56:25 - phonebook loaded
+14:56:31 - phonebook saved
+14:57:22 - phonebook loaded
+14:57:28 - phonebook saved
+14:57:28 - phonebook saved
+14:57:32 - phonebook saved
+14:57:32 - phonebook saved
+14:57:44 - contact fff added
+14:57:44 - phonebook saved
+14:57:44 - phonebook saved
+14:58:09 - phonebook loaded
+14:58:20 - phonebook cleared
+14:58:20 - phonebook saved
+14:58:20 - phonebook saved
+14:58:34 - phonebook saved
+14:59:40 - contact vad added
+14:59:40 - phonebook saved
+14:59:40 - phonebook saved
+15:00:01 - contact vika added
+15:00:01 - phonebook saved
+15:00:01 - phonebook saved
+15:00:44 - contact nika added
+15:00:44 - phonebook saved
+15:00:44 - phonebook saved
+15:01:19 - contact tima added
+15:01:19 - phonebook saved
+15:01:19 - phonebook saved
+15:01:57 - phonebook saved
+15:02:08 - phonebook saved
+15:02:42 - phonebook saved
+15:02:54 - phonebook saved
+15:03:06 - phonebook saved
+15:03:41 - contact nika edited
+15:03:41 - phonebook saved
+15:03:41 - phonebook saved
+15:03:48 - phonebook saved
+15:04:38 - contact not found
+15:04:38 - phonebook saved
+15:04:48 - contact not found
+15:04:48 - phonebook saved
+15:04:59 - contact not found
+15:04:59 - phonebook saved
+15:05:14 - contact nika deleted
+15:05:14 - phonebook saved
+15:05:14 - phonebook saved
+15:05:24 - phonebook saved
+15:05:42 - phonebook saved
+15:05:42 - phonebook saved
+15:06:48 - phonebook loaded
+15:06:54 - phonebook saved
+15:07:00 - phonebook saved
+15:07:14 - phonebook loaded
+15:07:18 - phonebook saved
+15:07:23 - phonebook saved
+15:07:26 - contact not found
+15:07:26 - phonebook saved
+15:07:31 - phonebook saved
+15:08:06 - phonebook loaded
+15:08:16 - phonebook saved
+15:08:16 - phonebook saved
+15:08:20 - phonebook saved
+15:08:20 - phonebook saved
+15:08:54 - contact nik added
+15:08:54 - phonebook saved
+15:08:54 - phonebook saved
+15:08:56 - phonebook saved
+15:09:02 - phonebook saved
+15:09:02 - phonebook saved
+15:09:41 - phonebook loaded
+15:09:46 - phonebook saved
+15:09:46 - phonebook saved
+15:09:53 - contact qqq added
+15:09:53 - phonebook saved
+15:09:53 - phonebook saved
+15:10:05 - phonebook saved
+15:10:06 - phonebook saved
+15:10:17 - contact not found
+15:10:17 - phonebook saved
+15:10:17 - phonebook saved
+15:10:26 - contact not found
+15:10:26 - phonebook saved
+15:10:26 - phonebook saved
+15:10:33 - contact qqq deleted
+15:10:33 - phonebook saved
+15:10:33 - phonebook saved
+15:10:52 - phonebook saved
+15:11:35 - phonebook saved
+15:11:35 - phonebook saved
+15:13:43 - phonebook loaded
+15:14:04 - phonebook saved
+15:14:04 - phonebook saved
+15:14:20 - phonebook saved
+15:15:24 - phonebook saved
+15:15:56 - phonebook loaded
+15:15:56 - phonebook saved
+15:21:09 - contact_book loaded
+15:21:20 - contact_book saved
+15:21:31 - contact not found
+15:21:31 - contact_book saved
+15:21:34 - contact_book saved
+15:21:38 - contact_book saved
+15:21:46 - data not found
+15:21:46 - contact_book saved
+15:21:51 - contact_book saved
+15:21:51 - contact_book saved
+15:21:55 - contact_book saved
+15:22:05 - contact not found
+15:22:05 - contact_book saved
+15:22:05 - contact_book saved
+15:22:22 - contact_book saved
+15:22:22 - contact_book saved
+15:22:39 - contact_book loaded
+15:22:39 - contact_book saved
+15:22:47 - contact_book saved
+15:22:50 - contact_book saved
+15:22:50 - contact_book saved
+16:51:23 - contact_book loaded
+16:52:31 - contact_book saved
+21:38:06 - address_book_vad loaded
+21:38:10 - address_book_vad saved
+21:38:32 - address_book_vad saved
+21:38:48 - address_book_vad saved

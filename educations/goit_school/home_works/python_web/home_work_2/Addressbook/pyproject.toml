@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "addressbook"
+version = "1.0.0"
+description = "very helpfull assistant"
+authors = ["VadimTrubay <vadnetvadnet@ukr.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+numexpr = "^2.8.4"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
