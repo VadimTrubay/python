@@ -1,10 +1,10 @@
-import aiohttp
-import asyncio
 import requests
 from datetime import datetime, timedelta
 from prettytable import PrettyTable
 from colorama import init, Fore
-from time import sleep, time
+from time import time
+from typing import Callable
+from functools import wraps
 from sys import argv
 
 init()
@@ -12,42 +12,51 @@ init()
 PRIVAT = "https://api.privatbank.ua/p24api/exchange_rates?json&date="
 
 
-def get_date_range(user_input):
-    delta = timedelta(user_input)
-    delta_days = delta.days
+def sync_timed(func: Callable) -> Callable:
+    @wraps(func)
+    def inner(*args, **kwargs):
+        start_time = time()
+        try:
+            return func(*args, **kwargs)
+        finally:
+            total = round(time() - start_time, 2)
+            print(Fore.RED + f"\nExecution time: {total} seconds")
+    return inner
+
+
+def get_date_range(input_days: int):
+    delta = timedelta(days=input_days)
     current_date = datetime.now()
-    new_date = (current_date - delta).strftime("%d.%m.%Y")
-    current_date_str = datetime.now().strftime("%d.%m.%Y")
-    end = datetime.strptime(current_date_str, "%d.%m.%Y")
-    start = datetime.strptime(new_date, "%d.%m.%Y")
-    date_range = [(start + timedelta(days=x)).strftime("%d.%m.%Y") for x in range(0, (end - start).days)]
-    return delta_days, date_range
+    end_date = current_date
+    list_date_range = [(end_date - timedelta(days=x)).strftime("%d.%m.%Y") for x in range(delta.days)]
+
+    return delta.days, list_date_range
 
 
-def print_result(list_values_usd, list_values_eur, list_field_names):
+def print_result(usd, eur, field_names):
     my_table = PrettyTable()
-    my_table.field_names = list_field_names
-    my_table.add_row(list_values_usd)
-    my_table.add_row(list_values_eur)
+    my_table.field_names = field_names
+    my_table.add_row(usd)
+    my_table.add_row(eur)
     print(Fore.GREEN + "")
     print(my_table)
 
 
-def main(date_range):
+@sync_timed
+def main(dates):
     result = []
-    for date in date_range:
+    for date in dates:
         try:
             response = requests.get(f'{PRIVAT}{date}')
             result.append(response.json())
-        except aiohttp.ClientConnectorError as err:
+        except ConnectionError as err:
             print(f'Connection error: {str(err)}')
     return result
 
 
 if __name__ == "__main__":
-    st = time()
-
-    user_input = float(argv[1])
+    # user_input = int(argv[1])
+    user_input = int(input('Enter days>: '))
 
     delta_days, date_range = get_date_range(user_input)
 
@@ -79,6 +88,3 @@ if __name__ == "__main__":
         print(Fore.YELLOW + '\ntoo many days (max 10 days), try again!')
         print(Fore.RED + "press <ENTER> for continue")
         input()
-
-    end = round(time() - st, 2)
-    print(Fore.RED + f"\ntime execute: {end}")

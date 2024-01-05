@@ -17,7 +17,7 @@ def signupuser(request):
         form = RegisterForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect(to='login')
+            return redirect(to='users:login')
         else:
             return render(request, 'users/signup.html', context={"form": form})
 
@@ -32,7 +32,7 @@ def loginuser(request):
         user = authenticate(username=request.POST['username'], password=request.POST['password'])
         if user is None:
             messages.error(request, 'Username or password didn\'t match')
-            return redirect(to='login')
+            return redirect(to='users:login')
 
         login(request, user)
         return redirect(to='main')
@@ -53,7 +53,7 @@ def profile(request):
         if profile_form.is_valid():
             profile_form.save()
             messages.success(request, 'Your profile is updated successfully')
-            return redirect(to='profile')
+            return redirect(to='users:profile')
 
     profile_form = ProfileForm(instance=request.user.profile)
     return render(request, 'users/profile.html', {'profile_form': profile_form})

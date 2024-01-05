@@ -7,7 +7,7 @@ app_name = "quoteapp"
 
 
 def main(request):
-    quotes_ = Quote.objects.all()
+    quotes_ = Quote.objects.get_queryset().order_by('id')
     paginator = Paginator(quotes_, 7)
     page = request.GET.get('page')
     quotes = paginator.get_page(page)

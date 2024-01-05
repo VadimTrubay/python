@@ -43,7 +43,20 @@ create function for creating a new instance
 # print(testfunc.__hash__())
 
 
+from datetime import datetime, timedelta
 
+def get_date_range(user_input):
+    delta = timedelta(days=user_input)
+    current_date = datetime.now()
+    end_date = current_date
+    date_range = [(end_date - timedelta(days=x)).strftime("%d.%m.%Y") for x in range(delta.days)]
+    return delta.days, date_range
+
+# Пример использования:
+input_days = 10  # Введите количество дней назад
+days_count, date_list = get_date_range(input_days)
+print(f"Days count: {days_count}")
+print("Date List:", date_list)
 
 
 
